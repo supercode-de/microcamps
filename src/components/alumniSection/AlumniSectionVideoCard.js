@@ -1,6 +1,6 @@
 const AlumniSectionVideoCard = (props) => {
     console.log(props)
-    const { id, name, posterSrc, videoSrc, jobtitel} = props
+    const { name, posterSrc, videoSrc, jobtitel} = props
     return (
         <div className="alumniSection__videoArea__card">
             <video controls poster={posterSrc} >
