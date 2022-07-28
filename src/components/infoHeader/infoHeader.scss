@@ -1,0 +1,33 @@
+.infoHeader {
+    background-color: var(--clr-super-green);
+    text-align: center;
+    color: var(--clr-super-lila);
+    .wrap {
+        padding: 0.5vh 0;
+    }
+    p {
+        font-family: var(--ff-reg-bold);
+        font-size: var(--fs-200);
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        a {
+            color: var(--clr-super-lila);
+            font-weight: 800;
+            &:hover {
+                color: var(--clr-super-white);
+            }
+        }
+    }
+    .large {
+        display: block;
+        @include mq(lg) {
+            display: none;
+        }
+    }
+    .small {
+        display: none;
+        @include mq(lg) {
+            display: block;
+        }
+    }
+}

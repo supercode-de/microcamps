@@ -1,0 +1,104 @@
+.ourStorySection {
+    color: var(--clr-super-black);
+
+    &__introText {
+        margin: 0 0 5% 0;
+        h3 {
+            color: var(--clr-super-lila);
+            .headlines_stroke {
+                -webkit-text-stroke: 0.025em var(--clr-super-lila);
+            }
+        }
+        p {
+            margin: 1% 55% 0 0;
+            @include mq(lg) {
+                margin: 5% 10% 0 0;
+            }
+        }
+    }
+    &__mainWrap {
+        display: flex;
+        flex-wrap: wrap;
+        .leftImageWrap {
+            width: 25%;
+            img {
+                width: 100%;
+                border-radius: 50px;
+            }
+            @include mq(lg) {
+                width: 100%;
+                img {
+                    width: 60%;
+                }
+            }
+        }
+        &__mainContent {
+            width: 65%;
+            margin: 0 0 0 10%;
+            @include mq(lg) {
+                width: 100%;
+                margin: 5% 0 0 0;
+            }
+            .text {
+                margin: 0 0 10% 0;
+                .headline {
+                    color: var(--clr-super-lila);
+                    p {
+                        font-size: var(--fs-500);
+                    }
+                }
+                p {
+                    margin: 0 20% 2% 0;
+                    @include mq(lg) {
+                        margin: 0 0 2% 0;
+                    }
+                }
+            }
+            .image {
+                position: relative;
+                padding: 0 0 0 0;
+                &::before {
+                    position: absolute;
+                    bottom: -15%;
+                    left: 15%;
+                    // content: url(/img/lines_bottom.svg);
+                    background: url(/img/lines_bottom.svg);
+                    background-size: 50%;
+                    background-repeat: no-repeat;
+                    width: 10%;
+                    aspect-ratio: 1/1;
+                    content: "";
+                }
+                &::after {
+                    position: absolute;
+                    // content: url(/img/lines_bottom.svg);
+                    background: url(/img/lines_top.svg);
+                    background-size: 60%;
+                    background-repeat: no-repeat;
+                    width: 10%;
+                    aspect-ratio: 1/1;
+                    content: "";
+                    top: -10%;
+                    right: -8%;
+                }
+                p {
+                    position: absolute;
+                    top: -10%;
+                    font-size: var(--fs-600);
+                    font-weight: 800;
+                    padding: 4% 5%;
+                    border-radius: 60px;
+                    width: fit-content;
+                    color: var(--clr-super-green);
+                    background-color: var(--clr-super-black);
+                    z-index: 1;
+                }
+                img {
+                    margin: 0 0 0 auto;
+                    width: 80%;
+                    border-radius: 50px;
+                }
+            }
+        }
+    }
+}

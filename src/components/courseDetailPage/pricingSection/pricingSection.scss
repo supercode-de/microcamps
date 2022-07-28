@@ -1,0 +1,61 @@
+.pricingSection {
+    &__headline {
+        margin: 0 0 2% 0;
+        h3 {
+            color: var(--clr-super-lila);
+            & + p {
+                margin: 2% 40% 0 0;
+            }
+        }
+    }
+    &__pricingContent {
+        &__filter {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+            p {
+                font-size: var(--fs-500);
+                font-weight: 800;
+            }
+            // ###############################
+            .hidden {
+                display: none;
+            }
+            .inputLabel {
+                display: inline-block;
+                padding: 5px 20px;
+                border-radius: 50px;
+                transition: 0.2s;
+                cursor: pointer;
+            }
+            // ------------------------
+            .todayLabel,
+            .monthLabel {
+                border: 1px solid var(--clr-super-black);
+
+                &:hover {
+                    background-color: var(--clr-super-black);
+                    color: var(--clr-super-white);
+                }
+            }
+            #todayInput,
+            #monthInput {
+                &:checked + .inputLabel {
+                    background-color: var(--clr-super-black);
+                    color: var(--clr-super-white);
+
+                    // &:hover {
+                    //     background-color: var(--clr-super-white);
+                    //     color: var(--clr-super-black);
+                    // }
+                }
+                &:hover {
+                    background-color: var(--clr-super-black);
+                    color: var(--clr-super-white);
+                }
+            }
+            // ###############################
+        }
+    }
+}

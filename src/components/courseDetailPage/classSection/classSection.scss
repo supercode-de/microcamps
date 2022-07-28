@@ -1,0 +1,14 @@
+.classSection {
+    &__headline {
+        margin: 0 0 2% 0;
+        h3 {
+            color: var(--clr-super-lila);
+            & + p {
+                margin: 2% 40% 0 0;
+            }
+        }
+    }
+    img {
+        width: 100%;
+    }
+}

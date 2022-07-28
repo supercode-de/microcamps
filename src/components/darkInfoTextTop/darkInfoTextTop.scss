@@ -1,0 +1,42 @@
+.darkInfoTextTop {
+    background-color: var(--clr-super-blue);
+    color: var(--clr-super-white);
+    .wrap {
+        padding: 5% 5% 5% 5%;
+        @include mq(lg) {
+            padding: 10%;
+        }
+    }
+    h2 {
+        .circle {
+            background: url(/img/weiterbilden_circle.svg) 100% /
+                contain no-repeat;
+            padding: var(--fs-200);
+        }
+        &:first-of-type {
+            &::before {
+                content: url(/img/lines_left.svg);
+                margin: 0 var(--fs-300) 0 0;
+            }
+            &::after {
+                content: url(/img/lines_right.svg);
+                margin: 0 0 0 var(--fs-300);
+            }
+        }
+        @include mq(lg) {
+            .circle {
+                padding: var(--fs-100) 0;
+            }
+            &:first-of-type {
+                &::before {
+                    content: "";
+                    margin: 0;
+                }
+                &::after {
+                    content: "";
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

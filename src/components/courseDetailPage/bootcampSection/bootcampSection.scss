@@ -1,0 +1,29 @@
+.bootcampSection {
+    .wrap {
+        padding: 0 5% 0 5%;
+    }
+    &__headline {
+        margin: 0 0 2% 0;
+        h3 {
+            color: var(--clr-super-lila);
+        }
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        @include mq(lg) {
+            grid-template-columns: 1fr;
+        }
+        &__item {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            .headlines_stroke {
+                -webkit-text-stroke: 0.025em var(--clr-super-lila);
+                color: transparent;
+                font-weight: 800;
+            }
+        }
+    }
+}

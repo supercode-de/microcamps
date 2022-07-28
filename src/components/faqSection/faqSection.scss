@@ -1,0 +1,56 @@
+.faqSection {
+    background-color: var(--clr-super-black);
+    color: var(--clr-super-green);
+
+    h2 {
+        .headlines_stroke {
+            -webkit-text-stroke: 0.025em var(--clr-super-green);
+        }
+    }
+    &__accordion {
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(2, 40%);
+        justify-content: center;
+        margin: 5% 0 0 0;
+        gap: 50px;
+        @include mq(lg) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .MuiAccordion-root {
+            // width: 40%;
+            height: fit-content;
+            background-color: transparent;
+            color: var(--clr-super-green);
+            p {
+                font-size: var(--fs-400);
+                font-family: var(--ff-reg-regular);
+            }
+
+            .Mui-expanded {
+                margin: 0;
+            }
+            .MuiSvgIcon-root {
+                color: var(--clr-super-green);
+            }
+        }
+        &__heading {
+            cursor: pointer;
+            padding: 2% 0;
+            transition: all 0.2s;
+        }
+        &__button {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.2s;
+
+            &__plus {
+                font-size: var(--fs-600);
+            }
+        }
+        &__panel {
+            transition: all 0.2s;
+        }
+    }
+}

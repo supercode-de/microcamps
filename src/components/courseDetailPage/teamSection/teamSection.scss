@@ -1,0 +1,29 @@
+.teamSection {
+    &__headline {
+        margin: 0 0 2% 0;
+        h3 {
+            color: var(--clr-super-lila);
+            & + p {
+                margin: 2% 40% 0 0;
+            }
+        }
+    }
+    &__gridTeam {
+        display: grid;
+        margin: 0 0 0 10%;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        @include mq(xl) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        &__card {
+            img {
+                border-radius: 25px;
+                width: 100%;
+            }
+            h5 {
+                color: var(--clr-super-green);
+            }
+        }
+    }
+}

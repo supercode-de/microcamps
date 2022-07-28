@@ -1,0 +1,52 @@
+.curriculumSection {
+    &__introArticle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin: 0 0 10% 0;
+        &__textWrap {
+            width: 65%;
+            @include mq(xl) {
+                width: 100%;
+            }
+        }
+        &__headline {
+            margin: 0 0 2% 0;
+            h3 {
+                color: var(--clr-super-lila);
+            }
+        }
+        &__text {
+            p {
+                margin: 0 0 1% 0;
+            }
+        }
+        img {
+            border-radius: 25px;
+            width: 30%;
+            height: fit-content;
+            @include mq(xl) {
+                width: 100%;
+                order: 2;
+            }
+        }
+    }
+    &__curriculumView {
+        margin: 0 5%;
+        &__introText {
+            margin: 0 20% 0 0;
+        }
+        &__arccordion {
+            margin: 5% 0 0 0;
+            font-size: var(--fs-300);
+
+            .headline {
+                font-size: var(--fs-400);
+            }
+            .time {
+                font-size: var(--fs-200);
+            }
+        }
+    }
+}

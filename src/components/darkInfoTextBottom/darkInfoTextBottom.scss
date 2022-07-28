@@ -1,0 +1,23 @@
+.darkInfoTextBottom {
+    background-color: var(--clr-super-blue);
+    color: var(--clr-super-white);
+    .wrap {
+        padding: 5% 0 5% 5%;
+        @include mq(lg) {
+            padding: 10%;
+        }
+    }
+
+    h2 {
+        line-height: 131%;
+        .circle {
+            background: url(/img/weiterbilden_circle.svg) center center /
+                contain no-repeat;
+            padding: var(--fs-300);
+        }
+        .lines {
+            background: url(/img/lines_big.svg) bottom right / 90% no-repeat;
+            padding: var(--fs-100);
+        }
+    }
+}

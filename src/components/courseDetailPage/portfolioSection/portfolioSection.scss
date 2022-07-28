@@ -1,0 +1,28 @@
+.portfolioSection {
+    &__headline {
+        margin: 0 0 2% 0;
+        h3 {
+            color: var(--clr-super-lila);
+            & + p {
+                margin: 2% 40% 0 0;
+                @include mq(xl) {
+                    margin: 2% 0 0 0;
+                }
+            }
+        }
+    }
+    &__arccordion {
+        width: 80%;
+        margin: 5% auto 0 auto;
+        font-size: var(--fs-300);
+        @include mq(xl) {
+            width: 100%;
+        }
+        .headline {
+            font-size: var(--fs-400);
+        }
+        .time {
+            font-size: var(--fs-200);
+        }
+    }
+}

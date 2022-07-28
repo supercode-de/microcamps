@@ -1,0 +1,33 @@
+// sass --watch assets/scss/main.scss assets/css/style.css
+@import "_resets.scss";
+@import "_mediaQueries.scss";
+@import "_base.scss";
+@import "_components.scss";
+
+// Components
+@import "../components/infoHeader/infoHeader.scss";
+@import "../components/nav/nav.scss";
+@import "../components/headerSection/headerSection.scss";
+@import "../components/darkInfoTextTop/darkInfoTextTop.scss";
+@import "../components/darkInfoTextBottom/darkInfoTextBottom.scss";
+@import "../components/allCourses/allCourses.scss";
+@import "../components/reasonsWhySection/reasonsWhySec.scss";
+@import "../components/alumniSection/alumniSection.scss";
+@import "../components/ourStorySection/ourStorySection.scss";
+@import "../components/bigPictureSection/bigPictureSection.scss";
+@import "../components/newsletterSection/newsletterSection.scss";
+@import "../components/faqSection/faqSection.scss";
+@import "../components/lastBlueSection/lastBlueSection.scss";
+@import "../components/footer/footer.scss";
+@import "../components/courseDetailPage/courseDetailHeader/courseDetailHeader.scss";
+@import "../components/courseDetailPage/stickyNav/stickyNav.scss";
+@import "../components/courseDetailPage/overviewSection/overviewSection.scss";
+@import "../components/courseDetailPage/bootcampSection/bootcampSection.scss";
+@import "../components/courseDetailPage/curriculumSection/curriculumSection.scss";
+@import "../components/courseDetailPage/scheduleSection/scheduleSection.scss";
+@import "../components/courseDetailPage/portfolioSection/portfolioSection.scss";
+@import "../components/courseDetailPage/teamSection/teamSection.scss";
+@import "../components/courseDetailPage/toolsSection/toolsSection.scss";
+@import "../components/courseDetailPage/pricingSection/pricingSection.scss";
+@import "../components/courseDetailPage/classSection/classSection.scss";
+// Pages

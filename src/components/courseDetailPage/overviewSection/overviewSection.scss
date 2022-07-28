@@ -1,0 +1,27 @@
+.overviewSection {
+    &__textarea {
+        width: 50%;
+        margin: 0 0 10% 0;
+        h3 {
+            color: var(--clr-super-lila);
+            &:not(:first-of-type) {
+                margin: 0 0 5% 0;
+            }
+        }
+        p:not(:first-of-type) {
+            margin: 1% 0 0 0;
+        }
+        @include mq(lg) {
+            width: 100%;
+        }
+    }
+    img {
+        width: 60%;
+        margin: 0 0 0 auto;
+        border-radius: 50px;
+        @include mq(lg) {
+            width: 100%;
+            border-radius: 20px;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.newsletterSection {
+    background-color: var(--clr-super-lila);
+    color: var(--clr-super-white);
+
+    p {
+        color: var(--clr-super-green);
+        font-size: var(--fs-900);
+        // text-align: justify;
+        text-align-last: justify;
+    }
+    &__textAndInputArea {
+        display: flex;
+        align-items: flex-end;
+        margin: 10% 0 0 0;
+
+        @include mq(lg) {
+            flex-wrap: wrap;
+        }
+        &__text {
+            width: 70%;
+            margin: 0 5% 0 0;
+            @include mq(lg) {
+                width: 100%;
+                margin: 0;
+            }
+            h3 {
+                line-height: 121%;
+            }
+            .circle {
+                background: url(/img/newsletter_circle.svg) center center /
+                    contain no-repeat;
+                padding: var(--fs-300);
+            }
+        }
+        &__input {
+            position: relative;
+            width: 30%;
+            @include mq(lg) {
+                width: 100%;
+                margin: 5% 0 0 0;
+            }
+            label {
+                position: absolute;
+                right: 3%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                color: var(--clr-super-green);
+                a {
+                    text-decoration: none;
+                }
+            }
+            input {
+                width: 100%;
+                border-radius: 50px;
+                border: 1px solid var(--clr-super-green);
+                background-color: transparent;
+                color: var(--clr-super-green);
+                padding: 3% 10% 3% 4%;
+                &::placeholder {
+                    color: var(--clr-super-green);
+                }
+            }
+        }
+    }
+}

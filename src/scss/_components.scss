@@ -1,0 +1,31 @@
+/* 
+##################################
+buttons / navbars / popups / ...
+##################################
+*/
+/* # # # # #  Button # # # # # */
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    padding: 2% 6%;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 800;
+    transition: all 0.2s;
+    &:hover {
+        opacity: 0.8;
+    }
+}
+/* # # # # #  Loading animation # # # # # */
+
+.loading-Div {
+    margin: 10% auto;
+    text-align: center;
+    .circle {
+        font-size: 10rem;
+        transform: scale(1);
+        transform-origin: center center;
+        animation: rotation 5s linear infinite;
+    }
+}

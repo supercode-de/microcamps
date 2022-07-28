@@ -1,0 +1,37 @@
+.lastBlueSection {
+    background-color: var(--clr-super-lila);
+    color: var(--clr-super-white);
+    overflow: hidden;
+    .wrap {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        @include mq(lg) {
+            justify-content: flex-end;
+        }
+    }
+    &__text {
+        width: 60%;
+        margin: 0 5% 0 0;
+        @include mq(lg) {
+            width: 100%;
+        }
+        h2 {
+            font-size: var(--fs-999);
+            line-height: 106.5%;
+            .lines {
+                background: url(/img/lines_big.svg) right bottom / 70% no-repeat;
+                padding: 0 var(--fs-800) 0 0;
+            }
+        }
+    }
+    a {
+        font-size: var(--fs-600);
+        height: fit-content;
+        background-color: var(--clr-super-black);
+        color: var(--clr-super-green);
+        @include mq(lg) {
+            margin: 5% 0 0 0;
+        }
+    }
+}
