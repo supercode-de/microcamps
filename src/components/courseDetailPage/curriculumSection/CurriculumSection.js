@@ -6,7 +6,14 @@ import ArrowForwardIosSharpIcon from "@mui/icons-material/ArrowForwardIosSharp";
 import { useState } from "react";
 import styled from "@emotion/styled";
 
-const CurriculumSection = () => {
+const CurriculumSection = (props) => {
+
+    const { preHeadline, mainHeadline1, mainCopy1, mainCopy2, mainCopy3, mainHeadline2, mainCopy4, mainCopy5 } = props.data.courseCurriculumOverview[0]
+    const { subTheme, modell, duration, curriculumExtended } = props.data
+    const { ablaufTitel, ablaufZeitraum, ablaufBeschreibung, ablaufBeschreibungPunkte } = props.data.curriculumExtended[0]
+
+    console.log(curriculumExtended);
+
     const Accordion = styled((props) => (
         <MuiAccordion disableGutters elevation={0} square {...props} />
     ))(({ theme }) => ({
@@ -55,32 +62,13 @@ const CurriculumSection = () => {
                 <article className="curriculumSection__introArticle">
                     <div className="curriculumSection__introArticle__textWrap">
                         <div className="curriculumSection__introArticle__headline">
-                            <p>UX/UI Curriculum</p>
-                            <h3>Learn-by-doing with</h3>
-                            <h3>live classes</h3>
+                            <p>{preHeadline}</p>
+                            <h3>{mainHeadline1}</h3>
                         </div>
                         <div className="curriculumSection__introArticle__text">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Massa pellentesque sit id
-                                quisque. Ipsum ut pulvinar lorem at dolor nullam
-                                arcu velit.{" "}
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Massa pellentesque sit id
-                                quisque. Ipsum ut pulvinar lorem at dolor nullam
-                                arcu velit. Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Massa pellentesque
-                                sit id quisque. Ipsum ut pulvinar lorem at dolor
-                                nullam arcu velit.{" "}
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Massa pellentesque sit id
-                                quisque. Ipsum ut pulvinar lorem at dolor nullam
-                                arcu velit.
-                            </p>
+                            <p>{mainCopy1}</p>
+                            <p>{mainCopy2}</p>
+                            <p>{mainCopy3}</p>
                         </div>
                     </div>
                     <img src="/img/curriculumPic1.png" alt="Supercode People" />
@@ -89,148 +77,50 @@ const CurriculumSection = () => {
                     <img src="/img/curriculumPic2.png" alt="Supercode People" />
                     <div className="curriculumSection__introArticle__textWrap">
                         <div className="curriculumSection__introArticle__headline">
-                            <h3>Create UX/UI case studies </h3>
-                            <h3>from real design briefs</h3>
+                            <h3>{mainHeadline2}</h3>
                         </div>
                         <div className="curriculumSection__introArticle__text">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Massa pellentesque sit id
-                                quisque. Ipsum ut pulvinar lorem at dolor nullam
-                                arcu velit.{" "}
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Massa pellentesque sit id
-                                quisque. Ipsum ut pulvinar lorem at dolor nullam
-                                arcu velit. Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Massa pellentesque
-                                sit id quisque. Ipsum ut pulvinar lorem at dolor
-                                nullam arcu velit.{" "}
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Massa pellentesque sit id
-                                quisque. Ipsum ut pulvinar lorem at dolor nullam
-                                arcu velit.
-                            </p>
+                            <p>{mainCopy4}</p>
+                            <p>{mainCopy5}</p>
                         </div>
                     </div>
                 </article>
                 <article className="curriculumSection__curriculumView">
                     <div className="curriculumSection__curriculumView__introText">
-                        <h4>10 weeks | Teilzeit</h4>
-                        <p>
-                            Our Part-time Bootcamp is an immersive 10 weeks.
-                            You'll be joining 20 Designers from around the world
-                            and jumping into live classes Monday and Wednesday.
-                        </p>
+                        <h4>{duration} | {modell}</h4>
+                        <p>Unser MicroCamp ist ein {Number(duration.slice(0, 1)) > 10 ? Number(duration.slice(0, 1)) : Number(duration.slice(0, 2))}-wöchiger Intensivkurs. Erlerne mit maximal 20 Teilnehmer*innen aus ganz Deutschland die Grundlagen von {subTheme}.</p>
                     </div>
                     <div className="curriculumSection__curriculumView__arccordion">
-                        <Accordion
-                            expanded={expanded === "panel1"}
-                            onChange={handleChange("panel1")}
-                        >
-                            <AccordionSummary
-                                aria-controls="panel1d-content"
-                                id="panel1d-header"
+
+                        {curriculumExtended.map((curriculumExtendedItem, index) => (
+                            <Accordion
+
+                                expanded={expanded === `panel${index + 1}`}
+                                onChange={handleChange(`panel${index + 1}`)}
                             >
-                                <Typography className="headline">
-                                    Collapsible Group Item #1
-                                </Typography>
-                                <Typography className="time">
-                                    Pre-Bootcamp
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Suspendisse malesuada lacus
-                                    ex, sit amet blandit leo lobortis eget.
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Suspendisse malesuada lacus
-                                    ex, sit amet blandit leo lobortis eget.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion
-                            expanded={expanded === "panel2"}
-                            onChange={handleChange("panel2")}
-                        >
-                            <AccordionSummary
-                                aria-controls="panel2d-content"
-                                id="panel2d-header"
-                            >
-                                <Typography className="headline">
-                                    Collapsible Group Item #1
-                                </Typography>
-                                <Typography className="time">
-                                    Pre-Bootcamp
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Suspendisse malesuada lacus
-                                    ex, sit amet blandit leo lobortis eget.
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Suspendisse malesuada lacus
-                                    ex, sit amet blandit leo lobortis eget.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion
-                            expanded={expanded === "panel3"}
-                            onChange={handleChange("panel3")}
-                        >
-                            <AccordionSummary
-                                aria-controls="panel2d-content"
-                                id="panel2d-header"
-                            >
-                                <Typography className="headline">
-                                    Collapsible Group Item #1
-                                </Typography>
-                                <Typography className="time">
-                                    Pre-Bootcamp
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Suspendisse malesuada lacus
-                                    ex, sit amet blandit leo lobortis eget.
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Suspendisse malesuada lacus
-                                    ex, sit amet blandit leo lobortis eget.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion
-                            expanded={expanded === "panel4"}
-                            onChange={handleChange("panel4")}
-                        >
-                            <AccordionSummary
-                                aria-controls="panel2d-content"
-                                id="panel2d-header"
-                            >
-                                <Typography className="headline">
-                                    Collapsible Group Item #1
-                                </Typography>
-                                <Typography className="time">
-                                    Pre-Bootcamp
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Suspendisse malesuada lacus
-                                    ex, sit amet blandit leo lobortis eget.
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Suspendisse malesuada lacus
-                                    ex, sit amet blandit leo lobortis eget.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
+                                <AccordionSummary
+                                    aria-controls="panel1d-content"
+                                    id="panel1d-header"
+                                >
+                                    <Typography className="headline">
+                                        {curriculumExtendedItem.ablaufTitel}
+                                    </Typography>
+                                    <Typography className="time">
+                                        {curriculumExtendedItem.ablaufZeitraum}
+                                    </Typography>
+                                </AccordionSummary>
+                                <AccordionDetails>
+                                    <Typography>
+                                        {curriculumExtendedItem.ablaufBeschreibung}
+                                    </Typography>
+                                    <ul>
+                                        {curriculumExtendedItem.ablaufBeschreibungPunkte.map((einzelnePunkte, index) => (
+                                            <li>{einzelnePunkte}</li>
+                                        ))}
+                                    </ul>
+                                </AccordionDetails>
+                            </Accordion>
+                        ))}
                     </div>
                 </article>
             </div>

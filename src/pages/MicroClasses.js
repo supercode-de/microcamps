@@ -1,4 +1,4 @@
-import AllCoursesArea from "../components/allCourses/AllCoursesArea";
+// import AllCoursesArea from "../components/allCourses/AllCoursesArea";
 import AlumniSection from "../components/alumniSection/AlumniSection";
 import BigPictureSection from "../components/bigPictureSection/BigPictureSection";
 import DarkInfoTextBottom from "../components/darkInfoTextBottom/DarkInfoTextBottom";
@@ -10,12 +10,15 @@ import NewsletterSection from "../components/newsletterSection/NewsletterSection
 import OurStorySection from "../components/ourStorySection/OurStorySection";
 import ReasonsWhySec from "../components/reasonsWhySection/ReasonsWhySec";
 
+import AllCoursesAreaNeu from "../components/allCourses_neu/AllCoursesAreaNeu"
+
 const MicroClasses = () => {
     return (
         <>
             <HeaderSection />
             <DarkInfoTextTop />
-            <AllCoursesArea />
+            {/* <AllCoursesArea /> */}
+            <AllCoursesAreaNeu />
             <ReasonsWhySec />
             <AlumniSection />
             <OurStorySection />

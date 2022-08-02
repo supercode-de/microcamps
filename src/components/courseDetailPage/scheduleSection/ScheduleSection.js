@@ -1,30 +1,20 @@
 import reasons from "../../../data/reasonsData";
 import ReasonsWhyOneReason from "../../reasonsWhySection/ReasonsWhyOneReason";
 
-const ScheduleSection = () => {
+const ScheduleSection = (props) => {
+    const { alumniCopy, alumniName, alumniImage } = props.data.alumniZitat[0]
     return (
         <section className="scheduleSection" id="scheduleSection">
             <div className="wrap">
                 <article className="scheduleSection__textWrap">
                     <div className="scheduleSection__textWrap__headline">
-                        <p>Bootcamp schedule</p>
-                        <h3>Learn UX/UI Design live</h3>
-                        <h3>with a micro class of 20 designers</h3>
+                        <p>MicroCamp Zeitplan</p>
+                        <h3>Lerne {props.data.subTheme} live und online</h3>
+                        <h3>in kleinen Lerngruppen</h3>
                     </div>
                     <div className="scheduleSection__textWrap__text">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Massa pellentesque sit id quisque. Ipsum ut
-                            pulvinar lorem at dolor nullam arcu velit.{" "}
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Massa pellentesque sit id quisque. Ipsum ut
-                            pulvinar lorem at dolor nullam arcu velit. Lorem
-                            ipsum dolor sit amet, consectetur adipiscing elit.
-                            Massa pellentesque sit id quisque. Ipsum ut pulvinar
-                            lorem at dolor nullam arcu velit.{" "}
-                        </p>
+                        <p>Wir möchten ehrlich zu dir sein: Unsere MicroCamps sind intensiv und es werden viele neue Themen auf dich zukommen.</p>
+                        <p>Aber wir sind stolz darauf, einen Zeitplan zu haben, der für berufstätige Menschen optimal funktioniert. Bei jedem Schritt wirst du von deinen Trainer*innen, deiner Lerngruppe und unserem guten Design-Netzwerk in ganz Deutschland unterstützt!</p>
                     </div>
                 </article>
                 <img
@@ -47,18 +37,11 @@ const ScheduleSection = () => {
                 </article>
                 <article className="scheduleSection__textWrap">
                     <div className="scheduleSection__textWrap__headline">
-                        <h3>Collaborate with</h3>
-                        <h3>classmates</h3>
+                        <h3>Vernetze dich mit anderen Teilnehmenden</h3>
                     </div>
                     <div className="scheduleSection__textWrap__text">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Massa pellentesque sit id quisque. Ipsum ut
-                            pulvinar lorem at dolor nullam arcu velit. Lorem
-                            ipsum dolor sit amet, consectetur adipiscing elit.
-                            Massa pellentesque sit id quisque. Ipsum ut pulvinar
-                            lorem at dolor nullam arcu velit.{" "}
-                        </p>
+                        <p>Wir tun unser Bestes, damit du {props.data.theme === "design" ? "UX-Design" : props.data.theme === "coding" ? "Web-Entwicklung" : "Data Science"} zu einer Zeit zu lernen kannst, die für dich passt. Im Moment haben wir mehrere Online Live Kurse mit verschiedenen Schwerpunkten.</p>
+                        <p>Du lernst also in einem online Kurs, kannst dich aber gleichzeitig jederzeit mit den anderen Teilnehmenden austauschen, vernetzen und gemeinsam lernen.</p>
                     </div>
                 </article>
                 <article className="scheduleSection__weekGrid">
@@ -140,28 +123,19 @@ const ScheduleSection = () => {
                     </div>
                 </article>
                 <article className="scheduleSection__alumniZitat">
-                    <img src="/img/tn_small2.png" alt="SuperCode Alumni" />
+                    <img src={`/img/${alumniImage}`} alt={`SuperCode Alumni ${alumniName}`} />
                     <div className="scheduleSection__alumniZitat__textArea">
-                        <p>
-                            Ein nettes Alumni Zitat vielleicht. Adipiscing elit.
-                            Non nisi, proin nec dolor lacus, consectetur. Sapien
-                            felis arcu molestie ac pharetra. Sit arcu integer
-                            est morbi sit laoreet in. Quis mauris tincidunt id
-                            convallis et.{" "}
-                        </p>
-                        <p>Name</p>
+                        <p>{alumniCopy}</p>
+                        <p>{alumniName}</p>
                     </div>
                 </article>
                 <article className="scheduleSection__overview">
                     <div className="scheduleSection__overview__headline">
-                        <p>Online Bootcamp Overview</p>
-                        <h3>Learn UX/UI live</h3>
+                        <p>MicroCamps</p>
+                        <h3>Mach den nächsten Schritt</h3>
+                        <h3>– werde {props.data.theme === "design" ? "UX-Designer*in" : props.data.theme === "coding" ? "Web-Entwickler*in" : "Data Scientist"}</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. In malesuada facilisis orci nunc. Pellentesque
-                            semper ut lobortis elementum morbi. Neque ultrices
-                            dui egestas sit et a. Nec, eget mi purus nec
-                            sollicitudin pellentesque euismod.
+                            Es ist an der Zeit etwas zu ändern und deinem Leben die entscheidende Richtung zu geben? Großartig! Denn das Lernen sollte nie aufhören und neue Abenteuer wollen begonnen werden. Mache den näcshten Schritt und lerne {props.data.subTheme}.
                         </p>
                     </div>
                     <div className="scheduleSection__overview__video">
@@ -169,11 +143,6 @@ const ScheduleSection = () => {
                             className="backgroundImage"
                             src="/img/anass.png"
                             alt="Supercoder"
-                        />
-                        <img
-                            className="playButton"
-                            src="/img/playButton.svg"
-                            alt="play Button"
                         />
                     </div>
                 </article>

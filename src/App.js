@@ -5,7 +5,8 @@ import InfoHeader from "./components/infoHeader/InfoHeader";
 import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
 import MicroClasses from "./pages/MicroClasses";
-import CourseDetailPage from "./pages/CourseDetailPage";
+// import CourseDetailPage from "./pages/CourseDetailPage";
+import CourseDetailPageNeu from "./pages/CourseDetailPageNeu";
 
 function App() {
     return (
@@ -14,7 +15,8 @@ function App() {
             <Nav />
             <Routes>
                 <Route path="/" element={<MicroClasses />} />
-                <Route path="/course/:id" element={<CourseDetailPage />} />
+                {/* <Route path="/course/:id" element={<CourseDetailPage />} /> */}
+                <Route path="/course/:id" element={<CourseDetailPageNeu />} />
             </Routes>
             <Footer />
         </div>

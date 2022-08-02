@@ -1,8 +1,12 @@
 import { useEffect, useState } from "react";
-import AllCoursesCard from "./AllCoursesCard";
-import courses from "../../data/coursesData";
-const AllCoursesList = () => {
-    const [filteredArr, setFilteredArr] = useState(courses);
+import AllCoursesCardNeu from "./AllCoursesCardNeu";
+// import courses from "../../data/coursesData";
+
+import courseData from "../../data/courseData.json";
+
+
+const AllCoursesListNeu = () => {
+    const [filteredArr, setFilteredArr] = useState(courseData);
 
     const [filterWhat, setFilterWhat] = useState([]);
     const insertfilterWhatState = (status) => {
@@ -21,7 +25,7 @@ const AllCoursesList = () => {
         }
     };
     useEffect(() => {
-        const filteredFor = courses.filter((item) => {
+        const filteredFor = courseData.filter((item) => {
             if (filterFor.length <= 0) {
                 return item;
             } else {
@@ -122,16 +126,9 @@ const AllCoursesList = () => {
             </div>
             <div className="allCoursesArea__list__viewList">
                 {filteredArr.map((course) => (
-                    <AllCoursesCard
+                    <AllCoursesCardNeu
                         key={course.id}
-                        ID={course.id}
-                        title={course.title}
-                        type={course.type}
-                        form={course.form}
-                        duration={course.duration}
-                        level={course.level}
-                        image={course.image}
-                        plusSkills={course.plusSkills}
+                        data={course}
                     />
                 ))}
             </div>
@@ -139,4 +136,4 @@ const AllCoursesList = () => {
     );
 };
 
-export default AllCoursesList;
+export default AllCoursesListNeu;
