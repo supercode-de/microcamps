@@ -18,12 +18,19 @@ import LastBlueSection from "../components/lastBlueSection/LastBlueSection";
 import PricingSection from "../components/courseDetailPage/pricingSection/PricingSection";
 import ClassSection from "../components/courseDetailPage/classSection/ClassSection";
 import courses from "../data/coursesData";
+import kurseDaten from "../data/courseData.json"
 
 const CourseDetailPage = () => {
+    console.log("kursedata:",kurseDaten)
     const { id } = useParams();
+    console.log("useparams", id)
+    
     const course = courses.filter(
         (course) => Number(course.id) === Number(id)
     )[0];
+    // const kurseDaten = courses.filter(
+    //     (course) => Number(course.id) === Number(id)
+    // )[0];
     return (
         <>
             <CourseDetailHeader

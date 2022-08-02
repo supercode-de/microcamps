@@ -1,0 +1,181 @@
+[
+  {
+    "id": "ux-design-verstehen-ideen-entwickeln-microcamp",
+    "theme": "uxui",
+    "subTheme": "UX Design",
+    "title": "Verstehen & Ideen entwickeln",
+    "modell": "Teilzeit",
+    "duration": "4 Wochen",
+    "level": "Beginner",
+    "image": "data1.png",
+    "headerDescription": "Erlerne alle Grundlagen guter User Experience. Durchlaufe die ersten wichtige Schritte beim Entwickeln eines digitalen Produktes. Erlerne und nutze unsere Methoden, die dir helfen erfolgreiche Ideen entstehen zu lassen, um daraus einen digitalen Prototypen auf Figma zu designen.",
+    "tools": [
+      "figma.svg",
+      "discord.svg"
+    ],
+    "microCamp": "UX-MicroCamp",
+    "jobtitle": "Designer",
+    "curriculumOverview": [
+      {
+        "curriculumTitle": "Design Thinking",
+        "curriculumPreview": "Verstehe deine Nutzer und entwickle Ideen"
+      },
+      {
+        "curriculumTitle": "Product Field & Personas",
+        "curriculumPreview": "Kreiere und evaluiere deine Prouktideen"
+      },
+      {
+        "curriculumTitle": "Informationsarchitektur",
+        "curriculumPreview": "Lerne Funktionen und Inhalte sinnvoll zu unterteilen, und lege Navigationswege für die Nutzer fest"
+      },
+      {
+        "curriculumTitle": "User Stories",
+        "curriculumPreview": "Beschreibe gewünschte Funktionalitäten deiner Produktidee aus Sicht des Anwenders"
+      }
+    ],
+    "curriculumExtended": [
+      {
+        "id": 0,
+        "ablaufTitel": "Vorbereitung und Kennenlernen",
+        "ablaufZeitraum": "Vorbereitung",
+        "ablaufBeschreibung": "Lerne deine Camp-Kolegen kennen und richte dir in ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben ausserdem eine kleine Aufwärmübung  für dich vorbereitet.",
+        "ablaufBeschreibungPunkte": [
+          "Erstelle einen Account auf Figma und Discord",
+          "Lerne deine Kollegen auf Discord kennen",
+          "Mache dich mit der Discord Umgebung vertraut",
+          "Mache dich mit der Figma Umgebung vertraut",
+          "Bearbeite unser Aufwärmübung auf FigJam",
+          "Schau dir unsere kurze Zusammenfassung zum Thema Design Thinking an"
+        ]
+      },
+      {
+        "ablaufTitel": "Design Thinking",
+        "ablaufZeitraum": "Woche 1",
+        "ablaufBeschreibung": "Stelle deinen Nutzer in den Mittelpunkt. Untersuche Probleme und Bedürfnisse deiner Zielgruppe. Erarbeite Hypothesen und baue darauf deine Konzeptidee auf.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Grundlagen des Design Thinking in unserer Live-Class",
+          "Lerne unser FigJam Design Thinking Template kennen und wende es praktisch an",
+          "Führe ein Experteninterview durch und lerne alles über die Zielgruppe und deren Bedürfnisse",
+          "Stelle auf Basis deines Interviews Hypothesen auf, die Lösungansätze enthalten",
+          "Führe eine eigene Untersuchung innerhalb der Zielgruppe durch, um deine Hypothesen zu bestätigen",
+          "Entwickle gemeinsam mit deinen Kollegen eine Produktidee"
+        ]
+      },
+      {
+        "ablaufTitel": "Product Field & Personas",
+        "ablaufZeitraum": "Woche 2",
+        "ablaufBeschreibung": "Nutze das Product Field um Stärken und Schwächen deiner Produktidee herraus zu arbeiten. Erstelle außerdem eine User Persona auf Basis deiner Zielgruppenanalyse mit den Eigenschaften & Verhaltensmustern deiner Nutzer",
+        "ablaufBeschreibungPunkte": [
+          "Erlerne die Grundlagen des Product Fields und wende es an",
+          "Untersuche ob deine Produktidee umsetzbar und innovativ ist",
+          "Führe eine Zielgruppenanalyse durch und erstelle eine Persona"
+        ]
+      },
+      {
+        "ablaufTitel": "Informationsarchitektur",
+        "ablaufZeitraum": "Woche 3",
+        "ablaufBeschreibung": "In Woche 3 bringt ihr Struktur und Ordnung in eure Productidee. Ihr lernt eure Funktionen und Inhalte sinnvoll zu unterteilen, und legt Navigationswege für die Nutzer fest.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Grundlagen guter Informationsarchitektur",
+          "Nutze FigJam und erstelle deinen ersten Flowchart (User Flow)",
+          "Lerne den Flowchart so zu gestalten, dass den Nutzern der Zugang zu allen Informationen und Funktionen ermöglicht wird"
+        ]
+      },
+      {
+        "ablaufTitel": "User Storys",
+        "ablaufZeitraum": "Woche 4",
+        "ablaufBeschreibung": "In Woche 4 unseres Kurses lernst du die Stärke von User Storys kennen. Wende dieses Werkzeug an, um gewünschte Funktionalitäten deiner Produktidee aus Sicht des Anwenders zu beschreiben.",
+        "ablaufBeschreibungPunkte": [
+          "Lerne User Storys zu entwickeln, die leicht zu verstehen sind und die Wünsche der Anwender vermitteln",
+          "Lerne wie du mit Hilfe der User Storys schnell und einfach eine Aufwandsschätzung realisierst",
+          "Verfeinere deine User Storys schrittweise und unterstütze so die iterative Entwicklung des Produktes in seiner Tiefe"
+        ]
+      }
+    ],
+    "timetable": [
+      {
+        "wochentag": "Montag",
+        "blocks": [
+          {
+            "block": 1,
+            "titel": "Vorbereitung",
+            "dauer": "30 min.",
+            "beschreibung": "Warmup & Kurzeinführung in den Themenbereich"
+          }
+        ]
+      },
+      {
+        "wochentag": "Dienstag",
+        "blocks": [
+          {
+            "block": 1,
+            "titel": "Live Kurs",
+            "dauer": "2 Stunden",
+            "beschreibung": "Live Kurs mit deinem Trainer und den Kursteilnehmern"
+          },
+          {
+            "block": 2,
+            "titel": "Design Meet Up",
+            "dauer": "1 Stunde",
+            "beschreibung": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
+          }
+        ]
+      },
+      {
+        "wochentag": "Mittwoch",
+        "blocks": [
+          {
+            "block": 1,
+            "titel": "Vertiefung",
+            "dauer": "30 min.",
+            "beschreibung": "Wiederhole das Gelernte und bereite Fragen für den WS vor"
+          }
+        ]
+      },
+      {
+        "wochentag": "Donnerstag",
+        "blocks": [
+          {
+            "block": 1,
+            "titel": "Workshop",
+            "dauer": "1 Stunde",
+            "beschreibung": "Arbeite mit deinem Team und stelle Fragen an den Trainer"
+          },
+          {
+            "block": 2,
+            "titel": "Workout",
+            "dauer": "1 Stunde",
+            "beschreibung": "Unser kleines Workout mit Trainern & Teilnehmern"
+          }
+        ]
+      },
+      {
+        "wochentag": "Freitag",
+        "blocks": [
+          {
+            "block": 1,
+            "titel": "Praxisaufgabe",
+            "dauer": "2 Stunden",
+            "beschreibung": "Bearbeite die praktische Aufgabe zum Wochenthema"
+          }
+        ]
+      }
+    ],
+    "courseOverview": [
+      {
+        "preHeadline": "MicroCamp UX-Design",
+        "mainHeadline": "Starte durch mit deinen neuen UX-Design Skills",
+        "mainCopy": "Unser Teilzeit-Live-MicroCamp für UX-Design bietet dir eine intensive 5-wöchige Lernerfahrung, die dich auf's nächste Level bringt!\\nIn Live-Sessions mit kleinen Lerngruppen aus ganz Deutschland und motivierten Trainer*innen lernst du praxisnah und mit modernen Tools und Methoden.\\nWährend des Kurses wirst du den Design-Thinking-Prozess verstehen, die neuesten Design-Tools beherrschen, Fallstudien erstellen und -ganz wichtig- dein eigenes UX-Design-Portfolio erstellen und präsentieren. "
+      }
+    ],
+    "courseCurriculumOverview": [
+      {
+        "preHeadline": "UX/UI Curriculum",
+        "mainHeadline_1": "Steig direkt ein in die Praxis des UX-Designs",
+        "mainCopy_1": "Unser MicroCamp ist so aufgebaut, dass du UX Schritt für Schritt mit einem Curriculum lernst, das sich zu 100 % auf Learning-by-Doing konzentriert.\\nIm Gegensatz zu vielen UX-Kursen, die seit Jahren denselben Powerpoint-lastigen Lehrplan vermitteln, lernst du in unserem MicroCamp die neuesten Tools, Workflows und Best Practices live und online.\\nUm Zeit zu sparen und von Anfang an richtig durchzustarten, empfehlen wir dir, dich vor dem MicroCamp schon einmal mit der Materie vertraut zu machen und ein paar Praxisübungen zu absolvieren.",
+        "mainHeadline_2": "Erstelle UX-Fallstudien anhand realer Designvorgaben",
+        "mainCopy_2": "In unserem Kurs lernst du nicht nur die Kernkompetenzen von Junior UX-Designer*innen, sondern arbeitest auch an Briefings, wie sie dir in der Berufspraxis begegnen würden.\\nDies ist eine großartige Gelegenheit, an einem Produkt zu arbeiten und relevante Fallstudien von Produkten zu erstellen!"
+      }
+    ]
+  }
+]
