@@ -45,7 +45,6 @@ const CourseDetailPageNeu = () => {
                 <StickyNav />
                 <OverviewSection
                     data={kurs}
-                    
                 />
                 {/* umbenennen später */}
                 <BootcampSection

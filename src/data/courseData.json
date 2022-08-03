@@ -16,6 +16,14 @@
     ],
     "microCamp": "UX-MicroCamp",
     "jobtitle": "UX-Designer*in",
+    "courseOverview": [
+      {
+        "preHeadline": "MicroCamp UX-Design",
+        "mainHeadline": "Starte durch mit deinen neuen UX-Design Skills",
+        "mainCopy1": "Unser Teilzeit-Live-MicroCamp für UX-Design bietet dir eine intensive 5-wöchige Lernerfahrung, die dich auf's nächste Level bringt!",
+        "mainCopy2": "In Live-Sessions mit kleinen Lerngruppen aus ganz Deutschland und motivierten Trainer*innen lernst du praxisnah und mit modernen Tools und Methoden."
+      }
+    ],
     "curriculumOverview": [
       {
         "curriculumTitle": "Design Thinking",
@@ -34,7 +42,18 @@
         "curriculumPreview": "Beschreibe gewünschte Funktionalitäten deiner Produktidee aus Sicht des Anwenders"
       }
     ],
-    "curriculumExtendedDescription": "Unser MicroCamp ist ein 4-wöchiger Intensivkurs. Erlerne mit maximal 20 Designern aus ganz Deutschland die Grundlagen guter User Experience.",
+    "courseCurriculumOverview": [
+      {
+        "preHeadline": "UX/UI Curriculum",
+        "mainHeadline1": "Steig direkt ein in die Praxis des UX-Designs",
+        "mainCopy1": "Unser MicroCamp ist so aufgebaut, dass du UX/UI-Design Schritt für Schritt mit einem Curriculum lernst, das sich zu 100 % auf Learning-by-Doing konzentriert.",
+        "mainCopy2": "Im Gegensatz zu vielen UX/UI-Kursen, die seit Jahren denselben Powerpoint-lastigen Lehrplan vermitteln, lernst du in unserem MicroCamp die neuesten Tools, Workflows und Best Practices live und online.",
+        "mainCopy3": "Um Zeit zu sparen und von Anfang an richtig durchzustarten, empfehlen wir dir, dich vor dem MicroCamp schon einmal mit der Materie vertraut zu machen und ein paar Praxisübungen zu absolvieren.",
+        "mainHeadline2": "Erstelle UX-Fallstudien anhand realer Designvorgaben",
+        "mainCopy4": "In unserem Kurs lernst du nicht nur die Kernkompetenzen von Junior UX-Designer*innen, sondern arbeitest auch an Briefings, wie sie dir in der Berufspraxis begegnen würden.",
+        "mainCopy5": "Dies ist eine großartige Gelegenheit, an einem Produkt zu arbeiten und relevante Fallstudien von Produkten zu erstellen!"
+      }
+    ],
     "curriculumExtended": [
       {
         "ablaufTitel": "Vorbereitung und Kennenlernen",
@@ -162,26 +181,7 @@
         ]
       }
     ],
-    "courseOverview": [
-      {
-        "preHeadline": "MicroCamp UX-Design",
-        "mainHeadline": "Starte durch mit deinen neuen UX-Design Skills",
-        "mainCopy1": "Unser Teilzeit-Live-MicroCamp für UX-Design bietet dir eine intensive 5-wöchige Lernerfahrung, die dich auf's nächste Level bringt!",
-        "mainCopy2": "In Live-Sessions mit kleinen Lerngruppen aus ganz Deutschland und motivierten Trainer*innen lernst du praxisnah und mit modernen Tools und Methoden."
-      }
-    ],
-    "courseCurriculumOverview": [
-      {
-        "preHeadline": "UX/UI Curriculum",
-        "mainHeadline1": "Steig direkt ein in die Praxis des UX-Designs",
-        "mainCopy1": "Unser MicroCamp ist so aufgebaut, dass du UX/UI-Design Schritt für Schritt mit einem Curriculum lernst, das sich zu 100 % auf Learning-by-Doing konzentriert.",
-        "mainCopy2": "Im Gegensatz zu vielen UX/UI-Kursen, die seit Jahren denselben Powerpoint-lastigen Lehrplan vermitteln, lernst du in unserem MicroCamp die neuesten Tools, Workflows und Best Practices live und online.",
-        "mainCopy3": "Um Zeit zu sparen und von Anfang an richtig durchzustarten, empfehlen wir dir, dich vor dem MicroCamp schon einmal mit der Materie vertraut zu machen und ein paar Praxisübungen zu absolvieren.",
-        "mainHeadline2": "Erstelle UX-Fallstudien anhand realer Designvorgaben",
-        "mainCopy4": "In unserem Kurs lernst du nicht nur die Kernkompetenzen von Junior UX-Designer*innen, sondern arbeitest auch an Briefings, wie sie dir in der Berufspraxis begegnen würden.",
-        "mainCopy5": "Dies ist eine großartige Gelegenheit, an einem Produkt zu arbeiten und relevante Fallstudien von Produkten zu erstellen!"
-      }
-    ],
+
     "alumniZitat": [
       {
         "alumniCopy": "Mir hat der UI & UX Kurs  super viel Spaß gemacht, die Doppelcombo aus Theorie & Praxis macht es einfach, schnell in die Thematik rein zu kommen! Den Karrierewechsel kann ich allen nur noch empfehlen, also ab zu den Kursangeboten und meldet euch an!",
