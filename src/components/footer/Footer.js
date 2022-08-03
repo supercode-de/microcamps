@@ -7,25 +7,25 @@ const Footer = () => {
             <div className="wrap">
                 <div className="logoWrap">
                     <p>super(code)</p>
-                    <span>© 2002 - 2020</span>
+                    <span>© 2019 - 2022</span>
                 </div>
                 <div className="icons">
-                    <a href="/">
+                    <a target="_blank" rel="noreferrer" href="https://www.facebook.com/supercodegmbh/" >
                         <FiFacebook />
                     </a>
-                    <a href="/">
+                    <a target="_blank" rel="noreferrer" href="https://twitter.com/supercodegmbh">
                         <FiTwitter />
                     </a>
-                    <a href="/">
+                    <a target="_blank" rel="noreferrer" href="https://www.instagram.com/supercodegmbh/?hl=de">
                         <FiInstagram />
                     </a>
                 </div>
                 <div className="links">
-                    <a href="/">LEITBILD</a>
+                    <a href="https://www.super-code.de/leitbild">Leitbild</a>
                     <hr />
-                    <a href="/">DSGVO</a>
+                    <a href="https://www.super-code.de/dsgvo">DSGVO</a>
                     <hr />
-                    <a href="/">IMPRESSUM</a>
+                    <a href="https://www.super-code.de/impressum">Impressum</a>
                 </div>
             </div>
         </footer>
