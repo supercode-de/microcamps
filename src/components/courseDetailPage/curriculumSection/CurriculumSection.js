@@ -7,12 +7,8 @@ import { useState } from "react";
 import styled from "@emotion/styled";
 
 const CurriculumSection = (props) => {
-
     const { preHeadline, mainHeadline1, mainCopy1, mainCopy2, mainCopy3, mainHeadline2, mainCopy4, mainCopy5 } = props.data.courseCurriculumOverview[0]
     const { subTheme, modell, duration, curriculumExtended } = props.data
-    const { ablaufTitel, ablaufZeitraum, ablaufBeschreibung, ablaufBeschreibungPunkte } = props.data.curriculumExtended[0]
-
-    console.log(curriculumExtended);
 
     const Accordion = styled((props) => (
         <MuiAccordion disableGutters elevation={0} square {...props} />

@@ -1,0 +1,44 @@
+[
+    {
+        "overviewDesign": [
+            {
+                "preHeadline": "UX/UI Curriculum",
+                "mainHeadline1": "Steig direkt ein in die Praxis des UX-Designs",
+                "mainCopy1": "Unser MicroCamp ist so aufgebaut, dass du UX/UI-Design Schritt für Schritt mit einem Curriculum lernst, das sich zu 100 % auf Learning-by-Doing konzentriert.",
+                "mainCopy2": "Im Gegensatz zu vielen UX/UI-Kursen, die seit Jahren denselben Powerpoint-lastigen Lehrplan vermitteln, lernst du in unserem MicroCamp die neuesten Tools, Workflows und Best Practices live und online.",
+                "mainCopy3": "Um Zeit zu sparen und von Anfang an richtig durchzustarten, empfehlen wir dir, dich vor dem MicroCamp schon einmal mit der Materie vertraut zu machen und ein paar Praxisübungen zu absolvieren.",
+                "mainHeadline2": "Erstelle UX-Fallstudien anhand realer Designvorgaben",
+                "mainCopy4": "In unserem Kurs lernst du nicht nur die Kernkompetenzen von Junior UX-Designer*innen, sondern arbeitest auch an Briefings, wie sie dir in der Berufspraxis begegnen würden.",
+                "mainCopy5": "Dies ist eine großartige Gelegenheit, an einem Produkt zu arbeiten und relevante Fallstudien von Produkten zu erstellen!"
+            }
+        ]
+    },
+    {
+        "overviewWebdev": [
+            {
+                "preHeadline": "Web-Entwicklung Curriculum",
+                "mainHeadline1": "Steig direkt ein in die Praxis der Web-Entwicklung",
+                "mainCopy1": "Unser MicroCamp ist so aufgebaut, dass du die Basics der Web-Entwicklung mit einem Curriculum lernst, das sich zu 100 % auf Learning-by-Doing konzentriert.",
+                "mainCopy2": "Im Gegensatz zu vielen Coding-Kursen, die seit Jahren denselben Powerpoint-lastigen Lehrplan vermitteln, lernst du in unserem MicroCamp die neuesten Tools, Workflows und Best Practices live und online.",
+                "mainCopy3": "Um Zeit zu sparen und von Anfang an richtig durchzustarten, empfehlen wir dir, dich vor dem MicroCamp schon einmal mit der Materie vertraut zu machen und ein paar kleine Praxisübungen zu absolvieren.",
+                "mainHeadline2": "Erstelle richtige Webseiten anhand von Designvorgaben",
+                "mainCopy4": "In unserem Kurs lernst du nicht nur die Basics der Web-Entwicklung, sondern arbeitest auch an der Umsetzung von Desings in Code, wie sie dir in der Berufspraxis begegnen würden.",
+                "mainCopy5": "Dies ist eine großartige Gelegenheit, in den Berufsalltag von Web-Entwickler*innen hinein zu schnuppern und zu überprüfen, ob dir der Bereich wirklich liegt."
+            }
+        ]
+    },
+    {
+        "overviewData": [
+            {
+                "preHeadline": "Data Science Curriculum",
+                "mainHeadline1": "Steig direkt ein in die Praxis der Datenwissenschaften",
+                "mainCopy1": "Unser MicroCamp ist so aufgebaut, dass du die Basics der Datenwissenschaften mit einem Curriculum lernst, das sich zu 100 % auf Learning-by-Doing konzentriert.",
+                "mainCopy2": "Im Gegensatz zu vielen Data-Science-Kursen, die seit Jahren denselben Powerpoint-lastigen Lehrplan vermitteln, lernst du in unserem MicroCamp die neuesten Tools, Workflows und Best Practices live und online.",
+                "mainCopy3": "Um Zeit zu sparen und von Anfang an richtig durchzustarten, empfehlen wir dir, dich vor dem MicroCamp schon einmal mit der Materie vertraut zu machen und ein paar kleine Praxisübungen zu absolvieren.",
+                "mainHeadline2": "Analysiere Daten anhand von echten Beispielen",
+                "mainCopy4": "In unserem Kurs lernst du nicht nur die Basics der Data-Science, sondern arbeitest auch an der Analyse von Daten, wie sie dir in der Berufspraxis begegnen würden.",
+                "mainCopy5": "Dies ist eine großartige Gelegenheit, in den Berufsalltag von Data-Scientists hinein zu schnuppern und zu überprüfen, ob dir der Bereich wirklich liegt."
+            }
+        ]
+    }
+]

@@ -2,8 +2,9 @@
   {
     "id": "ux-design-verstehen-ideen-entwickeln-microcamp",
     "theme": "design",
+    "category": "UX/UI-Design",
     "subTheme": "UX-Design",
-    "title": "Verstehen & Ideen entwickeln",
+    "title": "verstehen & Ideen entwickeln",
     "modell": "Teilzeit",
     "duration": "4 Wochen",
     "level": "Beginner",
@@ -166,16 +167,15 @@
         "preHeadline": "MicroCamp UX-Design",
         "mainHeadline": "Starte durch mit deinen neuen UX-Design Skills",
         "mainCopy1": "Unser Teilzeit-Live-MicroCamp für UX-Design bietet dir eine intensive 5-wöchige Lernerfahrung, die dich auf's nächste Level bringt!",
-        "mainCopy2": "In Live-Sessions mit kleinen Lerngruppen aus ganz Deutschland und motivierten Trainer*innen lernst du praxisnah und mit modernen Tools und Methoden.",
-        "mainCopy3": "Während des Kurses wirst du den Design-Thinking-Prozess verstehen, die neuesten Design-Tools beherrschen, Fallstudien erstellen und -ganz wichtig- dein eigenes UX-Design-Portfolio erstellen und präsentieren."
+        "mainCopy2": "In Live-Sessions mit kleinen Lerngruppen aus ganz Deutschland und motivierten Trainer*innen lernst du praxisnah und mit modernen Tools und Methoden."
       }
     ],
     "courseCurriculumOverview": [
       {
         "preHeadline": "UX/UI Curriculum",
         "mainHeadline1": "Steig direkt ein in die Praxis des UX-Designs",
-        "mainCopy1": "Unser MicroCamp ist so aufgebaut, dass du UX Schritt für Schritt mit einem Curriculum lernst, das sich zu 100 % auf Learning-by-Doing konzentriert.",
-        "mainCopy2": "Im Gegensatz zu vielen UX-Kursen, die seit Jahren denselben Powerpoint-lastigen Lehrplan vermitteln, lernst du in unserem MicroCamp die neuesten Tools, Workflows und Best Practices live und online.",
+        "mainCopy1": "Unser MicroCamp ist so aufgebaut, dass du UX/UI-Design Schritt für Schritt mit einem Curriculum lernst, das sich zu 100 % auf Learning-by-Doing konzentriert.",
+        "mainCopy2": "Im Gegensatz zu vielen UX/UI-Kursen, die seit Jahren denselben Powerpoint-lastigen Lehrplan vermitteln, lernst du in unserem MicroCamp die neuesten Tools, Workflows und Best Practices live und online.",
         "mainCopy3": "Um Zeit zu sparen und von Anfang an richtig durchzustarten, empfehlen wir dir, dich vor dem MicroCamp schon einmal mit der Materie vertraut zu machen und ein paar Praxisübungen zu absolvieren.",
         "mainHeadline2": "Erstelle UX-Fallstudien anhand realer Designvorgaben",
         "mainCopy4": "In unserem Kurs lernst du nicht nur die Kernkompetenzen von Junior UX-Designer*innen, sondern arbeitest auch an Briefings, wie sie dir in der Berufspraxis begegnen würden.",
@@ -187,199 +187,6 @@
         "alumniCopy": "Mir hat der UI & UX Kurs  super viel Spaß gemacht, die Doppelcombo aus Theorie & Praxis macht es einfach, schnell in die Thematik rein zu kommen! Den Karrierewechsel kann ich allen nur noch empfehlen, also ab zu den Kursangeboten und meldet euch an!",
         "alumniName": "Ann-Christin",
         "alumniImage": "tn_small2.png"
-      }
-    ]
-  },
-  {
-    "id": "ui-design-strukturieren-gestalten-microcamp",
-    "theme": "design",
-    "subTheme": "UI-Design",
-    "title": "strukturieren & gestalten",
-    "modell": "Teilzeit",
-    "duration": "4 Wochen",
-    "level": "Beginner",
-    "image": "design2.png",
-    "headerDescription": "Lerne in diesem Microcamp, wie aus deiner Idee ein testbarer digitaler Prototyp entsteht. Erstelle UI-Komponenten, Schrift und Farbbibliotheken und erlerne alle Grundlagen für ein gutes UI-Design.",
-    "tools": [
-      "figma.svg",
-      "discord.svg"
-    ],
-    "microCamp": "UI-MicroCamp",
-    "jobtitle": "UI-Designer",
-    "curriculumOverview": [
-      {
-        "curriculumTitle": "Wireframe",
-        "curriculumPreview": "Erstelle das Grundgerüst deines digitale Produktes"
-      },
-      {
-        "curriculumTitle": "Low Fidelity Prototype",
-        "curriculumPreview": "Erstelle deinen ersten Prototyp mit Fokus auf Benutzerführung & Funktionalität"
-      },
-      {
-        "curriculumTitle": "Design System",
-        "curriculumPreview": "Erstelle Schrift- und Farbbibliotheken, und lege Layout-Grids in Figma fest"
-      },
-      {
-        "curriculumTitle": "UI interaktive Komponenten",
-        "curriculumPreview": "Erstellung von Auto-Layout-Komponenten & Varianten in Figma"
-      },
-      {
-        "curriculumTitle": "Animation & Prototyping",
-        "curriculumPreview": "Lerne Animationen zu erstellen und Lotty-Files in deinen Prototyp zu integrieren"
-      }
-    ],
-    "curriculumExtendedDescription": "Unser MicroCamp ist ein 4-wöchiger Intensivkurs. Erlerne mit maximal  20 Designern aus ganz Deutschland die Grundlagen guter User Experience.",
-    "curriculumExtended": [
-      {
-        "ablaufTitel": "Vorbereitung und Kennenlernen",
-        "ablaufZeitraum": "Vorbereitung",
-        "ablaufBeschreibung": "Lerne deine Camp-Kollegen kennen und richte dir in ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
-        "ablaufBeschreibungPunkte": [
-          "Erstelle einen Account auf Figma und Discord",
-          "Lerne deine Kollegen auf Discord kennen",
-          "Mache dich mit der Discord Umgebung vertraut",
-          "Mache dich mit der Figma Umgebung vertraut",
-          "Bearbeite unser Aufwärmübung auf FigJam",
-          "Schau dir unsere kurze Zusammenfassung zum Thema Wireframe an"
-        ]
-      },
-      {
-        "ablaufTitel": "Wireframe",
-        "ablaufZeitraum": "Woche 1",
-        "ablaufBeschreibung": "In Woche 1 lernst du deine Produktidee oder dein Konzept zu visualisieren. Mit dieser Methode versuchst du Teile der Informationsarchitektur, der Benutzerführung und der Navigation zu repräsentieren.",
-        "ablaufBeschreibungPunkte": [
-          "Einführung in die Erstellung eines Wirframes",
-          "Lerne unser Figma Wireframe Template kennen",
-          "Setze deine Produktidee praktisch um und erstelle mit Hilfe des Templates deinen ersten Wireframe"
-        ]
-      },
-      {
-        "ablaufTitel": "Low Fidelity Prototype",
-        "ablaufZeitraum": "Woche 2",
-        "ablaufBeschreibung": "In dieser Woche erweckt ihr euren Wireframe zum Leben. Wir zeigen euch wie ihr in Figma einen interaktiven Prototypen erstellt und testen lassen könnt.",
-        "ablaufBeschreibungPunkte": [
-          "Einführung in die Grundlagen des Prototypings in Figma",
-          "Optimiere deinen Wireframe",
-          "Mache aus deinem Wireframe einen testbaren Prototypen"
-        ]
-      },
-      {
-        "ablaufTitel": "Design System",
-        "ablaufZeitraum": "Woche 3",
-        "ablaufBeschreibung": "In Woche 3 erlernt ihr alle wichtigen Grundlagen, um ein Design System in Figma zu erstellen. Das Design System ist die Basis für alle weiteren Designschritte, die ihr benötgt, um ein digitales Produkt in Figma entstehen zu lassen.",
-        "ablaufBeschreibungPunkte": [
-          "Einführung in die Grundlagen des Design Systems",
-          "Lerne Schrift- und Farbbibliotheken zu erstellen",
-          "Legt euch ein eigenes Bootstrap Layout-Grid an",
-          "Erarbeite deine ersten Textkomponenten und lerne Gestaltungsrichtlinien im Umgang mit Schrift und Text kennen"
-        ]
-      },
-      {
-        "ablaufTitel": "UI interaktive Komponenten",
-        "ablaufZeitraum": "Woche 4",
-        "ablaufBeschreibung": "In Woche 4 geht es ans Eingemachte. Hier lernt ihr die Erstellung und den Umgang mit Komponenten, Variablen und dem Auto-Layout von Figma.",
-        "ablaufBeschreibungPunkte": [
-          "Einführung in die Grundlagen interaktiver Komponenten in Figma",
-          "Erstelle Komponenten und lerne diese anzuwenden",
-          "Lege Variablen an, die dir das Arbeiten mit Komponenten verinfachen",
-          "Erlerne die Verwendung des Auto Layouts in Figma"
-        ]
-      },
-      {
-        "ablaufTitel": "Animation & Prototyping",
-        "ablaufZeitraum": "Woche 5",
-        "ablaufBeschreibung": "In Woche 5 festigen wir euer Wissen rund um das Thema Prototyping. Außerdem entführen wir euch in die spannende Welt der Animationen.",
-        "ablaufBeschreibungPunkte": [
-          "Einführung in die Grundlagen der Animationen in Figma",
-          "Erstelle deine eigenen Lotty Files",
-          "Pimpe deinen Prototypen durch Verwendung von Animationen und Übergängen",
-          "Lerne deine Komponenten zu animieren und deinen Prototypen erlebbarer zu machen"
-        ]
-      }
-    ],
-    "timetable": [
-      {
-        "wochentag": "Montag",
-        "blocks": [
-          {
-            "block": 1,
-            "titel": "Vorbereitung",
-            "dauer": "30 min.",
-            "beschreibung": "Warmup & Kurzeinführung in den Themenbereich"
-          }
-        ]
-      },
-      {
-        "wochentag": "Dienstag",
-        "blocks": [
-          {
-            "block": 1,
-            "titel": "Live Kurs",
-            "dauer": "2 Stunden",
-            "beschreibung": "Live Kurs mit deinem Trainer und den Kursteilnehmern"
-          },
-          {
-            "block": 2,
-            "titel": "Design Meet Up",
-            "dauer": "1 Stunde",
-            "beschreibung": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
-          }
-        ]
-      },
-      {
-        "wochentag": "Mittwoch",
-        "blocks": [
-          {
-            "block": 1,
-            "titel": "Vertiefung",
-            "dauer": "30 min.",
-            "beschreibung": "Wiederhole das Gelernte und bereite Fragen für den WS vor"
-          }
-        ]
-      },
-      {
-        "wochentag": "Donnerstag",
-        "blocks": [
-          {
-            "block": 1,
-            "titel": "Workshop",
-            "dauer": "1 Stunde",
-            "beschreibung": "Arbeite mit deinem Team und stelle Fragen an den Trainer"
-          },
-          {
-            "block": 2,
-            "titel": "Workout",
-            "dauer": "1 Stunde",
-            "beschreibung": "Unser kleines Workout mit Trainern & Teilnehmern"
-          }
-        ]
-      },
-      {
-        "wochentag": "Freitag",
-        "blocks": [
-          {
-            "block": 1,
-            "titel": "Praxisaufgabe",
-            "dauer": "2 Stunden",
-            "beschreibung": "Bearbeite die praktische Aufgabe zum Wochenthema"
-          }
-        ]
-      }
-    ],
-    "courseOverview": [
-      {
-        "preHeadline": "MicroCamp UX-Design",
-        "mainHeadline": "Starte durch mit deinen neuen UX-Design Skills",
-        "mainCopy": "Unser Teilzeit-Live-MicroCamp für UX-Design bietet dir eine intensive 5-wöchige Lernerfahrung, die dich auf's nächste Level bringt!\\nIn Live-Sessions mit kleinen Lerngruppen aus ganz Deutschland und motivierten Trainer*innen lernst du praxisnah und mit modernen Tools und Methoden.\\nWährend des Kurses wirst du den Design-Thinking-Prozess verstehen, die neuesten Design-Tools beherrschen, Fallstudien erstellen und -ganz wichtig- dein eigenes UX-Design-Portfolio erstellen und präsentieren. "
-      }
-    ],
-    "courseCurriculumOverview": [
-      {
-        "preHeadline": "UX/UI Curriculum",
-        "mainHeadline1": "Steig direkt ein in die Praxis des UX-Designs",
-        "mainCopy_1": "Unser MicroCamp ist so aufgebaut, dass du UX Schritt für Schritt mit einem Curriculum lernst, das sich zu 100 % auf Learning-by-Doing konzentriert.\\nIm Gegensatz zu vielen UX-Kursen, die seit Jahren denselben Powerpoint-lastigen Lehrplan vermitteln, lernst du in unserem MicroCamp die neuesten Tools, Workflows und Best Practices live und online.\\nUm Zeit zu sparen und von Anfang an richtig durchzustarten, empfehlen wir dir, dich vor dem MicroCamp schon einmal mit der Materie vertraut zu machen und ein paar Praxisübungen zu absolvieren.",
-        "mainHeadline_2": "Erstelle UX-Fallstudien anhand realer Designvorgaben",
-        "mainCopy_2": "In unserem Kurs lernst du nicht nur die Kernkompetenzen von Junior UX-Designer*innen, sondern arbeitest auch an Briefings, wie sie dir in der Berufspraxis begegnen würden.\\nDies ist eine großartige Gelegenheit, an einem Produkt zu arbeiten und relevante Fallstudien von Produkten zu erstellen!"
       }
     ]
   }

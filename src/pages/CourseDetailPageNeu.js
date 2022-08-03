@@ -21,10 +21,10 @@ import ClassSection from "../components/courseDetailPage/classSection/ClassSecti
 import kurseDaten from "../data/courseData.json"
 
 const CourseDetailPageNeu = () => {
-    console.log("kursedata:",kurseDaten)
+    console.log("kursedata:", kurseDaten)
     const { id } = useParams();
     console.log("useparams", id)
-    
+
     const kurs = kurseDaten.filter(
         (kurs) => kurs.id === id
     )[0];
@@ -43,16 +43,17 @@ const CourseDetailPageNeu = () => {
             <DarkInfoTextTop />
             <div className="mainContent">
                 <StickyNav />
-                <OverviewSection 
-                    courseOverview={kurs.courseOverview[0]}
+                <OverviewSection
+                    data={kurs}
+                    
                 />
                 {/* umbenennen später */}
-                <BootcampSection 
-                    curriculumOverview={kurs.curriculumOverview}/>
-                <CurriculumSection 
+                <BootcampSection
+                    curriculumOverview={kurs.curriculumOverview} />
+                <CurriculumSection
                     data={kurs}
-                    />
-                <ScheduleSection 
+                />
+                <ScheduleSection
                     data={kurs}
                 />
                 <PortfolioSection />

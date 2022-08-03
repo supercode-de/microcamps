@@ -9,7 +9,7 @@ const ScheduleSection = (props) => {
                 <article className="scheduleSection__textWrap">
                     <div className="scheduleSection__textWrap__headline">
                         <p>MicroCamp Zeitplan</p>
-                        <h3>Lerne {props.data.subTheme} live und online</h3>
+                        <h3>Lerne {props.data.theme === "design" ? "UX/UI-Design" : props.data.theme === "coding" ? "Web-Entwicklung" : props.data.theme === "data" ? "Data Science" : ""} live und online</h3>
                         <h3>in kleinen Lerngruppen</h3>
                     </div>
                     <div className="scheduleSection__textWrap__text">
