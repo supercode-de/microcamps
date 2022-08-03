@@ -1,11 +1,11 @@
-const TeamSection = () => {
+const TeamSection = ({data}) => {
     return (
         <section className="teamSection" id="teamSection">
             <div className="wrap">
                 <article className="teamSection__headline">
-                    <p>UX/UI Team</p>
-                    <h3>Change your life,</h3>
-                    <h3>become a UX/UI Designer</h3>
+                    <p>{data.category} Team</p>
+                    <h3>Lerne mit qualifizierten Trainer*innen</h3>
+                    <h3>aus der {data.theme === "design" ? "Design-": data.theme === "coding" ? "IT-" : data.theme === "data" ? "Data-Science-" : ""}Branche</h3>
                 </article>
                 <article className="teamSection__gridTeam">
                     <div className="teamSection__gridTeam__card">

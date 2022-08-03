@@ -9,15 +9,11 @@ const PricingSection = () => {
         <section className="pricingSection" id="pricingSection">
             <div className="wrap">
                 <article className="pricingSection__headline">
-                    <p>Pricing</p>
-                    <h3>Change your life,</h3>
-                    <h3>become a UX/UI Designer</h3>
+                    <p>Unsere Preise</p>
+                    <h3>Einfache, transparente und flexible</h3>
+                    <h3>Zahlungspläne</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        In malesuada facilisis orci nunc. Pellentesque semper ut
-                        lobortis elementum morbi. Neque ultrices dui egestas sit
-                        et a. Nec, eget mi purus nec sollicitudin pellentesque
-                        euismod.
+                        Im Gegensatz zu anderen Kursen, die ihre Preise entweder verstecken oder einfach viel zu hoch ansetzen, sind die Preise für unsere Microcamps völlig transparent und wir sind stolz darauf, zugänglich und für jedes Budget erschwinglich zu sein. Du entscheidest, ob du pro Woche, pro Monat oder direkt komplett zahlen möchtest. Und das Beste: Buche dir neue Kursmodule einfach dazu, wenn es bei dir passt.
                     </p>
                 </article>
                 <article className="pricingSection__pricingContent">

@@ -21,8 +21,8 @@ const CourseDetailHeader = (props) => {
                         {modell} | {duration}
                     </p>
                     <div className="plusList">
-                        {tools.map((tool) => (
-                            <img src={`/img/${tool}`} alt={tool} />
+                        {tools.map((tool, index) => (
+                            <img src={`/img/${tool}`} alt={tool} key={index}/>
                         ))}
                         <p>+ more</p>
                     </div>

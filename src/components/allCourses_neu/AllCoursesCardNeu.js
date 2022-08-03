@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 
 const AllCoursesCardNeu = (props) => {
-    console.log("allcoursescardneu props", props.data)
-    const {id, theme, subTheme, title, modell, duration, level, image, tools} = props.data
+    const {id, theme, subTheme, title, modell, duration, level, image, toolsImages} = props.data
     return (
         <div className="allCoursesArea__list__viewList__card">
             <div className="allCoursesArea__list__viewList__card__header">
@@ -29,8 +28,8 @@ const AllCoursesCardNeu = (props) => {
             </div>
             <div className="allCoursesArea__list__viewList__card__main">
                 <div className="plusList">
-                    {tools.map((tool) => (
-                        <img src={`/img/${tool}`} alt={tool} />
+                    {toolsImages.map((tool, index) => (
+                        <img src={`/img/${tool}`} alt={tool} key={index} />
                     ))}
                     <p>+ more</p>
                 </div>

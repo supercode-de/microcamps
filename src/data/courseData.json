@@ -10,9 +10,21 @@
     "level": "Beginner",
     "image": "design1.png",
     "headerDescription": "Erlerne alle Grundlagen guter User Experience. Durchlaufe die ersten wichtige Schritte beim Entwickeln eines digitalen Produktes. Erlerne und nutze unsere Methoden, die dir helfen erfolgreiche Ideen entstehen zu lassen, um daraus einen digitalen Prototypen auf Figma zu designen.",
-    "tools": [
+    "toolsImages": [
       "figma.svg",
       "discord.svg"
+    ],
+    "toolsInformations": [
+      {
+        "toolsName": "Figma",
+        "toolsDescr": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS.",
+        "toolsImages": "figma.svg"
+      },
+      {
+        "toolsName": "Discord",
+        "toolsDescr": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird.",
+        "toolsImages": "discord.svg"
+      }
     ],
     "microCamp": "UX-MicroCamp",
     "jobtitle": "UX-Designer*in",

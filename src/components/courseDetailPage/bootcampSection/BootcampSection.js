@@ -1,5 +1,4 @@
 const BootcampSection = (props) => {
-    console.log(props.curriculumOverview);
     return (
         <section className="bootcampSection">
             <div className="wrap">
@@ -9,7 +8,7 @@ const BootcampSection = (props) => {
                 </article>
                 <article className="bootcampSection__list">
                     {props.curriculumOverview.map((curriculumItem, index) => (
-                        <div className="bootcampSection__list__item">
+                        <div key={index}className="bootcampSection__list__item">
                         <h2 className="headlines_stroke">0{index +1}</h2>
                         <div>
                             <h4>{curriculumItem.curriculumTitle}</h4>

@@ -9,7 +9,7 @@ import ScheduleSection from "../components/courseDetailPage/scheduleSection/Sche
 import PortfolioSection from "../components/courseDetailPage/portfolioSection/PortfolioSection";
 import TeamSection from "../components/courseDetailPage/teamSection/TeamSection";
 import ToolsSection from "../components/courseDetailPage/toolsSection/ToolsSection";
-import AllCoursesArea from "../components/allCourses/AllCoursesArea";
+// import AllCoursesArea from "../components/allCourses/AllCoursesArea";
 import DarkInfoTextBottom from "../components/darkInfoTextBottom/DarkInfoTextBottom";
 import BigPictureSection from "../components/bigPictureSection/BigPictureSection";
 import NewsletterSection from "../components/newsletterSection/NewsletterSection";
@@ -19,12 +19,10 @@ import PricingSection from "../components/courseDetailPage/pricingSection/Pricin
 import ClassSection from "../components/courseDetailPage/classSection/ClassSection";
 // import courses from "../data/coursesData";
 import kurseDaten from "../data/courseData.json"
+import AllCoursesAreaNeu from "../components/allCourses_neu/AllCoursesAreaNeu";
 
 const CourseDetailPageNeu = () => {
-    console.log("kursedata:", kurseDaten)
     const { id } = useParams();
-    console.log("useparams", id)
-
     const kurs = kurseDaten.filter(
         (kurs) => kurs.id === id
     )[0];
@@ -37,7 +35,7 @@ const CourseDetailPageNeu = () => {
                 image={kurs.image}
                 duration={kurs.duration}
                 modell={kurs.modell}
-                tools={kurs.tools}
+                tools={kurs.toolsImages}
                 description={kurs.headerDescription}
             />
             <DarkInfoTextTop />
@@ -56,13 +54,14 @@ const CourseDetailPageNeu = () => {
                     data={kurs}
                 />
                 <PortfolioSection />
-                <TeamSection />
-                <ToolsSection tools={kurs.tools} />
+                <TeamSection data={kurs}/>
+                <ToolsSection data={kurs} />
                 <PricingSection />
-                <ClassSection />
+                <ClassSection data={kurs} />
 
                 {/* <div style={{ height: "100vh" }}></div> */}
-                <AllCoursesArea />
+                {/* <AllCoursesArea /> */}
+                <AllCoursesAreaNeu />
                 <DarkInfoTextBottom />
                 <BigPictureSection />
                 <NewsletterSection />

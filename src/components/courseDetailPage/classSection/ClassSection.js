@@ -1,19 +1,14 @@
-const ClassSection = () => {
+const ClassSection = (props) => {
+    const {theme, subTheme} = props.data
     return (
         <section className="classSection">
             <div className="wrap">
                 <article className="classSection__headline">
-                    <p>Micro UX/UI Class</p>
-                    <h3>Change your life,</h3>
-                    <h3>become a UX/UI Designer</h3>
+                    <p>{subTheme} MicroCamp</p>
+                    <h3>Werde Teil des {theme === "design" ? "UX/UI-" : theme === "coding" ? "WebDev-": theme === "data" ? "Data-" : ""}MicroCamps mit</h3>
+                    <h3>Teilnehmenden aus ganz Deutschland</h3>
                     <p>
-                        We think it's vital to have a personalised learning
-                        experience and we purposefully limit class sizes to 20
-                        Designers. Keeping class sizes small, ensures we can
-                        cover more in the time we have and you'll learn directly
-                        from other designers. Plus, it's a safe place to learn
-                        with the whole class contributing to discussions and
-                        sharing feedback.
+                    Wir sind der Meinung, dass eine persönliche Lernerfahrung sehr wichtig ist und begrenzen die Kursgröße bewusst auf 10 {theme === "design" ? "Designer*innen" : theme === "coding" ? "Web-Entwickler*innen" : theme === "data" ? "Data-Scientists" : ""}. So können wir in der kurzen Zeit mehr abdecken und du lernst direkt von anderen Teilnehmenden. Außerdem achten wir auf ein freundliches und respektvolles Miteinander mit viel Austausch und Feedback, damit das MicroCamp für dich zu einer großartigen Erfahrung wird. 
                     </p>
                 </article>
                 <img src="/img/class_big.png" alt="Supercode Meeting" />

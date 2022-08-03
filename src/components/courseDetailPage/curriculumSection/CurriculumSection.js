@@ -90,7 +90,7 @@ const CurriculumSection = (props) => {
 
                         {curriculumExtended.map((curriculumExtendedItem, index) => (
                             <Accordion
-
+                                key={index}
                                 expanded={expanded === `panel${index + 1}`}
                                 onChange={handleChange(`panel${index + 1}`)}
                             >
@@ -111,7 +111,7 @@ const CurriculumSection = (props) => {
                                     </Typography>
                                     <ul>
                                         {curriculumExtendedItem.ablaufBeschreibungPunkte.map((einzelnePunkte, index) => (
-                                            <li>{einzelnePunkte}</li>
+                                            <li key={index}>{einzelnePunkte}</li>
                                         ))}
                                     </ul>
                                 </AccordionDetails>
