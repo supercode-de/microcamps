@@ -1,10 +1,10 @@
-import designReasons from "../../../data/reasonsDesignData";
-import webDevReasons from "../../../data/reasonsWebDevData";
-import dataReasons from "../../../data/reasonsDataScienceData";
-
 import Timetable from "./Timetable";
 import ReasonsWhyOneReason from "../../reasonsWhySection/ReasonsWhyOneReason";
 import ScheduleCTASection from "./ScheduleCTASection";
+
+import designReasons from "../../../data/reasonsDesignData";
+import webDevReasons from "../../../data/reasonsWebDevData";
+import dataReasons from "../../../data/reasonsDataScienceData";
 
 const ScheduleSection = (props) => {
     const { alumniCopy, alumniName, alumniImage } = props.data.alumniZitat[0]
@@ -65,7 +65,7 @@ const ScheduleSection = (props) => {
                     </div>
                 </article>
 
-                <Timetable />
+                <Timetable timetableData={props.data.timetable}/>
 
                 <article className="scheduleSection__alumniZitat">
                     <img src={`/img/${alumniImage}`} alt={`SuperCode Alumni ${alumniName}`} />

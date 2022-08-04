@@ -9,7 +9,6 @@ import ScheduleSection from "../components/courseDetailPage/scheduleSection/Sche
 import PortfolioSection from "../components/courseDetailPage/portfolioSection/PortfolioSection";
 import TeamSection from "../components/courseDetailPage/teamSection/TeamSection";
 import ToolsSection from "../components/courseDetailPage/toolsSection/ToolsSection";
-// import AllCoursesArea from "../components/allCourses/AllCoursesArea";
 import DarkInfoTextBottom from "../components/darkInfoTextBottom/DarkInfoTextBottom";
 import BigPictureSection from "../components/bigPictureSection/BigPictureSection";
 import NewsletterSection from "../components/newsletterSection/NewsletterSection";
@@ -17,9 +16,10 @@ import FaqSection from "../components/faqSection/FaqSection";
 import LastBlueSection from "../components/lastBlueSection/LastBlueSection";
 import PricingSection from "../components/courseDetailPage/pricingSection/PricingSection";
 import ClassSection from "../components/courseDetailPage/classSection/ClassSection";
-// import courses from "../data/coursesData";
 import kurseDaten from "../data/courseData.json"
 import AllCoursesAreaNeu from "../components/allCourses_neu/AllCoursesAreaNeu";
+import toolsDataExternal from "../data/toolsDataExternal"
+
 
 const CourseDetailPageNeu = () => {
     const { id } = useParams();
@@ -27,16 +27,20 @@ const CourseDetailPageNeu = () => {
         (kurs) => kurs.id === id
     )[0];
 
+// Hier wird die toolsDataExternal mithilfe von den im key "tools" aufgeführten Elementen gefiltert, damit die Tools an einem zentralen Ort verwaltet werden können
+    let filteredTools = []
+    for (let index = 0; index < kurs.toolsInternal.length; index++) {
+        const toolExt = toolsDataExternal.filter(
+            (toolExt) => toolExt.name === kurs.toolsInternal[index].name
+        )[0];
+        filteredTools.push(toolExt);
+    }
+
     return (
         <>
             <CourseDetailHeader
-                theme={kurs.theme}
-                title={kurs.title}
-                image={kurs.image}
-                duration={kurs.duration}
-                modell={kurs.modell}
-                tools={kurs.toolsImages}
-                description={kurs.headerDescription}
+                data={kurs}
+                filteredTools={filteredTools}
             />
             <DarkInfoTextTop />
             <div className="mainContent">
@@ -44,7 +48,7 @@ const CourseDetailPageNeu = () => {
                 <OverviewSection
                     data={kurs}
                 />
-                {/* umbenennen später */}
+
                 <BootcampSection
                     curriculumOverview={kurs.curriculumOverview} />
                 <CurriculumSection
@@ -53,15 +57,17 @@ const CourseDetailPageNeu = () => {
                 <ScheduleSection
                     data={kurs}
                 />
-                <PortfolioSection />
-                <TeamSection data={kurs}/>
-                <ToolsSection data={kurs} />
+                {/* <PortfolioSection /> */}
+                <TeamSection data={kurs} />
+                <ToolsSection
+                    data={kurs}
+                    filteredTools={filteredTools}
+                />
                 <PricingSection />
                 <ClassSection data={kurs} />
 
                 {/* <div style={{ height: "100vh" }}></div> */}
-                {/* <AllCoursesArea /> */}
-                <AllCoursesAreaNeu />
+                <AllCoursesAreaNeu filteredTools={filteredTools} />
                 <DarkInfoTextBottom />
                 <BigPictureSection />
                 <NewsletterSection />

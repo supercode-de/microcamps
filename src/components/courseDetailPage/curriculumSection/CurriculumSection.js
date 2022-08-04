@@ -7,8 +7,7 @@ import { useState } from "react";
 import styled from "@emotion/styled";
 
 const CurriculumSection = (props) => {
-    const { preHeadline, mainHeadline1, mainCopy1, mainCopy2, mainCopy3, mainHeadline2, mainCopy4, mainCopy5 } = props.data.courseCurriculumOverview[0]
-    const { subTheme, modell, duration, curriculumExtended } = props.data
+    const { theme, subTheme, modell, duration, curriculumExtended, category, jobtitle } = props.data
 
     const Accordion = styled((props) => (
         <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -58,13 +57,14 @@ const CurriculumSection = (props) => {
                 <article className="curriculumSection__introArticle">
                     <div className="curriculumSection__introArticle__textWrap">
                         <div className="curriculumSection__introArticle__headline">
-                            <p>{preHeadline}</p>
-                            <h3>{mainHeadline1}</h3>
+                            <p>{category}Curriculum</p>
+                            <h3>Steig direkt ein</h3>
+                            <h3>in die Praxis {theme === "design" ? "des UX/UI-Designs" : theme === "coding" ? "der Web-Entwicklung" : theme === "data" ? "der Datenwissenschaften" : "" }</h3>
                         </div>
                         <div className="curriculumSection__introArticle__text">
-                            <p>{mainCopy1}</p>
-                            <p>{mainCopy2}</p>
-                            <p>{mainCopy3}</p>
+                            <p>Unser MicroCamp ist so aufgebaut, dass du {category} Schritt für Schritt mit einem Curriculum lernst, das sich zu 100 % auf Learning-by-Doing konzentriert.</p>
+                            <p>Im Gegensatz zu vielen {category} Kursen, die seit Jahren denselben Powerpoint-lastigen Lehrplan vermitteln, lernst du in unserem MicroCamp die neuesten Tools, Workflows und Best Practices live und online.</p>
+                            <p>Um Zeit zu sparen und von Anfang an richtig durchzustarten, empfehlen wir dir, dich vor dem MicroCamp schon einmal mit der Materie vertraut zu machen und ein paar Praxisübungen zu absolvieren.</p>
                         </div>
                     </div>
                     <img src="/img/curriculumPic1.png" alt="Supercode People" />
@@ -73,11 +73,13 @@ const CurriculumSection = (props) => {
                     <img src="/img/curriculumPic2.png" alt="Supercode People" />
                     <div className="curriculumSection__introArticle__textWrap">
                         <div className="curriculumSection__introArticle__headline">
-                            <h3>{mainHeadline2}</h3>
+                            <h3>
+                                {theme === "design" ? "Erstelle UX-Fallstudien anhand realer Designvorgaben" : theme === "coding" ? "Erstelle richtige Webseiten anhand von Designvorgaben" : theme === "data" ? "Erstelle richtige Datenanalysen anhand von Praxisbeispielen" : ""}
+                            </h3>
                         </div>
                         <div className="curriculumSection__introArticle__text">
-                            <p>{mainCopy4}</p>
-                            <p>{mainCopy5}</p>
+                            <p>In unserem Kurs lernst du nicht nur die Kernkompetenzen von Junior {jobtitle}, sondern arbeitest auch an Briefings, wie sie dir in der Berufspraxis begegnen würden.</p>
+                            <p>Dies ist eine großartige Gelegenheit, an einem Produkt zu arbeiten und relevante Fallstudien von Produkten zu erstellen!</p>
                         </div>
                     </div>
                 </article>

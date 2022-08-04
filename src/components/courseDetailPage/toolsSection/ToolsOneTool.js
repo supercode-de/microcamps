@@ -17,7 +17,7 @@ const ToolsOneTool = ({ tool }) => {
             onMouseLeave={handleMouseLeave}
         >
             <div className="tool">
-                <img src={`/img/${tool.toolsImages}`} alt="SuperCode Tool" />
+                <img src={`/img/${tool.image}`} alt={tool.name} />
             </div>
             <div
                 className={`openCard`}
@@ -25,8 +25,8 @@ const ToolsOneTool = ({ tool }) => {
                     display: isHovering ? "inline-block" : "none",
                 }}
             >
-                <h5>{tool.toolsName}</h5>
-                <p>{tool.toolsDescr}</p>
+                <h5>{tool.name}</h5>
+                <p>{tool.description}</p>
             </div>
         </div>
     );

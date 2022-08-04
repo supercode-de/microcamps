@@ -1,6 +1,89 @@
-# Getting Started with Create React App
+# Wichtiges zum Aufbau der Seite
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+!!!Bitte gründlich durchlesen, bevor du dich an die Arbeit begibst, da hier die allermeisten Fragen im Vorfeld klären lassen. Falls dann immer noch Probleme bestehen, gerne Bescheid sagen. :)!!! 
+
+Grundsätzlich ist die Unterseite so dynamisch aufgebaut, wie es nur irgendwie geht. Das heißt, es werden Daten aus den im folgenden Absatz beschriebenen Objekten gezogen, abgeglichen und eingesetzt. An einigen Stellen wurde mit einem Ternary Operator gearbeitet, um abzugleichen, um welches Überthema (design, coding, data) es sich handelt, um darauf entsprechend den Text anzupassen. Dazu unten in der Erklärung der courseData.json Datei mehr.
+
+Hier ein Überblick über die Objekte in /components/data. 
+
+**alumniBewertungen.js**
+Wie der Name schon sagt befinden sich hier drin die Bewertungen unserer Alumnis. Sollte irgendwann Zeit vorhanden sein, könnte man überlegen, die Google API für die Bewertungen einzubinden.
+Bis dahin gilt: Hier werden neue Bewertungen eingefügt oder mit einer bestehenden ausgetauscht.
+
+**alumniInterviewsData.js**
+Auch hier ist der Name selbsterklärend: Sie beinhaltet die Daten für die Alumni Sektion, in der die Interviews zu sehen sind. 
+Auch hier gilt: Neue Interviews werden hier eingepflegt oder entsprechend ausgetauscht.
+
+**courseData.json**
+Hier befinden sich die gesamten Daten sämtlicher Kurse. ***Daher eine sehr wichtige Datei!***
+Die wichtigsten Infos aus der Datei im Überblick:
+```
+"id": "ux-design-verstehen-ideen-entwickeln-microcamp",
+"theme": "design",
+"category": "UX/UI-Design",
+"subTheme": "UX-Design",
+"title": "verstehen & Ideen entwickeln"
+"toolsInternal": [
+      {
+        "name": "Figma",
+        "image": "tools/figma.svg"
+      },
+      {
+        "name": "Discord",
+        "image": "tools/discord.svg"
+      },
+      {
+        "name": "VSCode",
+        "image": "tools/vscode.svg"
+      },
+      {
+        "name": "HTML",
+        "image": "tools/html.svg"
+      } 
+    ]
+```
+Der Key "id" ist wichtig für die URL - aus ihr wird die URL generiert.
+"theme" ist wichtig für die Abfragen mit dem Ternary Operator. Es gibt drei an der Zahl:
+**"design" -> für sämtliche UX/UI Design Kurse**
+**"coding" -> für sämtliche Frontend/Backend/*Fullstack Kurse**
+**"data" -> für sämtliche Data Science Kurse**
+Hier bitte daran halten und keine neuen Werte ausdenken, da sonst die Funktionen innerhalb der Komponenten nicht mehr funktionieren bzw ausgetauscht werden müsste und das grenzt an Strafarbeit. :-)
+
+### Beispiel:
+```
+Steig ein in die Praxis {theme === "design" ? "des UX/UI-Designs" : theme === "coding" ? "der Web-Entwicklung" : theme === "data" ? "der Datenwissenschaften" : "" }
+```
+
+**"category"** und **"subTheme"** scheinen gleich zu sein, ist aber an einigen Stellen wichtig zu unterscheiden. "category" meint die übergreifende Kategorie. Bei den UX UND UI Design Kursen meint das also "UX/UI-Design". Bei den Frontend/Backend/FullStack Kursen lautet die Kategorie "Web-Entwicklung". Bei den Data Kursen ist es "Data-Science". Diese Begriffe werden an manchen Stellen wichtig und sind aus dem **"subTheme"** nicht immer abzuleiten.
+Im **"subTheme"** findet man die Unterkategorien. Bei UX/UI-Design wäre das dann zum Beispiel "UX-Design" und "UI-Design. Bei den Web-Entwicklungskursen stünde da zum Beispiel "Frontend", "Backend" oder "Fullstack".
+**"title"** ist selbsterklärend der Titel des Kurses. 
+**"toolsInternal"** wird verwendet, um mit der **"toolsDataExternal.js"** Datei zu kommunizieren. Hier sind alle Tools, die in dem jeweiligen Kurs verwendet werden, hinterlegt. Um dann für die *ToolsSection.js* alle weiterführenden Informationen zu ziehen, wird der **"name"** aus **"toolsInternal"** mit dem **"name"** aus **"toolsDataExternal.js"** gefiltert und gibt aus der externen Datei nur noch die Tools wieder, die auch tatsächlich im Kurs vorhanden sind. Daher wichtig an der Stelle, **"toolsInternal"** innerhalb der Kurs-Informationen vernünftig zu pflegen.
+
+**faqdata.js**
+Diese Datei beinhaltet die Informationen unserer FAQ Sektion. Auch hier gilt: Neue Informationen oder der Austausch von bestehenden findet hier statt.
+
+**reasonsData.js**
+**reasonsDataScienceData.js**
+**reasonsDesignData.js**
+**reasonsWebDevData.js**
+Diese Dateien beinhalten die Informationen für die "scheduleSection__list" Sektion innerhalb der *"ScheduleSection.js"* Komponente. Dort findet der Ternary Operator auch wieder Anwendung, um die verschiedenen Inhalte den verschiedenen Themengebieten zuordnen zu können. 
+
+**toolsDataExternal.js**
+Hier befinden sich die Informationen sämtlicher Tools, die in den Kursen verwendet werden - GEBÜNDELT. Erklärung dazu siehe oben. 
+*Wichtig:*
+Sollten Tools hinzukommen, ausgetauscht oder entfernt werden muss zwingend auch die **"toolsInternal"** Stelle innerhalb der Kurs-Informationen in der **courseData.json** bearbeitet werden, da dies wichtig für den Abgleich ist.
+
+**alumniBewertungen.js**
+Hier befinden sich die Bewertungen unserer Alumnis. 
+
+### Reminder:
+Damit alles funktioniert, muss natürlich genau auf die Rechtschreibung geachtet werden. Variablen müssen immer genauso heißen wie ihre Counterpart Key:Value Paare in den jeweiligen .json oder .js Dateien. 
+
+Bei den Benennenungen sämtlicher Variablen oder Key:Value Paaren habe ich mir grundsätzlich etwas gedacht. Sollten Unklarheiten herrschen, immer gerne nachfragen und fix klären, damit kein Chaos entsteht. :) 
+Bei Benennung von Variablen oder ähnlichen gilt grundsätzlich die camelCase Konvention.
+Bei Klassen verwenden wir eine Mischung aus camelCase und Snake case.
+Bitte daran halten und sich den Aufbau bereits erstellter Klassen oder Variablen etc. im Zweifel anschauen. 
+
 
 ## Available Scripts
 
@@ -28,45 +111,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# supercamp
-# microcamps

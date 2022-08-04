@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const AllCoursesCardNeu = (props) => {
-    const {id, theme, subTheme, title, modell, duration, level, image, toolsImages} = props.data
+    const {id, theme, subTheme, title, modell, duration, level, image, toolsInternal} = props.data
     return (
         <div className="allCoursesArea__list__viewList__card">
             <div className="allCoursesArea__list__viewList__card__header">
@@ -28,9 +28,14 @@ const AllCoursesCardNeu = (props) => {
             </div>
             <div className="allCoursesArea__list__viewList__card__main">
                 <div className="plusList">
-                    {toolsImages.map((tool, index) => (
-                        <img src={`/img/${tool}`} alt={tool} key={index} />
-                    ))}
+                    {props.filteredTools ? props.filteredTools.map((tool, index) => (
+                        <img src={`/img/${tool.image}`} alt={tool.name} key={index} />
+                    ))
+                    : 
+                    toolsInternal.map((tool, index) => (
+                        <img src={`/img/${tool.image}`} alt={tool.name} key={index} />
+                    ))
+                    }
                     <p>+ more</p>
                 </div>
                 <p>

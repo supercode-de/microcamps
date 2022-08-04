@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react";
 import AllCoursesCardNeu from "./AllCoursesCardNeu";
-// import courses from "../../data/coursesData";
 
 import courseData from "../../data/courseData.json";
 
-
-const AllCoursesListNeu = () => {
+const AllCoursesListNeu = (props) => {
     const [filteredArr, setFilteredArr] = useState(courseData);
 
     const [filterWhat, setFilterWhat] = useState([]);
@@ -129,6 +127,7 @@ const AllCoursesListNeu = () => {
                     <AllCoursesCardNeu
                         key={course.id}
                         data={course}
+                        filteredTools={props.filteredTools}
                     />
                 ))}
             </div>

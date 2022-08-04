@@ -5,36 +5,30 @@
     "category": "UX/UI-Design",
     "subTheme": "UX-Design",
     "title": "verstehen & Ideen entwickeln",
+    "microCamp": "UX-MicroCamp",
     "modell": "Teilzeit",
     "duration": "4 Wochen",
     "level": "Beginner",
     "image": "design1.png",
+    "jobtitle": "UX-Designer*in",
     "headerDescription": "Erlerne alle Grundlagen guter User Experience. Durchlaufe die ersten wichtige Schritte beim Entwickeln eines digitalen Produktes. Erlerne und nutze unsere Methoden, die dir helfen erfolgreiche Ideen entstehen zu lassen, um daraus einen digitalen Prototypen auf Figma zu designen.",
-    "toolsImages": [
-      "figma.svg",
-      "discord.svg"
-    ],
-    "toolsInformations": [
+    "toolsInternal": [
       {
-        "toolsName": "Figma",
-        "toolsDescr": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS.",
-        "toolsImages": "figma.svg"
+        "name": "Figma",
+        "image": "tools/figma.svg"
       },
       {
-        "toolsName": "Discord",
-        "toolsDescr": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird.",
-        "toolsImages": "discord.svg"
-      }
-    ],
-    "microCamp": "UX-MicroCamp",
-    "jobtitle": "UX-Designer*in",
-    "courseOverview": [
+        "name": "Discord",
+        "image": "tools/discord.svg"
+      },
       {
-        "preHeadline": "MicroCamp UX-Design",
-        "mainHeadline": "Starte durch mit deinen neuen UX-Design Skills",
-        "mainCopy1": "Unser Teilzeit-Live-MicroCamp für UX-Design bietet dir eine intensive 5-wöchige Lernerfahrung, die dich auf's nächste Level bringt!",
-        "mainCopy2": "In Live-Sessions mit kleinen Lerngruppen aus ganz Deutschland und motivierten Trainer*innen lernst du praxisnah und mit modernen Tools und Methoden."
-      }
+        "name": "VSCode",
+        "image": "tools/vscode.svg"
+      },
+      {
+        "name": "HTML",
+        "image": "tools/html.svg"
+      } 
     ],
     "curriculumOverview": [
       {
@@ -130,9 +124,9 @@
         "blocks": [
           {
             "block": 1,
-            "titel": "Vorbereitung",
-            "dauer": "30 min.",
-            "beschreibung": "Warmup & Kurzeinführung in den Themenbereich"
+            "title": "Vorbereitung",
+            "duration": "30 min.",
+            "description": "Warmup & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -141,15 +135,15 @@
         "blocks": [
           {
             "block": 1,
-            "titel": "Live Kurs",
-            "dauer": "2 Stunden",
-            "beschreibung": "Live Kurs mit deinem Trainer und den Kursteilnehmern"
+            "title": "Live Kurs",
+            "duration": "2 Stunden",
+            "description": "Live Kurs mit deinem Trainer und den Kursteilnehmern"
           },
           {
             "block": 2,
-            "titel": "Design Meet Up",
-            "dauer": "1 Stunde",
-            "beschreibung": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
+            "title": "Design Meet Up",
+            "duration": "1 Stunde",
+            "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
         ]
       },
@@ -158,9 +152,9 @@
         "blocks": [
           {
             "block": 1,
-            "titel": "Vertiefung",
-            "dauer": "30 min.",
-            "beschreibung": "Wiederhole das Gelernte und bereite Fragen für den WS vor"
+            "title": "Vertiefung",
+            "duration": "30 min.",
+            "description": "Wiederhole das Gelernte und bereite Fragen für den WS vor"
           }
         ]
       },
@@ -169,15 +163,15 @@
         "blocks": [
           {
             "block": 1,
-            "titel": "Workshop",
-            "dauer": "1 Stunde",
-            "beschreibung": "Arbeite mit deinem Team und stelle Fragen an den Trainer"
+            "title": "Workshop",
+            "duration": "1 Stunde",
+            "description": "Arbeite mit deinem Team und stelle Fragen an den Trainer"
           },
           {
             "block": 2,
-            "titel": "Workout",
-            "dauer": "1 Stunde",
-            "beschreibung": "Unser kleines Workout mit Trainern & Teilnehmern"
+            "title": "Workout",
+            "duration": "1 Stunde",
+            "description": "Unser kleines Workout mit Trainern & Teilnehmern"
           }
         ]
       },
@@ -186,19 +180,18 @@
         "blocks": [
           {
             "block": 1,
-            "titel": "Praxisaufgabe",
+            "title": "Praxisaufgabe",
             "dauer": "2 Stunden",
-            "beschreibung": "Bearbeite die praktische Aufgabe zum Wochenthema"
+            "description": "Bearbeite die praktische Aufgabe zum Wochenthema"
           }
         ]
       }
     ],
-
     "alumniZitat": [
       {
         "alumniCopy": "Mir hat der UI & UX Kurs  super viel Spaß gemacht, die Doppelcombo aus Theorie & Praxis macht es einfach, schnell in die Thematik rein zu kommen! Den Karrierewechsel kann ich allen nur noch empfehlen, also ab zu den Kursangeboten und meldet euch an!",
         "alumniName": "Ann-Christin",
-        "alumniImage": "tn_small2.png"
+        "alumniImage": "alumni-zitat-01.jpg"
       }
     ]
   }

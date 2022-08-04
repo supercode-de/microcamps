@@ -4,8 +4,8 @@ import { Routes, Route } from "react-router-dom";
 import InfoHeader from "./components/infoHeader/InfoHeader";
 import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
+
 import MicroClasses from "./pages/MicroClasses";
-// import CourseDetailPage from "./pages/CourseDetailPage";
 import CourseDetailPageNeu from "./pages/CourseDetailPageNeu";
 
 function App() {

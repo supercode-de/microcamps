@@ -1,5 +1,5 @@
 const CourseDetailHeader = (props) => {
-    const {theme, title, image, duration, modell, tools, description} = props
+    const { theme, title, image, duration, modell, headerDescription } = props.data
     return (
         <section className="courseDetailHeader">
             <img
@@ -13,20 +13,20 @@ const CourseDetailHeader = (props) => {
                         {theme === "data"
                             ? "Data-Science"
                             : theme === "coding"
-                            ? "Front-End"
-                            : "UX/UI"}
+                                ? "Front-End"
+                                : "UX/UI"}
                     </h2>
                     <h2>{title}</h2>
                     <p>
                         {modell} | {duration}
                     </p>
                     <div className="plusList">
-                        {tools.map((tool, index) => (
-                            <img src={`/img/${tool}`} alt={tool} key={index}/>
+                        {props.filteredTools.map((tool, index) => (
+                            <img src={`/img/${tool.image}`} alt={tool.name} key={index} />
                         ))}
                         <p>+ more</p>
                     </div>
-                    <p>{description}</p>
+                    <p>{headerDescription}</p>
                 </article>
             </div>
         </section>
