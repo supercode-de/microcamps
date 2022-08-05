@@ -1,0 +1,25 @@
+.our-story-wrapper{
+
+ .content-wrapper{
+    max-width: 1000px;
+    margin-bottom: 3.125rem;
+ }
+ 
+ h2:not(.lastBlueSection h2, .bigPictureSection .textWrap h2) {
+    color: var(--clr-super-lila);
+    font-size: var(--fs-800);
+    margin-bottom: 2%;
+  }
+
+  p:not(.our-story-wrapper p) {
+    font-size: var(--fs-200);
+    max-width: 80%;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+  .meet-team-wrapper {
+    padding:3.125rem 4.5rem;
+  }
+}

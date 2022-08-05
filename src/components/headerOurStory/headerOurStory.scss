@@ -1,0 +1,40 @@
+.our-story-wrapper {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-super-lila);
+    color: white;
+    padding: 0 5%;
+    height: 100vh;
+
+    .img-sergio {
+      width: 100%;
+    }
+
+    .info {
+      max-width: 50rem;
+    }
+
+    h1 {
+      font-family: var(--ff-reg-bold);
+      font-size: var(--fs-900);
+      line-height: 115%;
+      margin-bottom: 2%;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .our-story-wrapper {
+    header {
+      padding: 3.125rem 4.5rem;
+      display: block;
+      height: 100%;
+
+      .img-sergio {
+        margin-bottom: 25px;
+      }
+    }
+  }
+}

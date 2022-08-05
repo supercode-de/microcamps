@@ -7,6 +7,9 @@ import Footer from "./components/footer/Footer";
 import MicroClasses from "./pages/MicroClasses";
 import CourseDetailPage from "./pages/CourseDetailPage";
 
+/*Pages*/
+import OurStory from "./pages/OurStory/OurStory";
+
 function App() {
     return (
         <div className="App">
@@ -15,6 +18,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<MicroClasses />} />
                 <Route path="/course/:id" element={<CourseDetailPage />} />
+                <Route path="/supercamp/our-story" element={<OurStory />} />
             </Routes>
             <Footer />
         </div>
