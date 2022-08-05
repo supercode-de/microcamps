@@ -1,5 +1,6 @@
 import "./scss/main.scss";
 import { Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/scrollToTop/ScrollToTop"
 
 import InfoHeader from "./components/infoHeader/InfoHeader";
 import Nav from "./components/nav/Nav";
@@ -13,11 +14,13 @@ function App() {
         <div className="App">
             <InfoHeader />
             <Nav />
-            <Routes>
-                <Route path="/" element={<MicroClasses />} />
-                {/* <Route path="/course/:id" element={<CourseDetailPage />} /> */}
-                <Route path="/course/:id" element={<CourseDetailPageNeu />} />
-            </Routes>
+            <ScrollToTop>
+                <Routes>
+                    <Route path="/" element={<MicroClasses />} />
+                    {/* <Route path="/course/:id" element={<CourseDetailPage />} /> */}
+                    <Route path="/course/:id" element={<CourseDetailPageNeu />} />
+                </Routes>
+            </ScrollToTop>
             <Footer />
         </div>
     );

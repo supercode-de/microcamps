@@ -84,6 +84,15 @@ Bei Benennung von Variablen oder ähnlichen gilt grundsätzlich die camelCase Ko
 Bei Klassen verwenden wir eine Mischung aus camelCase und Snake case.
 Bitte daran halten und sich den Aufbau bereits erstellter Klassen oder Variablen etc. im Zweifel anschauen. 
 
+## Wichtiges zum Arbeiten an der Seite
+Wir erstellen für jedes neue Feature oder jede größere Änderungen einen Branch, den wir sinnvoll nach der Änderung benennen. Wollen wir die FAQ Section überarbeiten, könnte der branch heißen "faqFeature". Oder irgendwas sinnvolles, anhand des Namens man erkennt, worum es geht.
+Dann wird gepusht und wer auch immer dann Master of Disaster ist merged das mit dem Main Branch und kümmert sich um etwaige Konflikte. Danach wird der Feature Branch wieder gelöscht. 
+
+Für Commits gilt ein ähnliches Vorgehen: Bitte schreibt sinnvolle Commits auf Deutsch. Ganze Sätze bzw in verständlichen Stichpunkten. Denkt daher auch daran regelmäßig zu commiten, damit ihr im besten Fall nicht 50 Änderungen beschreiben müsst. Sollte das passiert sein, dann bleibt allgemein und beschreibt vllt die Phasen der Änderungen. Ihr wollt zum Beispiel eine weitere data.js Datei implementieren und habt erst bei Fertigstellung committet? Dann könnte euer commit lauten "data.js erstellt, testphase mit statischen daten durchgeführt, data.js mit echten daten befüllt und komponenten dynamisch aufgebaut".
+Beispiel: "schriftgröße in FAQ Sektion angepasst, faqData erweitert".
+oder "kurseData.json angelegt und mit Test Informationen befüllt"
+Sollten noch Fehler oder Bugs existieren, dann erwähnt es gerne im commit oder deutet auf ein potenzielles Kommentar im Code hin. 
+
 
 ## Available Scripts
 
