@@ -73,6 +73,11 @@ let toolsDataExternal = [
         "name": "Webflow",
         "image": "tools/webflow.svg",
         "description": "Webflow, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in San Francisco, das Software as a Service für die Erstellung und das Hosting von Websites anbietet. Seine visuelle Online-Editor-Plattform ermöglicht es Benutzern, Webseiten zu entwerfen, zu erstellen und zu hosten."
+    },
+    {
+        "name": "Notion",
+        "image": "tools/notion.svg",
+        "description": "Notion ist eine Projektmanagement- und Notizsoftware. Notion ist eine Software, die entwickelt wurde, um Mitgliedern eines Unternehmens oder einer Organisation dabei zu helfen, Fristen, Ziele und Aufgaben im Interesse von Effizienz und Produktivität zu koordinieren."
     }
 ]
 
