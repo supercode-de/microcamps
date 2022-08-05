@@ -40,7 +40,7 @@ const StickyNav = () => {
                                     : ""
                             }
                         >
-                            Zeitablauf
+                            Zeitplan
                         </NavHashLink>
                     </li>
                     <li>
@@ -79,13 +79,11 @@ const StickyNav = () => {
                             Bezahlung
                         </NavHashLink>
                     </li>
-                    <li>
-                        <NavHashLink to="/">MicroCamp</NavHashLink>
-                    </li>
 
-                    <li>
+{/* die Sektion gibt es noch nicht */}
+                    {/* <li>
                         <NavHashLink to="/">Next Bootcamp</NavHashLink>
-                    </li>
+                    </li> */}
 
                 </ul>
             </div>

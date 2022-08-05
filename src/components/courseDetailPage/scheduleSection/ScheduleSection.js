@@ -55,6 +55,7 @@ const ScheduleSection = (props) => {
                         )) : ""}
                     </ul>
                 </article>
+                
                 <article className="scheduleSection__textWrap">
                     <div className="scheduleSection__textWrap__headline">
                         <h3>Vernetze dich mit anderen Teilnehmenden</h3>

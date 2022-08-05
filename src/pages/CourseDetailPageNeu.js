@@ -6,7 +6,7 @@ import StickyNav from "../components/courseDetailPage/stickyNav/StickyNav";
 import DarkInfoTextTop from "../components/darkInfoTextTop/DarkInfoTextTop";
 import CurriculumSection from "../components/courseDetailPage/curriculumSection/CurriculumSection";
 import ScheduleSection from "../components/courseDetailPage/scheduleSection/ScheduleSection";
-import PortfolioSection from "../components/courseDetailPage/portfolioSection/PortfolioSection";
+// import PortfolioSection from "../components/courseDetailPage/portfolioSection/PortfolioSection";
 import TeamSection from "../components/courseDetailPage/teamSection/TeamSection";
 import ToolsSection from "../components/courseDetailPage/toolsSection/ToolsSection";
 import DarkInfoTextBottom from "../components/darkInfoTextBottom/DarkInfoTextBottom";
@@ -57,6 +57,7 @@ const CourseDetailPageNeu = () => {
                 <ScheduleSection
                     data={kurs}
                 />
+                {/* dür die portfolio Sektion gibt es bisher noch keine Inhalte */}
                 {/* <PortfolioSection /> */}
                 <TeamSection data={kurs} />
                 <ToolsSection

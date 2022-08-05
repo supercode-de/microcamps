@@ -20,15 +20,7 @@
       {
         "name": "Discord",
         "image": "tools/discord.svg"
-      },
-      {
-        "name": "VSCode",
-        "image": "tools/vscode.svg"
-      },
-      {
-        "name": "HTML",
-        "image": "tools/html.svg"
-      } 
+      }
     ],
     "curriculumOverview": [
       {
@@ -46,18 +38,6 @@
       {
         "curriculumTitle": "User Stories",
         "curriculumPreview": "Beschreibe gewünschte Funktionalitäten deiner Produktidee aus Sicht des Anwenders"
-      }
-    ],
-    "courseCurriculumOverview": [
-      {
-        "preHeadline": "UX/UI Curriculum",
-        "mainHeadline1": "Steig direkt ein in die Praxis des UX-Designs",
-        "mainCopy1": "Unser MicroCamp ist so aufgebaut, dass du UX/UI-Design Schritt für Schritt mit einem Curriculum lernst, das sich zu 100 % auf Learning-by-Doing konzentriert.",
-        "mainCopy2": "Im Gegensatz zu vielen UX/UI-Kursen, die seit Jahren denselben Powerpoint-lastigen Lehrplan vermitteln, lernst du in unserem MicroCamp die neuesten Tools, Workflows und Best Practices live und online.",
-        "mainCopy3": "Um Zeit zu sparen und von Anfang an richtig durchzustarten, empfehlen wir dir, dich vor dem MicroCamp schon einmal mit der Materie vertraut zu machen und ein paar Praxisübungen zu absolvieren.",
-        "mainHeadline2": "Erstelle UX-Fallstudien anhand realer Designvorgaben",
-        "mainCopy4": "In unserem Kurs lernst du nicht nur die Kernkompetenzen von Junior UX-Designer*innen, sondern arbeitest auch an Briefings, wie sie dir in der Berufspraxis begegnen würden.",
-        "mainCopy5": "Dies ist eine großartige Gelegenheit, an einem Produkt zu arbeiten und relevante Fallstudien von Produkten zu erstellen!"
       }
     ],
     "curriculumExtended": [

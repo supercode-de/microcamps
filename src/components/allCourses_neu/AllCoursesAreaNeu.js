@@ -16,7 +16,7 @@ const AllCoursesAreaNeu = (props) => {
                 <AllCoursesListNeu filteredTools={props.filteredTools}/>
                 <article className="btn__wrap">
                     <a className="btn btn--more" href="/">
-                        view more
+                        mehr Kurse
                     </a>
                 </article>
             </div>
