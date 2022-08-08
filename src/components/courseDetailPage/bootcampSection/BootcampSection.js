@@ -9,7 +9,7 @@ const BootcampSection = (props) => {
                 <article className="bootcampSection__list">
                     {props.curriculumOverview.map((curriculumItem, index) => (
                         <div key={index}className="bootcampSection__list__item">
-                        <h2 className="headlines_stroke">0{index +1}</h2>
+                        <h2 className="headlines_stroke">{index === 9 ? `${index + 1}` : `0${index + 1}`}</h2>
                         <div>
                             <h4>{curriculumItem.curriculumTitle}</h4>
                             <p>{curriculumItem.curriculumPreview}</p>

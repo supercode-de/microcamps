@@ -37,9 +37,9 @@ const AllCoursesListNeu = (props) => {
                 return item;
             } else {
                 return (
-                    item.type === filterWhat[0] ||
-                    item.type === filterWhat[1] ||
-                    item.type === filterWhat[2]
+                    item.theme === filterWhat[0] ||
+                    item.theme === filterWhat[1] ||
+                    item.theme === filterWhat[2]
                 );
             }
         });
@@ -99,7 +99,7 @@ const AllCoursesListNeu = (props) => {
                     type="checkbox"
                     name="filter-for"
                     id="expert-button"
-                    value="expert"
+                    value="Expert"
                 />
                 <label
                     className="button-label expert-label"
