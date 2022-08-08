@@ -8,6 +8,7 @@ import Footer from "./components/footer/Footer";
 
 import MicroClasses from "./pages/MicroClasses";
 import CourseDetailPageNeu from "./pages/CourseDetailPageNeu";
+import OurStory from "./pages/OurStory/OurStory";
 
 function App() {
     return (
@@ -16,10 +17,12 @@ function App() {
             <Nav />
             <ScrollToTop>
                 <Routes>
-                    <Route path="/" element={<MicroClasses />} />
-                    <Route path="/course/:id" element={<CourseDetailPageNeu />} />
-                </Routes>
+                <Route path="/" element={<MicroClasses />} />
+                <Route path="/course/:id" element={<CourseDetailPageNeu />} />
+                <Route path="/supercamp/our-story" element={<OurStory />} />
+            </Routes>
             </ScrollToTop>
+            
             <Footer />
         </div>
     );

@@ -1,0 +1,24 @@
+.online-uiux-wrapper {
+  padding: 0 10.125rem;
+
+  .btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  a {
+    font-size: var(--fs-500);
+    background-color: var(--clr-super-green);
+    color: var(--clr-super-lila);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .online-uiux-wrapper {
+    padding: 3.125rem 4.5rem;
+
+    .btn-wrapper {
+      justify-content: center;
+    }
+  }
+}
