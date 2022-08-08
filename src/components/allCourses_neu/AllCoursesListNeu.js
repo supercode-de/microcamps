@@ -37,9 +37,9 @@ const AllCoursesListNeu = (props) => {
                 return item;
             } else {
                 return (
-                    item.type === filterWhat[0] ||
-                    item.type === filterWhat[1] ||
-                    item.type === filterWhat[2]
+                    item.theme === filterWhat[0] ||
+                    item.theme === filterWhat[1] ||
+                    item.theme === filterWhat[2]
                 );
             }
         });
