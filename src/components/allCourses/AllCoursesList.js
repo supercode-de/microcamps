@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import courses from "../../data/coursesData";
 import AllCoursesCard from "./AllCoursesCard";
+import courses from "../../data/coursesData";
 const AllCoursesList = () => {
     const [filteredArr, setFilteredArr] = useState(courses);
 

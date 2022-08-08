@@ -1,24 +1,31 @@
 [
   {
     "id": "ux-design-verstehen-ideen-entwickeln-microcamp",
-    "theme": "uxui",
-    "subTheme": "UX Design",
-    "title": "Verstehen & Ideen entwickeln",
+    "theme": "design",
+    "category": "UX/UI-Design",
+    "subTheme": "UX-Design",
+    "title": "verstehen & Ideen entwickeln",
+    "microCamp": "UX-MicroCamp",
     "modell": "Teilzeit",
     "duration": "4 Wochen",
     "level": "Beginner",
-    "image": "data1.png",
+    "image": "kurse/design1.png",
+    "jobtitle": "UX-Designer*in",
     "headerDescription": "Erlerne alle Grundlagen guter User Experience. Durchlaufe die ersten wichtige Schritte beim Entwickeln eines digitalen Produktes. Erlerne und nutze unsere Methoden, die dir helfen erfolgreiche Ideen entstehen zu lassen, um daraus einen digitalen Prototypen auf Figma zu designen.",
-    "tools": [
-      "figma.svg",
-      "discord.svg"
+    "toolsInternal": [
+      {
+        "name": "Figma",
+        "image": "tools/figma.svg"
+      },
+      {
+        "name": "Discord",
+        "image": "tools/discord.svg"
+      }
     ],
-    "microCamp": "UX-MicroCamp",
-    "jobtitle": "Designer",
     "curriculumOverview": [
       {
         "curriculumTitle": "Design Thinking",
-        "curriculumPreview": "Verstehe deine Nutzer und entwickle Ideen"
+        "curriculumPreview": "Verstehe deine Nutzer*innen und entwickle Ideen"
       },
       {
         "curriculumTitle": "Product Field & Personas",
@@ -26,22 +33,21 @@
       },
       {
         "curriculumTitle": "Informationsarchitektur",
-        "curriculumPreview": "Lerne Funktionen und Inhalte sinnvoll zu unterteilen, und lege Navigationswege für die Nutzer fest"
+        "curriculumPreview": "Lerne Funktionen und Inhalte sinnvoll zu unterteilen und lege Navigationswege für die Nutzer*innen fest"
       },
       {
         "curriculumTitle": "User Stories",
-        "curriculumPreview": "Beschreibe gewünschte Funktionalitäten deiner Produktidee aus Sicht des Anwenders"
+        "curriculumPreview": "Beschreibe gewünschte Funktionalitäten deiner Produktidee aus Sicht der Anwender*innen"
       }
     ],
     "curriculumExtended": [
       {
-        "id": 0,
         "ablaufTitel": "Vorbereitung und Kennenlernen",
         "ablaufZeitraum": "Vorbereitung",
-        "ablaufBeschreibung": "Lerne deine Camp-Kolegen kennen und richte dir in ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben ausserdem eine kleine Aufwärmübung  für dich vorbereitet.",
+        "ablaufBeschreibung": "Lerne deine Camp-Kolleg*innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
         "ablaufBeschreibungPunkte": [
           "Erstelle einen Account auf Figma und Discord",
-          "Lerne deine Kollegen auf Discord kennen",
+          "Lerne deine Kolleg*innen auf Discord kennen",
           "Mache dich mit der Discord Umgebung vertraut",
           "Mache dich mit der Figma Umgebung vertraut",
           "Bearbeite unser Aufwärmübung auf FigJam",
@@ -51,20 +57,20 @@
       {
         "ablaufTitel": "Design Thinking",
         "ablaufZeitraum": "Woche 1",
-        "ablaufBeschreibung": "Stelle deinen Nutzer in den Mittelpunkt. Untersuche Probleme und Bedürfnisse deiner Zielgruppe. Erarbeite Hypothesen und baue darauf deine Konzeptidee auf.",
+        "ablaufBeschreibung": "Stelle deine Nutzer*innen in den Mittelpunkt. Untersuche Probleme und Bedürfnisse deiner Zielgruppe. Erarbeite Hypothesen und baue darauf deine Konzeptidee auf.",
         "ablaufBeschreibungPunkte": [
           "Einführung in die Grundlagen des Design Thinking in unserer Live-Class",
           "Lerne unser FigJam Design Thinking Template kennen und wende es praktisch an",
-          "Führe ein Experteninterview durch und lerne alles über die Zielgruppe und deren Bedürfnisse",
+          "Führe ein Expert*inneninterview durch und lerne alles über die Zielgruppe und deren Bedürfnisse",
           "Stelle auf Basis deines Interviews Hypothesen auf, die Lösungansätze enthalten",
           "Führe eine eigene Untersuchung innerhalb der Zielgruppe durch, um deine Hypothesen zu bestätigen",
-          "Entwickle gemeinsam mit deinen Kollegen eine Produktidee"
+          "Entwickle gemeinsam mit deinen Kolleg*innen eine Produktidee"
         ]
       },
       {
         "ablaufTitel": "Product Field & Personas",
         "ablaufZeitraum": "Woche 2",
-        "ablaufBeschreibung": "Nutze das Product Field um Stärken und Schwächen deiner Produktidee herraus zu arbeiten. Erstelle außerdem eine User Persona auf Basis deiner Zielgruppenanalyse mit den Eigenschaften & Verhaltensmustern deiner Nutzer",
+        "ablaufBeschreibung": "Nutze das Product Field um Stärken und Schwächen deiner Produktidee heraus zu arbeiten. Erstelle außerdem eine User Persona auf Basis deiner Zielgruppenanalyse mit den Eigenschaften & Verhaltensmustern deiner Nutzer*innen.",
         "ablaufBeschreibungPunkte": [
           "Erlerne die Grundlagen des Product Fields und wende es an",
           "Untersuche ob deine Produktidee umsetzbar und innovativ ist",
@@ -74,19 +80,19 @@
       {
         "ablaufTitel": "Informationsarchitektur",
         "ablaufZeitraum": "Woche 3",
-        "ablaufBeschreibung": "In Woche 3 bringt ihr Struktur und Ordnung in eure Productidee. Ihr lernt eure Funktionen und Inhalte sinnvoll zu unterteilen, und legt Navigationswege für die Nutzer fest.",
+        "ablaufBeschreibung": "In Woche 3 bringt ihr Struktur und Ordnung in eure Produktidee. Ihr lernt eure Funktionen und Inhalte sinnvoll zu unterteilen, und legt Navigationswege für die Nutzer*innen fest.",
         "ablaufBeschreibungPunkte": [
           "Einführung in die Grundlagen guter Informationsarchitektur",
           "Nutze FigJam und erstelle deinen ersten Flowchart (User Flow)",
-          "Lerne den Flowchart so zu gestalten, dass den Nutzern der Zugang zu allen Informationen und Funktionen ermöglicht wird"
+          "Lerne den Flowchart so zu gestalten, dass den Nutzer*innen der Zugang zu allen Informationen und Funktionen ermöglicht wird"
         ]
       },
       {
         "ablaufTitel": "User Storys",
         "ablaufZeitraum": "Woche 4",
-        "ablaufBeschreibung": "In Woche 4 unseres Kurses lernst du die Stärke von User Storys kennen. Wende dieses Werkzeug an, um gewünschte Funktionalitäten deiner Produktidee aus Sicht des Anwenders zu beschreiben.",
+        "ablaufBeschreibung": "In Woche 4 unseres Kurses lernst du die Stärke von User Storys kennen. Wende dieses Werkzeug an, um gewünschte Funktionalitäten deiner Produktidee aus Sicht der Anwender*innen zu beschreiben.",
         "ablaufBeschreibungPunkte": [
-          "Lerne User Storys zu entwickeln, die leicht zu verstehen sind und die Wünsche der Anwender vermitteln",
+          "Lerne User Storys zu entwickeln, die leicht zu verstehen sind und die Wünsche der Anwender*innen vermitteln",
           "Lerne wie du mit Hilfe der User Storys schnell und einfach eine Aufwandsschätzung realisierst",
           "Verfeinere deine User Storys schrittweise und unterstütze so die iterative Entwicklung des Produktes in seiner Tiefe"
         ]
@@ -98,9 +104,9 @@
         "blocks": [
           {
             "block": 1,
-            "titel": "Vorbereitung",
-            "dauer": "30 min.",
-            "beschreibung": "Warmup & Kurzeinführung in den Themenbereich"
+            "title": "Vorbereitung",
+            "duration": "30 min.",
+            "description": "Warmup & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -109,15 +115,15 @@
         "blocks": [
           {
             "block": 1,
-            "titel": "Live Kurs",
-            "dauer": "2 Stunden",
-            "beschreibung": "Live Kurs mit deinem Trainer und den Kursteilnehmern"
+            "title": "Live Kurs",
+            "duration": "2 Stunden",
+            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
           },
           {
             "block": 2,
-            "titel": "Design Meet Up",
-            "dauer": "1 Stunde",
-            "beschreibung": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
+            "title": "Design Meet Up",
+            "duration": "1 Stunde",
+            "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
         ]
       },
@@ -126,9 +132,9 @@
         "blocks": [
           {
             "block": 1,
-            "titel": "Vertiefung",
-            "dauer": "30 min.",
-            "beschreibung": "Wiederhole das Gelernte und bereite Fragen für den WS vor"
+            "title": "Vertiefung",
+            "duration": "30 min.",
+            "description": "Wiederhole das Gelernte und bereite Fragen für den WS vor"
           }
         ]
       },
@@ -137,15 +143,15 @@
         "blocks": [
           {
             "block": 1,
-            "titel": "Workshop",
-            "dauer": "1 Stunde",
-            "beschreibung": "Arbeite mit deinem Team und stelle Fragen an den Trainer"
+            "title": "Workshop",
+            "duration": "1 Stunde",
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
           },
           {
             "block": 2,
-            "titel": "Workout",
-            "dauer": "1 Stunde",
-            "beschreibung": "Unser kleines Workout mit Trainern & Teilnehmern"
+            "title": "Workout",
+            "duration": "1 Stunde",
+            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
           }
         ]
       },
@@ -154,27 +160,1169 @@
         "blocks": [
           {
             "block": 1,
-            "titel": "Praxisaufgabe",
+            "title": "Praxisaufgabe",
             "dauer": "2 Stunden",
-            "beschreibung": "Bearbeite die praktische Aufgabe zum Wochenthema"
+            "description": "Bearbeite die praktische Aufgabe zum Wochenthema"
           }
         ]
       }
     ],
-    "courseOverview": [
+    "alumniZitat": [
       {
-        "preHeadline": "MicroCamp UX-Design",
-        "mainHeadline": "Starte durch mit deinen neuen UX-Design Skills",
-        "mainCopy": "Unser Teilzeit-Live-MicroCamp für UX-Design bietet dir eine intensive 5-wöchige Lernerfahrung, die dich auf's nächste Level bringt!\\nIn Live-Sessions mit kleinen Lerngruppen aus ganz Deutschland und motivierten Trainer*innen lernst du praxisnah und mit modernen Tools und Methoden.\\nWährend des Kurses wirst du den Design-Thinking-Prozess verstehen, die neuesten Design-Tools beherrschen, Fallstudien erstellen und -ganz wichtig- dein eigenes UX-Design-Portfolio erstellen und präsentieren. "
+        "alumniCopy": "Mir hat der UI & UX Kurs  super viel Spaß gemacht, die Doppelcombo aus Theorie & Praxis macht es einfach, schnell in die Thematik rein zu kommen! Den Karrierewechsel kann ich allen nur noch empfehlen, also ab zu den Kursangeboten und meldet euch an!",
+        "alumniName": "Ann-Christin",
+        "alumniImage": "alumni-zitat-01.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ui-design-strukturieren-gestalten-microcamp",
+    "theme": "design",
+    "category": "UX/UI-Design",
+    "subTheme": "UI-Design",
+    "title": "strukturieren & gestalten",
+    "microCamp": "UI-MicroCamp",
+    "modell": "Teilzeit",
+    "duration": "5 Wochen",
+    "level": "Beginner",
+    "image": "kurse/design2.png",
+    "jobtitle": "UI-Designer*in",
+    "headerDescription": "Erlerne alle Grundlagen guter User Experience. Durchlaufe die ersten wichtige Schritte beim Entwickeln eines digitalen Produktes. Erlerne und nutze unsere Methoden, die dir helfen erfolgreiche Ideen entstehen zu lassen, um daraus einen digitalen Prototypen auf Figma zu designen.",
+    "toolsInternal": [
+      {
+        "name": "Figma",
+        "image": "tools/figma.svg"
+      },
+      {
+        "name": "Discord",
+        "image": "tools/discord.svg"
       }
     ],
-    "courseCurriculumOverview": [
+    "curriculumOverview": [
       {
-        "preHeadline": "UX/UI Curriculum",
-        "mainHeadline_1": "Steig direkt ein in die Praxis des UX-Designs",
-        "mainCopy_1": "Unser MicroCamp ist so aufgebaut, dass du UX Schritt für Schritt mit einem Curriculum lernst, das sich zu 100 % auf Learning-by-Doing konzentriert.\\nIm Gegensatz zu vielen UX-Kursen, die seit Jahren denselben Powerpoint-lastigen Lehrplan vermitteln, lernst du in unserem MicroCamp die neuesten Tools, Workflows und Best Practices live und online.\\nUm Zeit zu sparen und von Anfang an richtig durchzustarten, empfehlen wir dir, dich vor dem MicroCamp schon einmal mit der Materie vertraut zu machen und ein paar Praxisübungen zu absolvieren.",
-        "mainHeadline_2": "Erstelle UX-Fallstudien anhand realer Designvorgaben",
-        "mainCopy_2": "In unserem Kurs lernst du nicht nur die Kernkompetenzen von Junior UX-Designer*innen, sondern arbeitest auch an Briefings, wie sie dir in der Berufspraxis begegnen würden.\\nDies ist eine großartige Gelegenheit, an einem Produkt zu arbeiten und relevante Fallstudien von Produkten zu erstellen!"
+        "curriculumTitle": "Wireframe",
+        "curriculumPreview": "Erstelle das Grundgerüst deines digitalen Produktes"
+      },
+      {
+        "curriculumTitle": "Low Fidelty Prototype",
+        "curriculumPreview": "Erstelle deinen ersten Prototypen mit Fokus auf Benutzerführung & Funktionalität"
+      },
+      {
+        "curriculumTitle": "Design Sytem",
+        "curriculumPreview": "Erstelle Schrift- und Farbbibliotheken und lege Layout-Grids in Figma fest"
+      },
+      {
+        "curriculumTitle": "UI interaktive Komponenten",
+        "curriculumPreview": "Erstelle Auto-Layout-Komponenten & Varianten in Figma"
+      },
+      {
+        "curriculumTitle": "Animation & Prototyping",
+        "curriculumPreview": "Lerne Animationen zu erstellen und Lotty-Files in deinen Prototypen zu integrieren"
+      }
+    ],
+    "curriculumExtended": [
+      {
+        "ablaufTitel": "Vorbereitung und Kennenlernen",
+        "ablaufZeitraum": "Vorbereitung",
+        "ablaufBeschreibung": "Lerne deine Camp-Kolleg*innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
+        "ablaufBeschreibungPunkte": [
+          "Erstelle einen Account auf Figma und Discord",
+          "Lerne deine Kolleg*innen auf Discord kennen",
+          "Mache dich mit der Discord Umgebung vertraut",
+          "Mache dich mit der Figma Umgebung vertraut",
+          "Bearbeite unser Aufwärmübung auf FigJam",
+          "Schau dir unsere kurze Zusammenfassung zum Thema Design Thinking an"
+        ]
+      },
+      {
+        "ablaufTitel": "Wireframe",
+        "ablaufZeitraum": "Woche 1",
+        "ablaufBeschreibung": "In Woche 1 lernst du deine Produktidee oder dein Konzept zu visualisieren. Mit dieser Methode versuchst du Teile der Informationsarchitektur, der Benutzerführung und der Navigation zu repräsentieren.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Erstellung eines Wirframes",
+          "Lerne unser Figma Wireframe Template kennen",
+          "Führe ein Experteninterview durch und lerne alles über die Zielgruppe und deren Bedürfnisse",
+          "Setze deine Produktidee praktisch um und erstelle mit Hilfe des Templates deinen ersten Wireframe"
+        ]
+      },
+      {
+        "ablaufTitel": "Low Fidelity Prototype",
+        "ablaufZeitraum": "Woche 2",
+        "ablaufBeschreibung": "In dieser Woche erweckt ihr euren Wireframe zum Leben. Wir zeigen euch wie ihr in Figma einen interaktiven Prototypen erstellt und testen lassen könnt.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Grundlagen des Prototypings in Figma",
+          "Optimiere deinen Wireframe",
+          "Mache aus deinem Wireframe einen testbaren Prototypen"
+        ]
+      },
+      {
+        "ablaufTitel": "Design System",
+        "ablaufZeitraum": "Woche 3",
+        "ablaufBeschreibung": "In Woche 3 erlernt ihr alle wichtigen Grundlagen, um ein Design System in Figma zu erstellen. Das Design System ist die Basis für alle weiteren Designschritte, die ihr benötgt, um ein digitales Produkt in Figma entstehen zu lassen.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Grundlagen des Design Systems",
+          "Lerne Schrift- und Farbbibliotheken zu erstellen",
+          "Legt euch ein eigenes Bootstrap Layout-Grid an",
+          "Erarbeite deine ersten Textkomponenten und lerne Gestaltungsrichtlinien im Umgang mit Schrift und Text kennen"
+        ]
+      },
+      {
+        "ablaufTitel": "UI interaktive Komponenten",
+        "ablaufZeitraum": "Woche 4",
+        "ablaufBeschreibung": "In Woche 4 geht es ans Eingemachte. Hier lernt ihr die Erstellung und den Umgang mit Komponenten, Variablen und dem Auto-Layout von Figma.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Grundlagen interaktiver Komponenten in Figma",
+          "Erstelle Komponenten und lerne diese anzuwenden",
+          "Lege Variablen an, die dir das Arbeiten mit Komponenten vereinfachen",
+          "Erlerne die Verwendung des Auto-Layouts in Figma"
+        ]
+      },
+      {
+        "ablaufTitel": "Animation & Prototyping",
+        "ablaufZeitraum": "Woche 5",
+        "ablaufBeschreibung": "In Woche 5 festigen wir euer Wissen rund um das Thema Prototyping. Außerdem entführen wir euch in die spannende Welt der Animationen.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Grundlagen der Animationen in Figma",
+          "Erstelle deine eigenen Lotty Files",
+          "Pimpe deinen Prototypen durch Verwendung von Animationen und Übergängen",
+          "Lerne deine Komponenten zu animieren und deinen Prototypen erlebbarer zu machen"
+        ]
+      }
+    ],
+    "timetable": [
+      {
+        "wochentag": "Montag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Vorbereitung",
+            "duration": "30 min.",
+            "description": "Warmup & Kurzeinführung in den Themenbereich"
+          }
+        ]
+      },
+      {
+        "wochentag": "Dienstag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Live Kurs",
+            "duration": "2 Stunden",
+            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+          },
+          {
+            "block": 2,
+            "title": "Design Meet Up",
+            "duration": "1 Stunde",
+            "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
+          }
+        ]
+      },
+      {
+        "wochentag": "Mittwoch",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Vertiefung",
+            "duration": "30 min.",
+            "description": "Wiederhole das Gelernte und bereite Fragen für den WS vor"
+          }
+        ]
+      },
+      {
+        "wochentag": "Donnerstag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Workshop",
+            "duration": "1 Stunde",
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+          },
+          {
+            "block": 2,
+            "title": "Workout",
+            "duration": "1 Stunde",
+            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+          }
+        ]
+      },
+      {
+        "wochentag": "Freitag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Praxisaufgabe",
+            "dauer": "2 Stunden",
+            "description": "Bearbeite die praktische Aufgabe zum Wochenthema"
+          }
+        ]
+      }
+    ],
+    "alumniZitat": [
+      {
+        "alumniCopy": "Mir hat der UI & UX Kurs  super viel Spaß gemacht, die Doppelcombo aus Theorie & Praxis macht es einfach, schnell in die Thematik rein zu kommen! Den Karrierewechsel kann ich allen nur noch empfehlen, also ab zu den Kursangeboten und meldet euch an!",
+        "alumniName": "Ann-Christin",
+        "alumniImage": "alumni-zitat-01.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ux-research-untersuchen-testen-microcamp",
+    "theme": "design",
+    "category": "UX/UI-Design",
+    "subTheme": "UX Research",
+    "title": "untersuchen & testen",
+    "microCamp": "UX-MicroCamp",
+    "modell": "Teilzeit",
+    "duration": "5 Wochen",
+    "level": "Beginner",
+    "image": "kurse/design3.png",
+    "jobtitle": "UX-Designer*in",
+    "headerDescription": "Lerne generative und evaluative Untersuchungsmethoden kennen, wende diese an und festige deine Routine im erstellen von Ergebnissberichten.",
+    "toolsInternal": [
+      {
+        "name": "Figma",
+        "image": "tools/figma.svg"
+      },
+      {
+        "name": "Discord",
+        "image": "tools/discord.svg"
+      },
+      {
+        "name": "Notion",
+        "image": "tools/notion.svg"
+      }
+    ],
+    "curriculumOverview": [
+      {
+        "curriculumTitle": "Generatives Testing",
+        "curriculumPreview": "Erlerne die Grundlagen und Methoden generativen Testens. Rekrutiere Probant*innen und führe Research-Interviews durch."
+      },
+      {
+        "curriculumTitle": "Umfragen & Konkurrenzforschung",
+        "curriculumPreview": "Erlerne wann es sinnvoll ist Umfragen zu erstellen, und wie man mit dieser Methode Konkurrenzforschung berteibt."
+      },
+      {
+        "curriculumTitle": "Usability Testing",
+        "curriculumPreview": "Erlerne wie man Usability Testaufgaben richtig formuliert und erstellt und führe moderierte und unmoderierte Tests durch."
+      },
+      {
+        "curriculumTitle": "Affinitätsdiagramm und Segmentierung",
+        "curriculumPreview": "Erlerne die Erstellung eines Affinitätsdiagramms. Sammle und segmentiere Ergebnisse um verwertbare Erkenntnisse zu ermitteln."
+      },
+      {
+        "curriculumTitle": "Testberichte",
+        "curriculumPreview": "Lerne wie du deine Testergebnisse am besten präsentierst und wie du dein gesamtes Testprojekt als Fallstudie strukturierst und aufarbeitetst."
+      }
+    ],
+    "curriculumExtended": [
+      {
+        "ablaufTitel": "Vorbereitung und Kennenlernen",
+        "ablaufZeitraum": "Vorbereitung",
+        "ablaufBeschreibung": "Lerne deine Camp-Kolleg*innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
+        "ablaufBeschreibungPunkte": [
+          "Erstelle einen Account auf Figma und Discord",
+          "Lerne deine Kolleg*innen auf Discord kennen",
+          "Mache dich mit der Discord Umgebung vertraut",
+          "Mache dich mit der Figma Umgebung vertraut",
+          "Bearbeite unser Aufwärmübung auf FigJam",
+          "Schau dir unsere kurze Zusammenfassung zum Thema Design Thinking an"
+        ]
+      },
+      {
+        "ablaufTitel": "Generatives Testing",
+        "ablaufZeitraum": "Woche 1",
+        "ablaufBeschreibung": "In Woche 1 erlernst du, wie wertvoll und wichtig UX Untersuchungsmethoden sind. Außerdem zeigen wir dir, wie du Probant*innen rekrutierst und Research-Interviews durchführst.",
+        "ablaufBeschreibungPunkte": [
+          "Lerne verschiedene UX Untersuchungsmethoden kennen",
+          "Rekrutiere Probant*innen und stelle dir eine Testgruppe aus 10-15 Personen zusammen",
+          "Lerne verschiedene Interview-Techniken kennen und wende diese an",
+          "Bereit dein eigenes Research-Interview vor und führe es mit deinen Pobant*innen"
+        ]
+      },
+      {
+        "ablaufTitel": "Umfragen & Konkurrenzforschung",
+        "ablaufZeitraum": "Woche 2",
+        "ablaufBeschreibung": "In dieser Woche erweckt ihr euren Wireframe zum Leben. Wir zeigen euch wie ihr in Figma einen interaktiven Prototypen erstellt und testen lassen könnt.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Grundlagen des Prototypings in Figma",
+          "Optimiere deinen Wireframe",
+          "Mache aus deinem Wireframe einen testbaren Prototypen"
+        ]
+      },
+      {
+        "ablaufTitel": "Usability Testing",
+        "ablaufZeitraum": "Woche 3",
+        "ablaufBeschreibung": "In Woche 3 zeigen wir dir, wie man moderierte und unmoderierte Usability-Tests vorbereitet und durchführt. In dieser Woche liegt der Fokus auf dem Erstellen von Usability-Testaufgaben und dem formulieren von sogenannten Nachfassfragen.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Grundlagen des Usability-Testings",
+          "Formuliere passende Testaufgaben und Nachfassfragen",
+          "Lerne eine Reihe von Tools und Vorlagen kennen, mit denen du Usability-Tests durchführen kannst",
+          "Sammle dein Feedback und lernen, wie du verwertbare Ergebnisse filtern und zusammenstellen kannst"
+        ]
+      },
+      {
+        "ablaufTitel": "Affinitätsdiagramm und Segmentierung",
+        "ablaufZeitraum": "Woche 4",
+        "ablaufBeschreibung": "In der 4. Woche zeigen wir dir, wie die gesammelten Daten zusammenzufassen und sinnvoll zu nutzen sind. Du lernst aus den Daten, Probleme zu definieren und umsetzbare Erkenntnisse zu gewinnen.",
+        "ablaufBeschreibungPunkte": [
+          "Lerne deine Nutzer*innen zu segmentieren und in Gruppen zu unterteilen",
+          "Lerne deine Daten mit Hilfe von Notion übersichtlich und sinnvoll zusammenzufassen",
+          "Lerne die Grundlagen von “Taxonomy Tagging”",
+          "Erlern das Erstellen eines Affinitätsdiagramms"
+        ]
+      },
+      {
+        "ablaufTitel": "Testberichte",
+        "ablaufZeitraum": "Woche 5",
+        "ablaufBeschreibung": "In Woche 5 lernst du abschließend wie alle Ergebnisse und Daten aus den vorigen Wochen zu einem finalen Schlussbericht zusammen gefasst und präsentiert werden können. Außerdem habt ihr die Möglichkeit eure wertvollen Ergebnisse euren Kolleg*innen vorzustellen.",
+        "ablaufBeschreibungPunkte": [
+          "Organisiere deine Ergebnisse und lerne, sie ansprechend darzustellen und zu kommunizieren",
+          "Lerne Testberichte zu formulieren, welche du an den Kunden weitergeben kannst",
+          "Erstelle deine erste eigene UX-Research Fallstudie und präsentiiere sie deinen Kolleg*innen und deinen Trainer*innen"
+        ]
+      }
+    ],
+    "timetable": [
+      {
+        "wochentag": "Montag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Vorbereitung",
+            "duration": "30 min.",
+            "description": "Warmup & Kurzeinführung in den Themenbereich"
+          }
+        ]
+      },
+      {
+        "wochentag": "Dienstag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Live Kurs",
+            "duration": "2 Stunden",
+            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+          },
+          {
+            "block": 2,
+            "title": "Design Meet Up",
+            "duration": "1 Stunde",
+            "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
+          }
+        ]
+      },
+      {
+        "wochentag": "Mittwoch",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Vertiefung",
+            "duration": "30 min.",
+            "description": "Wiederhole das Gelernte und bereite Fragen für den WS vor"
+          }
+        ]
+      },
+      {
+        "wochentag": "Donnerstag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Workshop",
+            "duration": "1 Stunde",
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+          },
+          {
+            "block": 2,
+            "title": "Workout",
+            "duration": "1 Stunde",
+            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+          }
+        ]
+      },
+      {
+        "wochentag": "Freitag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Praxisaufgabe",
+            "dauer": "2 Stunden",
+            "description": "Bearbeite die praktische Aufgabe zum Wochenthema"
+          }
+        ]
+      }
+    ],
+    "alumniZitat": [
+      {
+        "alumniCopy": "Mir hat der UI & UX Kurs  super viel Spaß gemacht, die Doppelcombo aus Theorie & Praxis macht es einfach, schnell in die Thematik rein zu kommen! Den Karrierewechsel kann ich allen nur noch empfehlen, also ab zu den Kursangeboten und meldet euch an!",
+        "alumniName": "Ann-Christin",
+        "alumniImage": "alumni-zitat-01.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ux-ui-design-microcamp",
+    "theme": "design",
+    "category": "UX/UI-Design",
+    "subTheme": "UX/UI Design",
+    "title": "",
+    "microCamp": "UX/UI-MicroCamp",
+    "modell": "Teilzeit",
+    "duration": "10 Wochen",
+    "level": "Beginner",
+    "image": "kurse/design4.png",
+    "jobtitle": "UX/UI-Designer*in",
+    "headerDescription": "Erlernen alle UX/UI-Design Fähigkeiten, um aus einer Idee ein innovatives und erfolgreiches, digitales Produkt zu erschaffen.",
+    "toolsInternal": [
+      {
+        "name": "Figma",
+        "image": "tools/figma.svg"
+      },
+      {
+        "name": "Discord",
+        "image": "tools/discord.svg"
+      }
+    ],
+    "curriculumOverview": [
+      {
+        "curriculumTitle": "Design Thinking",
+        "curriculumPreview": "Verstehe deine Nutzer*innen und entwickle Ideen"
+      },
+      {
+        "curriculumTitle": "Informationsarchitektur",
+        "curriculumPreview": "Lerne Funktionen und Inhalte sinnvoll zu unterteilen und lege Navigationswege für die Nutzer*innen fest"
+      },
+      {
+        "curriculumTitle": "User Stories",
+        "curriculumPreview": "Beschreibe gewünschte Funktionalitäten deiner Produktidee aus Sicht der Anwender*innen"
+      },
+      {
+        "curriculumTitle": "Wireframe",
+        "curriculumPreview": "Erstelle das Grundgerüst deines digitalen Produktes"
+      },
+      {
+        "curriculumTitle": "Animation & Prototyping",
+        "curriculumPreview": "Lerne Animationen zu erstellen und Lotty-Files in deinen Prototypen zu integrieren"
+      },
+      {
+        "curriculumTitle": "Usability Testing",
+        "curriculumPreview": "Erlerne wie man Usability Testaufgaben richtig formuliert und erstellt und führe moderierte und unmoderierte Tests durch"
+      },
+      {
+        "curriculumTitle": "Design Sytem",
+        "curriculumPreview": "Erstelle Schrift- und Farbbibliotheken und lege Layout-Grids in Figma fest"
+      },
+      {
+        "curriculumTitle": "UI interaktive Komponenten",
+        "curriculumPreview": "Erstelle Auto-Layout-Komponenten & Varianten in Figma"
+      },
+      {
+        "curriculumTitle": "Abschlussprojekt",
+        "curriculumPreview": "Während des Abschlussprojekts kannst du gemeinsam mit deinen Kolleg*innen zeigen, was du gelernt hast"
+      },
+      {
+        "curriculumTitle": "Portfolio & Bewerbung",
+        "curriculumPreview": "Lerne Do`s & Don`ts bei deinem Bewerbungsprozess und wie du dein Portfolio erfolgreich aufbaust"
+      }
+    ],
+    "curriculumExtended": [
+      {
+        "ablaufTitel": "Vorbereitung und Kennenlernen",
+        "ablaufZeitraum": "Vorbereitung",
+        "ablaufBeschreibung": "Lerne deine Camp-Kolleg*innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
+        "ablaufBeschreibungPunkte": [
+          "Erstelle einen Account auf Figma und Discord",
+          "Lerne deine Kolleg*innen auf Discord kennen",
+          "Mache dich mit der Discord Umgebung vertraut",
+          "Mache dich mit der Figma Umgebung vertraut",
+          "Bearbeite unser Aufwärmübung auf FigJam",
+          "Schau dir unsere kurze Zusammenfassung zum Thema Design Thinking an"
+        ]
+      },
+      {
+        "ablaufTitel": "Design Thinking",
+        "ablaufZeitraum": "Woche 1",
+        "ablaufBeschreibung": "Stelle deine Nutzer*innen in den Mittelpunkt. Untersuche Probleme und Bedürfnisse deiner Zielgruppe. Erarbeite Hypothesen und baue darauf deine Konzeptidee auf.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Grundlagen des Design Thinking in unserer Live-Class",
+          "Lerne unser FigJam Design Thinking Template kennen und wende es praktisch an",
+          "Führe ein Expert*inneninterview durch und lerne alles über die Zielgruppe und deren Bedürfnisse",
+          "Stelle auf Basis deines Interviews Hypothesen auf, die Lösungansätze enthalten",
+          "Führe eine eigene Untersuchung innerhalb der Zielgruppe durch, um deine Hypothesen zu bestätigen",
+          "Entwickle gemeinsam mit deinen Kolleg*innen eine Produktidee"
+        ]
+      },
+      {
+        "ablaufTitel": "Informationsarchitektur",
+        "ablaufZeitraum": "Woche 2",
+        "ablaufBeschreibung": "In Woche 2 bringt ihr Struktur und Ordnung in eure Produktidee. Ihr lernt eure Funktionen und Inhalte sinnvoll zu unterteilen, und legt Navigationswege für die Nutzer*innen fest.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Grundlagen guter Informationsarchitektur",
+          "Nutze FigJam und erstelle deinen ersten Flowchart (User Flow)",
+          "Lerne den Flowchart so zu gestalten, dass den Nutzer*innen der Zugang zu allen Informationen und Funktionen ermöglicht wird"
+        ]
+      },
+      {
+        "ablaufTitel": "User Storys",
+        "ablaufZeitraum": "Woche 3",
+        "ablaufBeschreibung": "In Woche 3 unseres Kurses lernst du die Stärke von User Storys kennen. Wende dieses Werkzeug an, um gewünschte Funktionalitäten deiner Produktidee aus Sicht der Anwender*innen zu beschreiben.",
+        "ablaufBeschreibungPunkte": [
+          "Lerne User Storys zu entwickeln, die leicht zu verstehen sind und die Wünsche der Anwender*innen vermitteln",
+          "Lerne wie du mit Hilfe der User Storys schnell und einfach eine Aufwandsschätzung realisierst",
+          "Verfeinere deine User Storys schrittweise und unterstütze so die iterative Entwicklung des Produktes in seiner Tiefe"
+        ]
+      },
+      {
+        "ablaufTitel": "Wireframe",
+        "ablaufZeitraum": "Woche 4",
+        "ablaufBeschreibung": "In Woche 4 lernst du deine Produktidee oder dein Konzept zu visualisieren. Mit dieser Methode versuchst du Teile der Informationsarchitektur, der Benutzerführung und der Navigation zu repräsentieren.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Erstellung eines Wirframes",
+          "Lerne unser Figma Wireframe Template kennen",
+          "Führe ein Experteninterview durch und lerne alles über die Zielgruppe und deren Bedürfnisse",
+          "Setze deine Produktidee praktisch um und erstelle mit Hilfe des Templates deinen ersten Wireframe"
+        ]
+      },
+      {
+        "ablaufTitel": "Animation & Prototyping",
+        "ablaufZeitraum": "Woche 5",
+        "ablaufBeschreibung": "In Woche 5 festigen wir euer Wissen rund um das Thema Prototyping. Außerdem entführen wir euch in die spannende Welt der Animationen.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Grundlagen der Animationen in Figma",
+          "Erstelle deine eigenen Lotty Files",
+          "Pimpe deinen Prototypen durch Verwendung von Animationen und Übergängen",
+          "Lerne deine Komponenten zu animieren und deinen Prototypen erlebbarer zu machen"
+        ]
+      },
+      {
+        "ablaufTitel": "Usability Testing",
+        "ablaufZeitraum": "Woche 6",
+        "ablaufBeschreibung": "In Woche 6 zeigen wir dir, wie man moderierte und unmoderierte Usability-Tests vorbereitet und durchführt. In dieser Woche liegt der Fokus auf dem Erstellen von Usability-Testaufgaben und dem formulieren von sogenannten Nachfassfragen.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Grundlagen des Usability-Testings",
+          "Formuliere passende Testaufgaben und Nachfassfragen",
+          "Lerne eine Reihe von Tools und Vorlagen kennen, mit denen du Usability-Tests durchführen kannst",
+          "Sammle dein Feedback und lernen, wie du verwertbare Ergebnisse filtern und zusammenstellen kannst"
+        ]
+      },
+      {
+        "ablaufTitel": "Design System",
+        "ablaufZeitraum": "Woche 7",
+        "ablaufBeschreibung": "In Woche 7 erlernt ihr alle wichtigen Grundlagen, um ein Design System in Figma zu erstellen. Das Design System ist die Basis für alle weiteren Designschritte, die ihr benötgt, um ein digitales Produkt in Figma entstehen zu lassen.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Grundlagen des Design Systems",
+          "Lerne Schrift- und Farbbibliotheken zu erstellen",
+          "Legt euch ein eigenes Bootstrap Layout-Grid an",
+          "Erarbeite deine ersten Textkomponenten und lerne Gestaltungsrichtlinien im Umgang mit Schrift und Text kennen"
+        ]
+      },
+      {
+        "ablaufTitel": "UI interaktive Komponenten",
+        "ablaufZeitraum": "Woche 8",
+        "ablaufBeschreibung": "In Woche 8 geht es ans Eingemachte. Hier lernt ihr die Erstellung und den Umgang mit Komponenten, Variablen und dem Auto-Layout von Figma.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Grundlagen interaktiver Komponenten in Figma",
+          "Erstelle Komponenten und lerne diese anzuwenden",
+          "Lege Variablen an, die dir das Arbeiten mit Komponenten vereinfachen",
+          "Erlerne die Verwendung des Auto-Layouts in Figma"
+        ]
+      },
+      {
+        "ablaufTitel": "Abschlussprojekt",
+        "ablaufZeitraum": "Woche 9",
+        "ablaufBeschreibung": "Practice, practice, practice... In Woche 9 könnt ihr zeigen was ihr die ganzen letzten Wochen gelernt habt. Gemeinsam mit euren Teamkolleg*innen durchlauft ihr nochmal alle Phasen und arbeitet an eurem ersten richtigen Kundenauftrag.",
+        "ablaufBeschreibungPunkte": [
+          "Bearbeitung eines Kundenauftrags im Teamverband",
+          "Von der Idee bis zum fertigen Prototypen, werden alle Phasen druchlaufen",
+          "Starkes innovatives & digitales Endprodukt für euer zukünftiges Portfolio"
+        ]
+      },
+      {
+        "ablaufTitel": "Portfolio & Bewerbung",
+        "ablaufZeitraum": "Woche 10",
+        "ablaufBeschreibung": "In unserer Abschlusswoche konzentrieren wir uns auf den Bewerbungsprozess. Lerne Do`s & Don`ts bei deinem Bewerbungsprozess, und wie du dein Portfolio erfolgreich aufbaust.",
+        "ablaufBeschreibungPunkte": [
+          "Beispiel für einen erfolgreichen Bewerbungsprozess",
+          "Grundlage zur Erstellung eines Portfolios",
+          "Tools und Methoden um deine Arbeiten zu präsentieren"
+        ]
+      }
+    ],
+    "timetable": [
+      {
+        "wochentag": "Montag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Vorbereitung",
+            "duration": "30 min.",
+            "description": "Warmup & Kurzeinführung in den Themenbereich"
+          }
+        ]
+      },
+      {
+        "wochentag": "Dienstag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Live Kurs",
+            "duration": "2 Stunden",
+            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+          },
+          {
+            "block": 2,
+            "title": "Design Meet Up",
+            "duration": "1 Stunde",
+            "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
+          }
+        ]
+      },
+      {
+        "wochentag": "Mittwoch",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Vertiefung",
+            "duration": "30 min.",
+            "description": "Wiederhole das Gelernte und bereite Fragen für den WS vor"
+          }
+        ]
+      },
+      {
+        "wochentag": "Donnerstag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Workshop",
+            "duration": "1 Stunde",
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+          },
+          {
+            "block": 2,
+            "title": "Workout",
+            "duration": "1 Stunde",
+            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+          }
+        ]
+      },
+      {
+        "wochentag": "Freitag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Praxisaufgabe",
+            "dauer": "2 Stunden",
+            "description": "Bearbeite die praktische Aufgabe zum Wochenthema"
+          }
+        ]
+      }
+    ],
+    "alumniZitat": [
+      {
+        "alumniCopy": "Mir hat der UI & UX Kurs  super viel Spaß gemacht, die Doppelcombo aus Theorie & Praxis macht es einfach, schnell in die Thematik rein zu kommen! Den Karrierewechsel kann ich allen nur noch empfehlen, also ab zu den Kursangeboten und meldet euch an!",
+        "alumniName": "Ann-Christin",
+        "alumniImage": "alumni-zitat-01.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ui-design-microcamp",
+    "theme": "design",
+    "category": "UX/UI-Design",
+    "subTheme": "UI Design",
+    "title": "",
+    "microCamp": "UX/UI-MicroCamp",
+    "modell": "Teilzeit",
+    "duration": "10 Wochen",
+    "level": "Beginner",
+    "image": "kurse/design5.png",
+    "jobtitle": "UI-Designer*in",
+    "headerDescription": "Erlernen alle UI-Design Fähigkeiten und meistere die Gestaltung schöner und funktionaler Oberflächen in Figma. Erstelle UI-Komponenten, Schrift- und Farbbibliotheken und erlerne Gestaltungsrichtlinien für ein gutes UI-Design.",
+    "toolsInternal": [
+      {
+        "name": "Figma",
+        "image": "tools/figma.svg"
+      },
+      {
+        "name": "Discord",
+        "image": "tools/discord.svg"
+      }
+    ],
+    "curriculumOverview": [
+      {
+        "curriculumTitle": "Arbeiten mit Figma",
+        "curriculumPreview": "Wir zeigen dir, wie flexibel du Figma deinen Ansprüchen anpassen kannst"
+      },
+      {
+        "curriculumTitle": "Farbpalette",
+        "curriculumPreview": "Statt dem Farb-Picker lernst du mit Hilfe von Colourbox deine Farben zu definieren & organsieren"
+      },
+      {
+        "curriculumTitle": "Type Scales & Grid Systeme",
+        "curriculumPreview": "Lerne welchen Einfluss Typografie und Sprache auf dein Interface-Design hat"
+      },
+      {
+        "curriculumTitle": "Layouts & Auto Layout",
+        "curriculumPreview": "Gib deinen Designs und Komponenten genug Platz zum Atmen"
+      },
+      {
+        "curriculumTitle": "Responsive Design",
+        "curriculumPreview": "Lerne wie du deine Designs enstprechend der verschieden Endgeräte in der Größe anpassen kannst."
+      },
+      {
+        "curriculumTitle": "UI interaktive Komponenten",
+        "curriculumPreview": "Erstelle Auto-Layout-Komponenten & Varianten in Figma"
+      },
+      {
+        "curriculumTitle": "Komponenten Eigenschaften",
+        "curriculumPreview": "Vertiefe deine Fähigkeiten im Umgang mit der Auto-Layout-Funktion von Figma"
+      },
+      {
+        "curriculumTitle": "Animation & Prototyping",
+        "curriculumPreview": "Lerne Animationen zu erstellen und Lotty-Files in deinen Prototypen zu integrieren"
+      },
+      {
+        "curriculumTitle": "Handover",
+        "curriculumPreview": "Lerne Do`s & Don`ts bei deinem Bewerbungsprozess, und wie du dein Portfolio erfolgreich aufbaust"
+      }
+    ],
+    "curriculumExtended": [
+      {
+        "ablaufTitel": "Vorbereitung und Kennenlernen",
+        "ablaufZeitraum": "Vorbereitung",
+        "ablaufBeschreibung": "Lerne deine Camp-Kolleg*innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
+        "ablaufBeschreibungPunkte": [
+          "Erstelle einen Account auf Figma und Discord",
+          "Lerne deine Kolleg*innen auf Discord kennen",
+          "Mache dich mit der Discord Umgebung vertraut",
+          "Mache dich mit der Figma Umgebung vertraut",
+          "Bearbeite unser Aufwärmübung auf FigJam",
+          "Schau dir unsere kurze Zusammenfassung zum Thema Design Thinking an"
+        ]
+      },
+      {
+        "ablaufTitel": "Arbeiten mit Figma",
+        "ablaufZeitraum": "Woche 1",
+        "ablaufBeschreibung": "In der ersten Woche machen wir dich mit Figma vertraut und zeigen dir wie flexibel du Figma deinen Ansprüchen anpassen kannst. Je nach Größe und Art des Projekts lässt sich das Programm flexibel skalieren.",
+        "ablaufBeschreibungPunkte": [
+          "Lerne, wie du Figma effektiv und individuell für dich nutzen kannst",
+          "Lerne deine Figma-Projekte zu organisieren und zu strukturieren",
+          "Lerne, die wichtigsten Figma-Plugins und Shortcuts anzuwenden",
+          "Verstehe und nutze die Funktion der Figma-Designversionen"
+        ]
+      },
+      {
+        "ablaufTitel": "Farbpalette",
+        "ablaufZeitraum": "Woche 2",
+        "ablaufBeschreibung": "In der 2. Wochen lernst du den Umgang mit sogenannten Farbpaletten. Statt dem Farb-Picker nutzen wir von nun an das Plugin Colorbox um unsere Farben zu definieren, anzulegen und zu organisieren.",
+        "ablaufBeschreibungPunkte": [
+          "Erstelle deine ersten Farb-Styles mit Hilfe der Colourbox",
+          "Erstelle Farbschattierungen und Farbtöne und lerne diese zu benennen und zu strukturieren",
+          "Erstellen eine skalierbare & zugängliche Farbpalette in Figma"
+        ]
+      },
+      {
+        "ablaufTitel": "Type Scales & Grid Systems",
+        "ablaufZeitraum": "Woche 3",
+        "ablaufBeschreibung": "In Woche 3 zeigen wir dir, welchen Einfluss Typografie und Sprache auf dein Interface-Design hat. \nDu bekommst einen Einblick in die verschiedenen Schriftkombinationen & Schriftgrößen und wie sie sich auf unterschiedlichen Bildschirmgrößen verhalten.",
+        "ablaufBeschreibungPunkte": [
+          "Lerne die Grundlagen der Typografie",
+          "Lerne die Bedeutung der Schrifthierarchie kennen",
+          "Erstelle ‘heading’, ‘body’, and ‘button’ Schriftstile",
+          "Lerne wie du Textblöcke mit Auto-Layout platzieren und gestalten kannst",
+          "Werde sicherer im Umgang mit den Schriftarten und Schriftkombinationen"
+        ]
+      },
+      {
+        "ablaufTitel": "Layouts & Auto layout",
+        "ablaufZeitraum": "Woche 4",
+        "ablaufBeschreibung": "In der vierten Woche bekommst du einen Einblick in die Welt von Raster, Abstände und Ausrichtungssysteme, die dafür sorgen, dass dein Design und deine Komponenten genügend Platz zum Atmen haben. Lerne ein einheitliches Layout zu schaffen, welches für alle Bildschirmgrößen und Geräte gilt.",
+        "ablaufBeschreibungPunkte": [
+          "Lerne ein Rastersystem zu verwenden",
+          "Nutze das Auto-Layout um deine Komponenten am Raster auszurichten",
+          "Erlerne die gängigen Layouts und Raster für Mobile und Desktop Oberflächen",
+          "Lerne, wie wichtig es ist, genug White-Space in deinen Interface-Designs zu verwenden"
+        ]
+      },
+      {
+        "ablaufTitel": "Responsive Design",
+        "ablaufZeitraum": "Woche 5",
+        "ablaufBeschreibung": "Für viele Designer*innen stellt es eine Herausfoderung dar, mühelos über verschiedene Geräte hinweg zu gestalten. In Woche 5 zeigen wir dir, wie du mit Hilfe der Auto-Layout Funktion von Figma deine Designs enstprechend der verschiedenen Endgeräte in der Größe anpassen kannst. Diesen Prozess nennt man responsives Gestalten.",
+        "ablaufBeschreibungPunkte": [
+          "Lerne die Grundlagen des responsiven Designs",
+          "Beherrsche die Auto-Layout-Funktion & Größenanpassung in Figma",
+          "Lege Variablen an, die dir das Arbeiten mit Komponenten vereinfacht",
+          "Strukturiere deine unterschiedlichen responsiven Figma-Seiten"
+        ]
+      },
+      {
+        "ablaufTitel": "UI interaktive Komponenten",
+        "ablaufZeitraum": "Woche 6",
+        "ablaufBeschreibung": "In Woche 6 geht es ans Eingemachte. Hier lernt ihr die Erstellung und den Umgang mit Komponenten, Variablen und dem Auto-Layout von Figma.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Grundlagen interaktiver Komponenten in Figma",
+          "Erstelle Komponenten und lerne diese anzuwenden",
+          "Lege Variablen an, die dir das Arbeiten mit Komponenten vereinfacht",
+          "Erlerne die Verwendung des Auto-Layouts in Figma"
+        ]
+      },
+      {
+        "ablaufTitel": "Komponenten Eigenschaften",
+        "ablaufZeitraum": "Woche 7",
+        "ablaufBeschreibung": "In Woche 7 werden wir deine Fähigkeiten im Umgang mit der Auto-Layout-Funktion von Figma vertiefen. Wir zeigen dir, wie du schwierige und verschachtelte Komponenten, Navigationen oder Tabellen erstellen kannst.",
+        "ablaufBeschreibungPunkte": [
+          "Vertiefe deine Fähigkeiten im Umgang mit der Auto-Layout-Funktion",
+          "Entwerfe fortgeschrittene interaktive Komponenten in Figma",
+          "Verstehe den Umgang mit verschachtelten Komponenten in Figma"
+        ]
+      },
+      {
+        "ablaufTitel": "Prototyping & Animation",
+        "ablaufZeitraum": "Woche 8",
+        "ablaufBeschreibung": "In Woche 8 festigen wir eurer Wissen rund um das Thema Prototyping. Außerdem entführen wir euch in die spannende Welt der Animationen.",
+        "ablaufBeschreibungPunkte": [
+          "Einführung in die Grundlagen der Animation in Figma",
+          "Erstelle deine eigenen Lotty Files",
+          "Pimpe deinen Prototypen durch Verwendung von Animationen und Übergängen",
+          "Lerne deine Komponenten zu animieren und deinen Portotypen erlebbarer zu machen"
+        ]
+      },
+      {
+        "ablaufTitel": "Handover",
+        "ablaufZeitraum": "Woche 9",
+        "ablaufBeschreibung": "Während unserer Abschlusswoche lassen wir nochmal gemeinsam die letzten Wochen Revue passieren und wiederholen nochmal die wichtigsten Stationen auf unserer Reise. Wir zeigen dir außerdem wie du dein Figma Projekt finalisierst und für die Übergabe an das Entwickler-Team vorbereitest.",
+        "ablaufBeschreibungPunkte": [
+          "Bearbeitung eines Kundenauftrags im Teamverband",
+          "Von der Idee bis zum fertigen Prototypen, werden alle Phasen druchlaufen",
+          "Starkes innovatives & digitales Endprodukt für euer zukünftiges Portfolio"
+        ]
+      }
+    ],
+    "timetable": [
+      {
+        "wochentag": "Montag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Vorbereitung",
+            "duration": "30 min.",
+            "description": "Warmup & Kurzeinführung in den Themenbereich"
+          }
+        ]
+      },
+      {
+        "wochentag": "Dienstag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Live Kurs",
+            "duration": "2 Stunden",
+            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+          },
+          {
+            "block": 2,
+            "title": "Design Meet Up",
+            "duration": "1 Stunde",
+            "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
+          }
+        ]
+      },
+      {
+        "wochentag": "Mittwoch",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Vertiefung",
+            "duration": "30 min.",
+            "description": "Wiederhole das Gelernte und bereite Fragen für den WS vor"
+          }
+        ]
+      },
+      {
+        "wochentag": "Donnerstag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Workshop",
+            "duration": "1 Stunde",
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+          },
+          {
+            "block": 2,
+            "title": "Workout",
+            "duration": "1 Stunde",
+            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+          }
+        ]
+      },
+      {
+        "wochentag": "Freitag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Praxisaufgabe",
+            "dauer": "2 Stunden",
+            "description": "Bearbeite die praktische Aufgabe zum Wochenthema"
+          }
+        ]
+      }
+    ],
+    "alumniZitat": [
+      {
+        "alumniCopy": "Mir hat der UI & UX Kurs  super viel Spaß gemacht, die Doppelcombo aus Theorie & Praxis macht es einfach, schnell in die Thematik rein zu kommen! Den Karrierewechsel kann ich allen nur noch empfehlen, also ab zu den Kursangeboten und meldet euch an!",
+        "alumniName": "Ann-Christin",
+        "alumniImage": "alumni-zitat-01.jpg"
+      }
+    ]
+  },
+  {
+    "id": "frontend-fundamentals-microcamp",
+    "theme": "coding",
+    "category": "Web-Entwicklung",
+    "subTheme": "Front-End",
+    "title": "Fundamentals",
+    "microCamp": "WebDev-MicroCamp",
+    "modell": "Teilzeit",
+    "duration": "10 Wochen",
+    "level": "Beginner",
+    "image": "kurse/webdev1.png",
+    "jobtitle": "Web-Entwickler*in",
+    "headerDescription": "",
+    "toolsInternal": [
+      {
+        "name": "Discord",
+        "image": "tools/discord.svg"
+      },
+      {
+        "name": "VSCode",
+        "image": "tools/vscode.svg"
+      },
+      {
+        "name": "HTML",
+        "image": "tools/html.svg"
+      },
+      {
+        "name": "CSS",
+        "image": "tools/css.svg"
+      },
+      {
+        "name": "JavaScript",
+        "image": "tools/js.svg"
+      },
+      {
+        "name": "GitHub",
+        "image": "tools/github.svg"
+      }
+    ],
+    "curriculumOverview": [
+      {
+        "curriculumTitle": "WebDev Essentials",
+        "curriculumPreview": "Was ist Web-Entwicklung und wie funktioniert das?"
+      },
+      {
+        "curriculumTitle": "HTML Basics",
+        "curriculumPreview": "Who the HTML?! Einführung in HTML"
+      },
+      {
+        "curriculumTitle": "CSS Basics",
+        "curriculumPreview": "Basics zum Stylen und Positionieren von Elementen"
+      },
+      {
+        "curriculumTitle": "Git/GitHub",
+        "curriculumPreview": "Git kennen und lieben lernen"
+      },
+      {
+        "curriculumTitle": "HTML/CSS deep dive",
+        "curriculumPreview": "Ab jetzt ist richtig was los 😍"
+      },
+      {
+        "curriculumTitle": "JavaScript Essentials",
+        "curriculumPreview": "JavaScript in seiner Funktion in der Web-Entwicklung"
+      },
+      {
+        "curriculumTitle": "JavaScript Basics",
+        "curriculumPreview": "Einführung in JavaScript und den gängigen Konventionen"
+      },
+      {
+        "curriculumTitle": "JavaScript Events",
+        "curriculumPreview": "Lerne, wie man mit einem Klick die Welt verändern kann"
+      },
+      {
+        "curriculumTitle": "Practice, Practice & Pratice",
+        "curriculumPreview": "Learning by burning mit Übung zum Erfolg"
+      }
+    ],
+    "curriculumExtended": [
+      {
+        "ablaufTitel": "WebDev Essentials & Kennenlernen",
+        "ablaufZeitraum": "Vorbereitung",
+        "ablaufBeschreibung": "Lerne deine Camp-Kolleg*innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
+        "ablaufBeschreibungPunkte": [
+          "Erstelle einen Account auf Discord und unserer Plattform",
+          "Lerne deine Kolleg*innen auf Discord kennen",
+          "Mache dich mit der Discord Umgebung vertraut",
+          "Mache dich mit der VSCode Umgebung vertraut"
+        ]
+      },
+      {
+        "ablaufTitel": "HTML Basics",
+        "ablaufZeitraum": "Woche 1",
+        "ablaufBeschreibung": "Beginne mit den ersten Schritte in Richtung Web-Entwickler*in. Hier lernen wir die Syntax von HTML kennen, die Unterschiede zwischen den Elementen und wie man diese in eine semantische Struktur bringt.",
+        "ablaufBeschreibungPunkte": [
+          "Workflow mit Visual Studio Code",
+          "Erstellen von HTML Dokumenten und HTML lesen lernen",
+          "Semantische Struktur",
+          "Unterschied zwischen den Elementen und deren Eigenschaften"
+        ]
+      },
+      {
+        "ablaufTitel": "CSS Basics",
+        "ablaufZeitraum": "Woche 2",
+        "ablaufBeschreibung": "Du erkennst mittlerweile guten und schlechten HTML Aufbau. Jetzt gehen wir ans Styling, whoop whoop! Ab jetzt kommt Farbe ins Spiel und du lernst wie man Element verändert und deren Position auf der Website anpasst.",
+        "ablaufBeschreibungPunkte": [
+          "HTML & CSS verbinden",
+          "Was bedeutet eigentlich Cascading Style Sheet?",
+          "Farben, Größen, Formen und Position"
+        ]
+      },
+      {
+        "ablaufTitel": "Git & GitHub",
+        "ablaufZeitraum": "Woche 3",
+        "ablaufBeschreibung": "Das Arbeiten mit Git ist ein essentieller Bestandteil beim Arbeiten im Team. Mit GitHub haben wir hier die passende Plattform für dich und zeigen dir wie man Visual Studio Code mit GitHub verbindet, seine Projekte hochladen kann und wie arbeiten mit Git funktioniert.",
+        "ablaufBeschreibungPunkte": [
+          "Erstelle einen GitHub Account",
+          "Visual Studio Code mit GitHub verbinden",
+          "Wie funktioniert Git?",
+          "Erstes Repository erstellen und auf GitHub hochladen"
+        ]
+      },
+      {
+        "ablaufTitel": "HTML/CSS deep dive",
+        "ablaufZeitraum": "Woche 4",
+        "ablaufBeschreibung": "Jetzt packen wir die dicken Geschütze aus. Von Flexbox über Animationen, bishin zu Grid ist jetzt alles dabei. Ab jetzt sind wir im Responsive Webdesign zuhause.",
+        "ablaufBeschreibungPunkte": [
+          "CSS Animationen",
+          "Layoutsysteme wie Flexbox & Grid",
+          "Entwickeln für mehrere Devices",
+          "Gelerntes verstehen, vertiefen und anwenden"
+        ]
+      },
+      {
+        "ablaufTitel": "JavaScript Essentials",
+        "ablaufZeitraum": "Woche 5",
+        "ablaufBeschreibung": "Lerne worauf es in JavaScript ankommt. Von Einbindung ins HTML zu Konventionen haben wir hier alles dabei.",
+        "ablaufBeschreibungPunkte": [
+          "What the fuck is JS?!",
+          "Wie binde ich JavaScript in meine Website ein?",
+          "Tauche in die Welt der Konsole ab!",
+          "Bei der Namensvergabe gibt es Konventionen? Yes!"
+        ]
+      },
+      {
+        "ablaufTitel": "JavaScript Basics",
+        "ablaufZeitraum": "Woche 5",
+        "ablaufBeschreibung": "Erste Schritte sind so wichtig - endlich auch in Javascript, whoop whoop! Wir werden Datentypen, Konsolenbefehle, Variablen und Funktionen kennenlernen. Wie man diese logisch aufbaut und strukturiert.",
+        "ablaufBeschreibungPunkte": [
+          "JavaScript primitive Datentypen",
+          "JavaScript Inputs & Outputs",
+          "ES6 Syntax",
+          "Was ist eine Funktion & wie schreibe ich die?"
+        ]
+      },
+      {
+        "ablaufTitel": "JavaScript Events",
+        "ablaufZeitraum": "Woche 7",
+        "ablaufBeschreibung": "Mittlerweile hast du die Syntax der Basics in JavaScript verinnerlicht und kannst eigenständig kleine Funktionen erstellen. Jetzt kommen Events ins Spiel! Wie zum Beispiel ein sogenanntes onClick Event, ab hier beginnt der Spaß erst richtig.",
+        "ablaufBeschreibungPunkte": [
+          "Funktionen vertiefen",
+          "Events kennenlernen",
+          "Events auf HTML Elemente anwenden"
+        ]
+      },
+      {
+        "ablaufTitel": "Practice, Practice & Practice",
+        "ablaufZeitraum": "Woche 8",
+        "ablaufBeschreibung": "Um etwas zu lernen muss man es anwenden. Wir bieten dir ein Projektorientiertes MicroCamp an, damit du deine gelernten Tools sofort einsetzen und hinterher schon dein erstes Portfolio auf GitHub präsentieren kannst.",
+        "ablaufBeschreibungPunkte": [
+          "Lernen, anwenden, üben, repeat",
+          "Projekte, Projekte, Projekte"
+        ]
+      }
+    ],
+    "timetable": [
+      {
+        "wochentag": "Montag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Vorbereitung",
+            "duration": "30 min.",
+            "description": "Warmup & Kurzeinführung in den Themenbereich"
+          }
+        ]
+      },
+      {
+        "wochentag": "Dienstag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Live Kurs",
+            "duration": "2 Stunden",
+            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+          },
+          {
+            "block": 2,
+            "title": "Design Meet Up",
+            "duration": "1 Stunde",
+            "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
+          }
+        ]
+      },
+      {
+        "wochentag": "Mittwoch",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Vertiefung",
+            "duration": "30 min.",
+            "description": "Wiederhole das Gelernte und bereite Fragen für den WS vor"
+          }
+        ]
+      },
+      {
+        "wochentag": "Donnerstag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Workshop",
+            "duration": "1 Stunde",
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+          },
+          {
+            "block": 2,
+            "title": "Workout",
+            "duration": "1 Stunde",
+            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+          }
+        ]
+      },
+      {
+        "wochentag": "Freitag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Praxisaufgabe",
+            "dauer": "2 Stunden",
+            "description": "Bearbeite die praktische Aufgabe zum Wochenthema"
+          }
+        ]
+      }
+    ],
+    "alumniZitat": [
+      {
+        "alumniCopy": "Das Camp ist für Anfänger*innen super aufgebaut und strukturiert, denn die Themenblöcke beinhalten nicht nur das theoretische Wissen sondern man kann durch Praxisprojekte das Wissen direkt verinnerlichen. Das Gefühl plötzlich aus einer leeren Seite eine ganze Page programmiert zu haben, und das bereits in den ersten paar Wochen, ist unschlagbar.",
+        "alumniName": "Simon",
+        "alumniImage": "alumni-zitat-01.jpg"
       }
     ]
   }

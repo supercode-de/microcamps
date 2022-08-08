@@ -1,7 +1,16 @@
 import { BiMenuAltLeft } from "react-icons/bi";
+import { NavHashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
+import { useLocation } from 'react-router-dom';
 
 const Nav = () => {
+    let location = useLocation()
+    console.log(location);
+    if (location.pathname.includes("/course/")) {
+        console.log("yes");
+    } else {
+        console.log("no")
+    }
     return (
         <section className="nav">
             <div className="wrap">
@@ -12,31 +21,52 @@ const Nav = () => {
                         </h1>
                     </Link>
                 </div>
-                <div className="nav__navigation">
-                    <ul>
-                        <li>
-                            <a href="#allCourses">KURSE</a>
-                        </li>
-                        <li>
-                            <a href="#wiesoWir">WIESO WIR?</a>
-                        </li>
-                        <li>
-                            <a href="#alumniSection">ALUMNI</a>
-                        </li>
-                        <li>
-                            <a href="#ourStory">UNSERE STORY</a>
-                        </li>
-                        <li>
-                            <a href="#newsletter">NEWSLETTER</a>
-                        </li>
-                        <li>
-                            <a href="#faq">FAQ</a>
-                        </li>
-                    </ul>
-                    <div className="nav__navigation__burgerNav">
-                        <BiMenuAltLeft />
+                {location.pathname.includes("/course/")
+                    ?
+                    <div className="nav__navigation">
+                        <ul>
+                            <li>
+                                <NavHashLink to="#allCourses">KURSE</NavHashLink>
+                            </li>
+                            <li>
+                                <NavHashLink to="#newsletter">NEWSLETTER</NavHashLink>
+
+                            </li>
+                            <li>
+                                <NavHashLink to="#faq">FAQ</NavHashLink>
+                            </li>
+                        </ul>
+                        <div className="nav__navigation__burgerNav">
+                            <BiMenuAltLeft />
+                        </div>
                     </div>
-                </div>
+                    :
+                    <div className="nav__navigation">
+                        <ul>
+                            <li>
+                                <NavHashLink to="#allCourses">KURSE</NavHashLink>
+                            </li>
+                            <li>
+                                <NavHashLink to="#wiesoWir">WIESO WIR?</NavHashLink>
+                            </li>
+                            <li>
+                                <NavHashLink to="#alumniSection">ALUMNI</NavHashLink>
+                            </li>
+                            <li>
+                                <NavHashLink to="#ourStory">UNSERE STORY</NavHashLink>
+                            </li>
+                            <li>
+                                <NavHashLink to="#newsletter">NEWSLETTER</NavHashLink>
+                            </li>
+                            <li>
+                                <NavHashLink to="#faq">FAQ</NavHashLink>
+                            </li>
+                        </ul>
+                        <div className="nav__navigation__burgerNav">
+                            <BiMenuAltLeft />
+                        </div>
+                    </div>
+                }
             </div>
         </section>
     );

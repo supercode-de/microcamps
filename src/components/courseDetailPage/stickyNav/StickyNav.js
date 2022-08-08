@@ -16,7 +16,7 @@ const StickyNav = () => {
                                     : ""
                             }
                         >
-                            Overview
+                            Übersicht
                         </NavHashLink>
                     </li>
                     <li>
@@ -28,7 +28,7 @@ const StickyNav = () => {
                                     : ""
                             }
                         >
-                            UX/UI Curriculum
+                            Curriculum
                         </NavHashLink>
                     </li>
                     <li>
@@ -40,19 +40,7 @@ const StickyNav = () => {
                                     : ""
                             }
                         >
-                            Schedule
-                        </NavHashLink>
-                    </li>
-                    <li>
-                        <NavHashLink
-                            to="#portfolioSection"
-                            className={
-                                location.hash === "#portfolioSection"
-                                    ? "active__navlink"
-                                    : ""
-                            }
-                        >
-                            Portfolio
+                            Zeitplan
                         </NavHashLink>
                     </li>
                     <li>
@@ -88,19 +76,15 @@ const StickyNav = () => {
                                     : ""
                             }
                         >
-                            Pricing
+                            Bezahlung
                         </NavHashLink>
                     </li>
-                    <li>
-                        <NavHashLink to="/">Micro Class</NavHashLink>
-                    </li>
 
-                    <li>
+{/* die Sektion gibt es noch nicht */}
+                    {/* <li>
                         <NavHashLink to="/">Next Bootcamp</NavHashLink>
-                    </li>
-                    <li>
-                        <NavHashLink to="/">Questions?</NavHashLink>
-                    </li>
+                    </li> */}
+
                 </ul>
             </div>
         </section>

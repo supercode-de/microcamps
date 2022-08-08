@@ -6,7 +6,9 @@ import ArrowForwardIosSharpIcon from "@mui/icons-material/ArrowForwardIosSharp";
 import { useState } from "react";
 import styled from "@emotion/styled";
 
-const CurriculumSection = () => {
+const CurriculumSection = (props) => {
+    const { theme, subTheme, modell, duration, curriculumExtended, category, jobtitle } = props.data
+
     const Accordion = styled((props) => (
         <MuiAccordion disableGutters elevation={0} square {...props} />
     ))(({ theme }) => ({
@@ -55,32 +57,14 @@ const CurriculumSection = () => {
                 <article className="curriculumSection__introArticle">
                     <div className="curriculumSection__introArticle__textWrap">
                         <div className="curriculumSection__introArticle__headline">
-                            <p>UX/UI Curriculum</p>
-                            <h3>Learn-by-doing with</h3>
-                            <h3>live classes</h3>
+                            <p>{category}Curriculum</p>
+                            <h3>Steig direkt ein</h3>
+                            <h3>in die Praxis {theme === "design" ? "des UX/UI-Designs" : theme === "coding" ? "der Web-Entwicklung" : theme === "data" ? "der Datenwissenschaften" : "" }</h3>
                         </div>
                         <div className="curriculumSection__introArticle__text">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Massa pellentesque sit id
-                                quisque. Ipsum ut pulvinar lorem at dolor nullam
-                                arcu velit.{" "}
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Massa pellentesque sit id
-                                quisque. Ipsum ut pulvinar lorem at dolor nullam
-                                arcu velit. Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Massa pellentesque
-                                sit id quisque. Ipsum ut pulvinar lorem at dolor
-                                nullam arcu velit.{" "}
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Massa pellentesque sit id
-                                quisque. Ipsum ut pulvinar lorem at dolor nullam
-                                arcu velit.
-                            </p>
+                            <p>Unser MicroCamp ist so aufgebaut, dass du {category} Schritt für Schritt mit einem Curriculum lernst, das sich zu 100 % auf Learning-by-Doing konzentriert.</p>
+                            <p>Im Gegensatz zu vielen {category} Kursen, die seit Jahren denselben Powerpoint-lastigen Lehrplan vermitteln, lernst du in unserem MicroCamp die neuesten Tools, Workflows und Best Practices live und online.</p>
+                            <p>Um Zeit zu sparen und von Anfang an richtig durchzustarten, empfehlen wir dir, dich vor dem MicroCamp schon einmal mit der Materie vertraut zu machen und ein paar Praxisübungen zu absolvieren.</p>
                         </div>
                     </div>
                     <img src="/img/curriculumPic1.png" alt="Supercode People" />
@@ -89,148 +73,52 @@ const CurriculumSection = () => {
                     <img src="/img/curriculumPic2.png" alt="Supercode People" />
                     <div className="curriculumSection__introArticle__textWrap">
                         <div className="curriculumSection__introArticle__headline">
-                            <h3>Create UX/UI case studies </h3>
-                            <h3>from real design briefs</h3>
+                            <h3>
+                                {theme === "design" ? "Erstelle UX-Fallstudien anhand realer Designvorgaben" : theme === "coding" ? "Erstelle richtige Webseiten anhand von Designvorgaben" : theme === "data" ? "Erstelle richtige Datenanalysen anhand von Praxisbeispielen" : ""}
+                            </h3>
                         </div>
                         <div className="curriculumSection__introArticle__text">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Massa pellentesque sit id
-                                quisque. Ipsum ut pulvinar lorem at dolor nullam
-                                arcu velit.{" "}
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Massa pellentesque sit id
-                                quisque. Ipsum ut pulvinar lorem at dolor nullam
-                                arcu velit. Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Massa pellentesque
-                                sit id quisque. Ipsum ut pulvinar lorem at dolor
-                                nullam arcu velit.{" "}
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Massa pellentesque sit id
-                                quisque. Ipsum ut pulvinar lorem at dolor nullam
-                                arcu velit.
-                            </p>
+                            <p>In unserem Kurs lernst du nicht nur die Kernkompetenzen von Junior {jobtitle}, sondern arbeitest auch an Briefings, wie sie dir in der Berufspraxis begegnen würden.</p>
+                            <p>Dies ist eine großartige Gelegenheit, an einem Produkt zu arbeiten und relevante Fallstudien von Produkten zu erstellen!</p>
                         </div>
                     </div>
                 </article>
                 <article className="curriculumSection__curriculumView">
                     <div className="curriculumSection__curriculumView__introText">
-                        <h4>10 weeks | Teilzeit</h4>
-                        <p>
-                            Our Part-time Bootcamp is an immersive 10 weeks.
-                            You'll be joining 20 Designers from around the world
-                            and jumping into live classes Monday and Wednesday.
-                        </p>
+                        <h4>{duration} | {modell}</h4>
+                        <p>Unser MicroCamp ist ein {Number(duration.slice(0, 1)) > 10 ? Number(duration.slice(0, 1)) : Number(duration.slice(0, 2))}-wöchiger Intensivkurs. Erlerne mit maximal 20 Teilnehmer*innen aus ganz Deutschland die Grundlagen von {subTheme}.</p>
                     </div>
                     <div className="curriculumSection__curriculumView__arccordion">
-                        <Accordion
-                            expanded={expanded === "panel1"}
-                            onChange={handleChange("panel1")}
-                        >
-                            <AccordionSummary
-                                aria-controls="panel1d-content"
-                                id="panel1d-header"
+
+                        {curriculumExtended.map((curriculumExtendedItem, index) => (
+                            <Accordion
+                                key={index}
+                                expanded={expanded === `panel${index + 1}`}
+                                onChange={handleChange(`panel${index + 1}`)}
                             >
-                                <Typography className="headline">
-                                    Collapsible Group Item #1
-                                </Typography>
-                                <Typography className="time">
-                                    Pre-Bootcamp
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Suspendisse malesuada lacus
-                                    ex, sit amet blandit leo lobortis eget.
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Suspendisse malesuada lacus
-                                    ex, sit amet blandit leo lobortis eget.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion
-                            expanded={expanded === "panel2"}
-                            onChange={handleChange("panel2")}
-                        >
-                            <AccordionSummary
-                                aria-controls="panel2d-content"
-                                id="panel2d-header"
-                            >
-                                <Typography className="headline">
-                                    Collapsible Group Item #1
-                                </Typography>
-                                <Typography className="time">
-                                    Pre-Bootcamp
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Suspendisse malesuada lacus
-                                    ex, sit amet blandit leo lobortis eget.
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Suspendisse malesuada lacus
-                                    ex, sit amet blandit leo lobortis eget.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion
-                            expanded={expanded === "panel3"}
-                            onChange={handleChange("panel3")}
-                        >
-                            <AccordionSummary
-                                aria-controls="panel2d-content"
-                                id="panel2d-header"
-                            >
-                                <Typography className="headline">
-                                    Collapsible Group Item #1
-                                </Typography>
-                                <Typography className="time">
-                                    Pre-Bootcamp
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Suspendisse malesuada lacus
-                                    ex, sit amet blandit leo lobortis eget.
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Suspendisse malesuada lacus
-                                    ex, sit amet blandit leo lobortis eget.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
-                        <Accordion
-                            expanded={expanded === "panel4"}
-                            onChange={handleChange("panel4")}
-                        >
-                            <AccordionSummary
-                                aria-controls="panel2d-content"
-                                id="panel2d-header"
-                            >
-                                <Typography className="headline">
-                                    Collapsible Group Item #1
-                                </Typography>
-                                <Typography className="time">
-                                    Pre-Bootcamp
-                                </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                                <Typography>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Suspendisse malesuada lacus
-                                    ex, sit amet blandit leo lobortis eget.
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Suspendisse malesuada lacus
-                                    ex, sit amet blandit leo lobortis eget.
-                                </Typography>
-                            </AccordionDetails>
-                        </Accordion>
+                                <AccordionSummary
+                                    aria-controls="panel1d-content"
+                                    id="panel1d-header"
+                                >
+                                    <Typography className="headline">
+                                        {curriculumExtendedItem.ablaufTitel}
+                                    </Typography>
+                                    <Typography className="time">
+                                        {curriculumExtendedItem.ablaufZeitraum}
+                                    </Typography>
+                                </AccordionSummary>
+                                <AccordionDetails>
+                                    <Typography>
+                                        {curriculumExtendedItem.ablaufBeschreibung}
+                                    </Typography>
+                                    <ul>
+                                        {curriculumExtendedItem.ablaufBeschreibungPunkte.map((einzelnePunkte, index) => (
+                                            <li key={index}>{einzelnePunkte}</li>
+                                        ))}
+                                    </ul>
+                                </AccordionDetails>
+                            </Accordion>
+                        ))}
                     </div>
                 </article>
             </div>

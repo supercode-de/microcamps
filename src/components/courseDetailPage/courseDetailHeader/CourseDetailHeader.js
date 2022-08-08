@@ -1,31 +1,32 @@
 const CourseDetailHeader = (props) => {
+    const { theme, title, image, duration, modell, headerDescription } = props.data
     return (
         <section className="courseDetailHeader">
             <img
                 className="headerBackground"
-                src={`/img/${props.image}`}
-                alt={props.title}
+                src={`/img/${image}`}
+                alt={title}
             />
             <div className="wrap">
                 <article className="courseDetailHeader__textBlock">
                     <h2>
-                        {props.type === "data"
+                        {theme === "data"
                             ? "Data-Science"
-                            : props.type === "coding"
-                            ? "Front-End"
-                            : "UX/UI"}
+                            : theme === "coding"
+                                ? "Front-End"
+                                : "UX/UI"}
                     </h2>
-                    <h2>{props.title}</h2>
+                    <h2>{title}</h2>
                     <p>
-                        {props.form} | {props.duration}
+                        {modell} | {duration}
                     </p>
                     <div className="plusList">
-                        {props.plusSkills.map((skill) => (
-                            <img src={`/img/${skill}`} alt={skill} />
+                        {props.filteredTools.map((tool, index) => (
+                            <img src={`/img/${tool.image}`} alt={tool.name} key={index} />
                         ))}
                         <p>+ more</p>
                     </div>
-                    <p>{props.description}</p>
+                    <p>{headerDescription}</p>
                 </article>
             </div>
         </section>

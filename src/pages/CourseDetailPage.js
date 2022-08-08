@@ -28,9 +28,7 @@ const CourseDetailPage = () => {
     const course = courses.filter(
         (course) => Number(course.id) === Number(id)
     )[0];
-    // const kurseDaten = courses.filter(
-    //     (course) => Number(course.id) === Number(id)
-    // )[0];
+
     return (
         <>
             <CourseDetailHeader

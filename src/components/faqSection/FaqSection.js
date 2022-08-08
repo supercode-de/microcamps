@@ -8,8 +8,9 @@ const FaqSection = () => {
                     <span className="headlines_stroke">FAQ</span>
                 </h2>
                 <div className="faqSection__accordion">
-                    {faqdata.map((faqItem, i) => (
-                        <FaqSectionAccCard 
+                    {faqdata.map((faqItem, index) => (
+                        <FaqSectionAccCard
+                            key={index}
                             frage={faqItem.frage}
                             antwort={faqItem.antwort}
                         />

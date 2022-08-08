@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 const ToolsOneTool = ({ tool }) => {
+
     const [isHovering, setIsHovering] = useState(false);
     const handleMouseEnter = () => {
         setIsHovering(true);
@@ -16,7 +17,7 @@ const ToolsOneTool = ({ tool }) => {
             onMouseLeave={handleMouseLeave}
         >
             <div className="tool">
-                <img src={`/img/${tool}`} alt="SuperCode Tool" />
+                <img src={`/img/${tool.image}`} alt={tool.name} />
             </div>
             <div
                 className={`openCard`}
@@ -24,12 +25,8 @@ const ToolsOneTool = ({ tool }) => {
                     display: isHovering ? "inline-block" : "none",
                 }}
             >
-                <h5>Discord</h5>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Tellus magna aliquet tellus laoreet integer sapien.
-                </p>
-                <p>Tellus magna aliquet tellus laoreet integer sapien.</p>
+                <h5>{tool.name}</h5>
+                <p>{tool.description}</p>
             </div>
         </div>
     );

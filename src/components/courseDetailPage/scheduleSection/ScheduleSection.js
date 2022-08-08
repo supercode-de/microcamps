@@ -1,30 +1,25 @@
-import reasons from "../../../data/reasonsData";
+import Timetable from "./Timetable";
 import ReasonsWhyOneReason from "../../reasonsWhySection/ReasonsWhyOneReason";
+import ScheduleCTASection from "./ScheduleCTASection";
 
-const ScheduleSection = () => {
+import designReasons from "../../../data/reasonsDesignData";
+import webDevReasons from "../../../data/reasonsWebDevData";
+import dataReasons from "../../../data/reasonsDataScienceData";
+
+const ScheduleSection = (props) => {
+    const { alumniCopy, alumniName, alumniImage } = props.data.alumniZitat[0]
     return (
         <section className="scheduleSection" id="scheduleSection">
             <div className="wrap">
                 <article className="scheduleSection__textWrap">
                     <div className="scheduleSection__textWrap__headline">
-                        <p>Bootcamp schedule</p>
-                        <h3>Learn UX/UI Design live</h3>
-                        <h3>with a micro class of 20 designers</h3>
+                        <p>MicroCamp Zeitplan</p>
+                        <h3>Lerne {props.data.theme === "design" ? "UX/UI-Design" : props.data.theme === "coding" ? "Web-Entwicklung" : props.data.theme === "data" ? "Data Science" : ""} live und online</h3>
+                        <h3>in kleinen Lerngruppen</h3>
                     </div>
                     <div className="scheduleSection__textWrap__text">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Massa pellentesque sit id quisque. Ipsum ut
-                            pulvinar lorem at dolor nullam arcu velit.{" "}
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Massa pellentesque sit id quisque. Ipsum ut
-                            pulvinar lorem at dolor nullam arcu velit. Lorem
-                            ipsum dolor sit amet, consectetur adipiscing elit.
-                            Massa pellentesque sit id quisque. Ipsum ut pulvinar
-                            lorem at dolor nullam arcu velit.{" "}
-                        </p>
+                        <p>Wir möchten ehrlich zu dir sein: Unsere MicroCamps sind intensiv und es werden viele neue Themen auf dich zukommen.</p>
+                        <p>Aber wir sind stolz darauf, einen Zeitplan zu haben, der für berufstätige Menschen optimal funktioniert. Bei jedem Schritt wirst du von deinen Trainer*innen, deiner Lerngruppe und unserem guten {props.data.theme === "design" ? "Design" : props.data.theme === "coding" ? "Web-Dev" : "Data Sientist"}-Netzwerk in ganz Deutschland unterstützt!</p>
                     </div>
                 </article>
                 <img
@@ -35,148 +30,52 @@ const ScheduleSection = () => {
 
                 <article className="scheduleSection__list">
                     <ul>
-                        {reasons.map((reason, i) => (
+                        {props.data.theme === "design" ? designReasons.map((reason, i) => (
                             <ReasonsWhyOneReason
                                 key={i}
                                 id={reason.id}
                                 title={reason.title}
                                 reason={reason.reason}
                             />
-                        ))}
+                        )) : props.data.theme === "coding" ? webDevReasons.map((reason, i) => (
+                            <ReasonsWhyOneReason
+                                key={i}
+                                id={reason.id}
+                                title={reason.title}
+                                reason={reason.reason}
+                            />
+                        )) : props.data.theme === "data" ? 
+                        dataReasons.map((reason, i) => (
+                            <ReasonsWhyOneReason
+                                key={i}
+                                id={reason.id}
+                                title={reason.title}
+                                reason={reason.reason}
+                            />
+                        )) : ""}
                     </ul>
                 </article>
+                
                 <article className="scheduleSection__textWrap">
                     <div className="scheduleSection__textWrap__headline">
-                        <h3>Collaborate with</h3>
-                        <h3>classmates</h3>
+                        <h3>Vernetze dich mit anderen Teilnehmenden</h3>
                     </div>
                     <div className="scheduleSection__textWrap__text">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Massa pellentesque sit id quisque. Ipsum ut
-                            pulvinar lorem at dolor nullam arcu velit. Lorem
-                            ipsum dolor sit amet, consectetur adipiscing elit.
-                            Massa pellentesque sit id quisque. Ipsum ut pulvinar
-                            lorem at dolor nullam arcu velit.{" "}
-                        </p>
+                        <p>Wir tun unser Bestes, damit du {props.data.theme === "design" ? "UX-Design" : props.data.theme === "coding" ? "Web-Entwicklung" : "Data Science"} zu einer Zeit zu lernen kannst, die für dich passt. Im Moment haben wir mehrere Online Live Kurse mit verschiedenen Schwerpunkten.</p>
+                        <p>Du lernst also in einem online Kurs, kannst dich aber gleichzeitig jederzeit mit den anderen Teilnehmenden austauschen, vernetzen und gemeinsam lernen.</p>
                     </div>
                 </article>
-                <article className="scheduleSection__weekGrid">
-                    {/* Montag */}
-                    <div className="scheduleSection__weekGrid__day">
-                        <p className="dayHeadline">Montag</p>
-                        <div className="scheduleSection__weekGrid__day__card">
-                            <p className="headline">Live class</p>
-                            <p className="time">2 Stunden</p>
-                            <p className="text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.{" "}
-                            </p>
-                        </div>
-                    </div>
-                    {/* Dienstag */}
-                    <div className="scheduleSection__weekGrid__day">
-                        <p className="dayHeadline">Dienstag</p>
-                        <div className="scheduleSection__weekGrid__day__card">
-                            <p className="headline">Live class</p>
-                            <p className="time">2 Stunden</p>
-                            <p className="text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.{" "}
-                            </p>
-                        </div>
-                        <div className="scheduleSection__weekGrid__day__card">
-                            <p className="headline">Live class</p>
-                            <p className="time">2 Stunden</p>
-                            <p className="text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.{" "}
-                            </p>
-                        </div>
-                    </div>
-                    {/* Mittwoch */}
-                    <div className="scheduleSection__weekGrid__day">
-                        <p className="dayHeadline">Mittwoch</p>
-                        <div className="scheduleSection__weekGrid__day__card">
-                            <p className="headline">Live class</p>
-                            <p className="time">2 Stunden</p>
-                            <p className="text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.{" "}
-                            </p>
-                        </div>
-                    </div>
-                    {/* Donnerstag */}
-                    <div className="scheduleSection__weekGrid__day">
-                        <p className="dayHeadline">Donnerstag</p>
-                        <div className="scheduleSection__weekGrid__day__card">
-                            <p className="headline">Live class</p>
-                            <p className="time">2 Stunden</p>
-                            <p className="text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.{" "}
-                            </p>
-                        </div>
-                        <div className="scheduleSection__weekGrid__day__card">
-                            <p className="headline">Live class</p>
-                            <p className="time">2 Stunden</p>
-                            <p className="text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.{" "}
-                            </p>
-                        </div>
-                    </div>
-                    {/* Freitag */}
-                    <div className="scheduleSection__weekGrid__day">
-                        <p className="dayHeadline">Freitag</p>
-                        <div className="scheduleSection__weekGrid__day__card">
-                            <p className="headline">Live class</p>
-                            <p className="time">2 Stunden</p>
-                            <p className="text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.{" "}
-                            </p>
-                        </div>
-                    </div>
-                </article>
+
+                <Timetable timetableData={props.data.timetable}/>
+
                 <article className="scheduleSection__alumniZitat">
-                    <img src="/img/tn_small2.png" alt="SuperCode Alumni" />
+                    <img src={`/img/${alumniImage}`} alt={`SuperCode Alumni ${alumniName}`} />
                     <div className="scheduleSection__alumniZitat__textArea">
-                        <p>
-                            Ein nettes Alumni Zitat vielleicht. Adipiscing elit.
-                            Non nisi, proin nec dolor lacus, consectetur. Sapien
-                            felis arcu molestie ac pharetra. Sit arcu integer
-                            est morbi sit laoreet in. Quis mauris tincidunt id
-                            convallis et.{" "}
-                        </p>
-                        <p>Name</p>
+                        <p>{alumniCopy}</p>
+                        <p>{alumniName}</p>
                     </div>
                 </article>
-                <article className="scheduleSection__overview">
-                    <div className="scheduleSection__overview__headline">
-                        <p>Online Bootcamp Overview</p>
-                        <h3>Learn UX/UI live</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. In malesuada facilisis orci nunc. Pellentesque
-                            semper ut lobortis elementum morbi. Neque ultrices
-                            dui egestas sit et a. Nec, eget mi purus nec
-                            sollicitudin pellentesque euismod.
-                        </p>
-                    </div>
-                    <div className="scheduleSection__overview__video">
-                        <img
-                            className="backgroundImage"
-                            src="/img/anass.png"
-                            alt="Supercoder"
-                        />
-                        <img
-                            className="playButton"
-                            src="/img/playButton.svg"
-                            alt="play Button"
-                        />
-                    </div>
-                </article>
+                <ScheduleCTASection data={props.data}/>
             </div>
         </section>
     );
