@@ -1,20 +1,25 @@
 .bigPictureSection {
-    .textWrap {
-        padding: 35% 0 10% 10%;
-        background: url("../../img/tn_big.png") center/cover no-repeat;
-        border-radius: 50px;
-        h2 {
-            font-weight: 800;
-        }
-        a {
-            font-size: var(--fs-600);
-            background-color: var(--clr-super-black);
-            color: var(--clr-super-green);
-        }
-        @include mq(lg) {
-            h2 {
-                font-size: var(--fs-500);
-            }
-        }
+  .textWrap {
+    padding: 35% 0 10% 10%;
+    background: url("../../img/tn_big.png") center/cover no-repeat;
+    border-radius: 50px;
+
+    div {
+      margin-bottom: 3.12rem;
     }
+    h2 {
+      font-weight: 800;
+      max-width: 45rem;
+    }
+    a {
+      font-size: var(--fs-500);
+      background-color: var(--clr-super-black);
+      color: var(--clr-super-green);
+    }
+    @include mq(lg) {
+      h2 {
+        font-size: var(--fs-500);
+      }
+    }
+  }
 }
