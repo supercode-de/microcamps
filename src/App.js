@@ -19,7 +19,7 @@ function App() {
                 <Routes>
                 <Route path="/" element={<MicroClasses />} />
                 <Route path="/course/:id" element={<CourseDetailPageNeu />} />
-                <Route path="/supercamp/our-story" element={<OurStory />} />
+                <Route path="/our-story" element={<OurStory />} />
             </Routes>
             </ScrollToTop>
             
