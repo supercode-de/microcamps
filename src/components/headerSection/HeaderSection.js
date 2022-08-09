@@ -1,5 +1,3 @@
-import ButtonBig from "../buttons/ButtonBig";
-
 const HeaderSection = () => {
     return (
         <section className="headerSection">
