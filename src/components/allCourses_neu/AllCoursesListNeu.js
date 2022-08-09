@@ -1,11 +1,10 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import AllCoursesCardNeu from "./AllCoursesCardNeu";
 import FehlermeldungSection from "../fehlermeldungSection/FehlermeldungSection";
 
 import courseData from "../../data/courseData.json";
 
 const AllCoursesListNeu = (props) => {
-    const shouldLog = useRef(true)
     const [filteredArr, setFilteredArr] = useState(courseData);
 
     const [filterWhat, setFilterWhat] = useState([]);
@@ -16,6 +15,7 @@ const AllCoursesListNeu = (props) => {
             setFilterWhat([...filterWhat, status]);
         }
     };
+
     const [filterFor, setFilterFor] = useState([]);
     const insertfilterForState = (status) => {
         if (filterFor.includes(status)) {
@@ -24,33 +24,37 @@ const AllCoursesListNeu = (props) => {
             setFilterFor([...filterFor, status]);
         }
     };
-    useEffect(() => {
-        if (shouldLog.current) {
-            shouldLog.current = false
-            const filteredFor = courseData.filter((item) => {
-                if (filterFor.length <= 0) {
-                    return item;
-                } else {
-                    return (
-                        item.level === filterFor[0] || item.level === filterFor[1]
-                    );
-                }
-            });
-            const filteredAll = filteredFor.filter((item) => {
-                if (filterWhat.length <= 0) {
-                    return item;
-                } else {
-                    return (
-                        item.theme === filterWhat[0] ||
-                        item.theme === filterWhat[1] ||
-                        item.theme === filterWhat[2]
-                    );
-                }
-            });
-            setFilteredArr(filteredAll);
-        }
 
+    useEffect(() => {
+        const filteredFor = courseData.filter((item) => {
+            if (filterFor.length <= 0) {
+                return item;
+            } else {
+                return (
+                    item.level === filterFor[0] || item.level === filterFor[1]
+                );
+            }
+        });
+        const filteredAll = filteredFor.filter((item) => {
+            if (filterWhat.length <= 0) {
+                return item;
+            } else {
+                return (
+                    item.theme === filterWhat[0] ||
+                    item.theme === filterWhat[1] ||
+                    item.theme === filterWhat[2]
+                );
+            }
+        });
+        setFilteredArr(filteredAll);
     }, [filterWhat, filterFor]);
+
+    // mehr Kurse Button Funktionalität
+    const postsPerRow = 8
+    const [next, setNext] = useState(postsPerRow)
+    const handleShowMore = () => {
+        setNext(next + postsPerRow)
+    }
 
     return (
         <article className="allCoursesArea__list">
@@ -128,22 +132,30 @@ const AllCoursesListNeu = (props) => {
                     <p>beginner</p>
                 </label>
             </div>
-            <div className="allCoursesArea__list__viewList">
-                {filteredArr.map((course) => (
-                    <AllCoursesCardNeu
-                        key={course.id}
-                        data={course}
-                        filteredTools={props.filteredTools}
-                    />
-                ))}
-                {/* {filteredArr.map((course) => (
-                    <AllCoursesCardNeu
-                        key={course.id}
-                        data={course}
-                        filteredTools={props.filteredTools}
-                    />
-                ))} */}
-            </div>
+
+            {filteredArr.length === 0 ?
+                <FehlermeldungSection />
+                :
+                <>
+                    <div className="allCoursesArea__list__viewList">
+                        {filteredArr.slice(0, next).map((course) => (
+                            <AllCoursesCardNeu
+                                key={course.id}
+                                data={course}
+                                filteredTools={props.filteredTools}
+                            />
+                        ))}
+                    </div>
+                    {next < filteredArr.length && (
+                        <article className="btn__wrap">
+                            <button className="btn btn--more" onClick={handleShowMore}>
+                                mehr Kurse
+                            </button>
+                        </article>
+                    )}
+                </>
+            }
+
         </article>
     );
 };

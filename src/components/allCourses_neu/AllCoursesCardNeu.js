@@ -12,6 +12,7 @@ const AllCoursesCardNeu = (props) => {
     image,
     toolsInternal,
   } = props.data;
+  
   return (
     <div className="allCoursesArea__list__viewList__card">
       <div className="allCoursesArea__list__viewList__card__header">
@@ -22,14 +23,7 @@ const AllCoursesCardNeu = (props) => {
         </div>
         <p
           className="typeOfP"
-          style={{
-            backgroundColor:
-              theme === "coding"
-                ? "var(--clr-super-green)"
-                : theme === "design"
-                ? "var(--clr-super-yellow)"
-                : "var(--clr-super-black)",
-          }}
+          style={{backgroundColor: theme === "design" ? "var(--clr-super-yellow" : theme === "coding" ? "var(--clr-super-green)" : "var(--clr-super-white)"}}
         >
           {theme}
         </p>
@@ -38,11 +32,11 @@ const AllCoursesCardNeu = (props) => {
         <div className="plusList">
           {props.filteredTools
             ? props.filteredTools.map((tool, index) => (
-                <img src={`/img/${tool.image}`} alt={tool.name} key={index} />
-              ))
+              <img src={`/img/${tool.image}`} alt={tool.name} key={index} />
+            ))
             : toolsInternal.map((tool, index) => (
-                <img src={`/img/${tool.image}`} alt={tool.name} key={index} />
-              ))}
+              <img src={`/img/${tool.image}`} alt={tool.name} key={index} />
+            ))}
           <p>+ more</p>
         </div>
         <p>
