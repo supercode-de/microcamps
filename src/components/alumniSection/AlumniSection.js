@@ -17,9 +17,10 @@ const AlumniSection = () => {
                 <article className="alumniSection__videoArea">
                     {alumniInterviewsData.map((alumniItem, i) => (
                         <AlumniSectionVideoCard
+                            key={i}
                             id={alumniItem.id}
                             name={alumniItem.name}
-                            posterSrc={alumniItem.posterSrc}                            
+                            posterSrc={alumniItem.posterSrc}
                             jobtitel={alumniItem.jobtitel}
                             videoSrc={alumniItem.videoSrc}
                         />

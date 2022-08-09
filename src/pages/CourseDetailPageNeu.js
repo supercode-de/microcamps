@@ -66,8 +66,6 @@ const CourseDetailPageNeu = () => {
                 />
                 <PricingSection />
                 <ClassSection data={kurs} />
-
-                {/* <div style={{ height: "100vh" }}></div> */}
                 <AllCoursesAreaNeu filteredTools={filteredTools} />
                 <DarkInfoTextBottom />
                 <BigPictureSection />

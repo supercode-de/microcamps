@@ -1,5 +1,4 @@
 import AllCoursesListNeu from "./AllCoursesListNeu";
-
 const AllCoursesAreaNeu = (props) => {
     return (
         <section className="allCoursesArea">
@@ -10,10 +9,10 @@ const AllCoursesAreaNeu = (props) => {
                         unsere<span className="headlines_stroke">MicroCamps</span>
                     </h3>
                     <p>
-                    Du bist wissenshungrig, möchtest aber nicht gleich das ganze Menü bestellen? Kein Problem! Stell dir deine Kurse individuell zusammen und lerne nur das, was du wirklich brauchst.   
+                        Du bist wissenshungrig, möchtest aber nicht gleich das ganze Menü bestellen? Kein Problem! Stell dir deine Kurse individuell zusammen und lerne nur das, was du wirklich brauchst.
                     </p>
                 </article>
-                <AllCoursesListNeu filteredTools={props.filteredTools}/>
+                <AllCoursesListNeu filteredTools={props.filteredTools} />
                 <article className="btn__wrap">
                     <a className="btn btn--more" href="/">
                         mehr Kurse

@@ -187,7 +187,7 @@
     "level": "Beginner",
     "image": "kurse/design2.png",
     "jobtitle": "UI-Designer*in",
-    "headerDescription": "Erlerne alle Grundlagen guter User Experience. Durchlaufe die ersten wichtige Schritte beim Entwickeln eines digitalen Produktes. Erlerne und nutze unsere Methoden, die dir helfen erfolgreiche Ideen entstehen zu lassen, um daraus einen digitalen Prototypen auf Figma zu designen.",
+    "headerDescription": "Erlerne alle Grundlagen um zukünftig ansprechende und funktionale  Benutzeroberflächen in Figma zu erstellen. Erstelle UI-Komponenten, Schrift- und Farbbibliotheken und erlerne Gestaltungsrichtlinien für ein gutes UI-Design.",
     "toolsInternal": [
       {
         "name": "Figma",
@@ -1334,7 +1334,7 @@
     "level": "Beginner",
     "image": "kurse/webdev2.png",
     "jobtitle": "Web-Entwickler*in",
-    "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
+    "headerDescription": "Lerne in kurzer Zeit die Basics von JavaScript und entdecke die wunderbare Welt der Programmierung.",
     "toolsInternal": [
       {
         "name": "Discord",
@@ -1508,10 +1508,10 @@
     "microCamp": "WebDev-MicroCamp",
     "modell": "Teilzeit",
     "duration": "8 Wochen",
-    "level": "Expert",
+    "level": "Beginner",
     "image": "kurse/webdev3.png",
     "jobtitle": "Web-Entwickler*in",
-    "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
+    "headerDescription": "Deep Dive JavaScript – your welcome. Hier geht es ins Eingemachte und ab jetzt wird es richtig interessant. Von String Methoden, über Loops ist alles dabei.",
     "toolsInternal": [
       {
         "name": "Discord",
@@ -1648,7 +1648,7 @@
       {
         "ablaufTitel": "Get my Data",
         "ablaufZeitraum": "durchgehend",
-        "ablaufBeschreibung": "Programmieren ohne Data - laaaaangweilig! Hier kommen API’s zum Tragen. Was eine API ist, wie wir auf eine API zugreifen können und was wir mit ihnen anstellen klären wir in dieser Woche.",
+        "ablaufBeschreibung": "Programmieren ohne Data - laaaaangweilig! Hier kommen APIs zum Tragen. Was eine API ist, wie wir auf eine API zugreifen können und was wir mit ihnen anstellen klären wir in dieser Woche.",
         "ablaufBeschreibungPunkte": [
           "Was ist eine API?",
           "Wie können wir auf eine API zugreifen?",
@@ -1756,7 +1756,7 @@
     "level": "Beginner",
     "image": "kurse/webdev4.png",
     "jobtitle": "Web-Entwickler*in",
-    "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
+    "headerDescription": "API’s sind das Rückrat des Webs und bilden damit ein solides Fundament in der Webentwicklung. Hier lernst Du wieso, weshalb und warum.",
     "toolsInternal": [
       {
         "name": "Discord",
@@ -1932,7 +1932,7 @@
     "level": "Beginner",
     "image": "kurse/webdev5.png",
     "jobtitle": "Web-Entwickler*in",
-    "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
+    "headerDescription": "Wer JavaScript kann braucht auch ein JS-Framework und mit React haben wir hier ein wundervolles und mächtiges Tool. Dieses möchten wir dir hier näher bringen und gemeinsam mit dir lieben lernen.",
     "toolsInternal": [
       {
         "name": "Discord",
@@ -1957,6 +1957,10 @@
       {
         "name": "GitHub",
         "image": "tools/github.svg"
+      },
+      {
+        "name": "React",
+        "image": "tools/react.svg"
       }
     ],
     "curriculumOverview": [
@@ -1995,43 +1999,80 @@
     ],
     "curriculumExtended": [
       {
-        "ablaufTitel": "Essentials",
+        "ablaufTitel": "Das Konzept React",
         "ablaufZeitraum": "Woche 1",
-        "ablaufBeschreibung": "Lerne was eine API ist, woher Du API’s zum üben bekommst und welche Arten von API’s es eigentlich gibt.",
+        "ablaufBeschreibung": "React als Ganzes betrachtet ist ein ganz schöner Brocken, doch was steckt dahinter, wieso gibt es überhaupt zwei DOMs? Diese Fragen klären wir hier, damit du React als Ganzes verstehst.",
         "ablaufBeschreibungPunkte": [
-          "API Aufbau",
-          "Was kann ich schon anhand der URL erkennen?",
-          "Welche API's gibt es?"
+          "Wieso, weshalb React?",
+          "Wer nutzt React und von wem ist es?",
+          "Was unterscheidet React von anderen JS Frameworks?"
         ]
       },
       {
-        "ablaufTitel": "API Basics",
+        "ablaufTitel": "JSX Syntax",
         "ablaufZeitraum": "Woche 1",
-        "ablaufBeschreibung": "Du weißt jetzt was eine API ist und willst nun damit arbeiten. Jetzt geht’s zur Sache, wir werden mit Hilfe einer API eine kleine Website erstellen.",
+        "ablaufBeschreibung": "In React schreiben wir kein klassisches HTML, CSS & JS. Hier bringt React etwas Neues mit sich und zwar JSX. Damit wir vernüftig damit arbeiten können, lernen wir hier die Syntax und Besonderheiten von JSX.",
         "ablaufBeschreibungPunkte": [
-          "Datenstruktur lesen lernen",
-          "Mit Hilfe der fetch Methode Daten aus der API bekommen",
-          "Daten ins DOM bringen"
+          "Was kann JSX, was die klassischen Sprachen nicht können",
+          "JSX Syntax"
         ]
       },
       {
-        "ablaufTitel": "Navigieren & filtern",
+        "ablaufTitel": "Class vs Hooks",
         "ablaufZeitraum": "Woche 1",
-        "ablaufBeschreibung": "Mittlerweile kannst du Daten aus einer API in der Konsole & im DOM anzeigen lassen. Wie können wir jetzt darin navigieren und nur bestimmte Daten ausgeben lassen?",
+        "ablaufBeschreibung": "Wie alles in der IT hat auch React eine starke Weiterentwicklung hinter sich, um jetzt da zu sein wo es ist. Früher wurden Class Components genutzt und heutzutage nutzt man Hooks, welche Vorteile und Nachteile die beiden “Systeme” mitsichbringen, klären wir hier.",
         "ablaufBeschreibungPunkte": [
-          "Datenstruktur vertiefen",
-          "Navigieren mit Endpoints",
-          "Daten filtern"
+          "Was sind Class Components?",
+          "Wieso jetzt Hooks?",
+          "Erlerne den Umgang mit Hooks und welche essentiell sind"
         ]
       },
       {
-        "ablaufTitel": "Practice, Practice, Practice",
+        "ablaufTitel": "Lifecycle",
         "ablaufZeitraum": "Woche 2",
-        "ablaufBeschreibung": "Um Logik in einen Code zu implementieren, braucht es Bedingungen. Hier schauen wir uns die verschiedenen Möglichkeiten an und ergründen die Vor- & Nachteile der einzelnen Möglichkeiten.",
+        "ablaufBeschreibung": "Wie alles im Leben kommt es nicht auf einen Schlag, sonder nach und nach. So auch bei Vanilla JavaScript als auch bei React. Damit wir weniger Fehler im Umgang mit den Abläufen haben, schauen wir uns an was wann und wieso passiert.",
         "ablaufBeschreibungPunkte": [
-          "Was ist eine Bedingung?",
-          "Wo ist der Vorteil oder auch Nachteil der einzelnen Möglichkeiten?",
-          "Welche Operatoren gibt es und wie kann ich mir damit eine einfache Logik bauen?"
+          "What the fuck is Lifecycle?",
+          "Was bedeutet asynchron in JavaScript?",
+          "Wie kann ich robusten Code schreiben?"
+        ]
+      },
+      {
+        "ablaufTitel": "Dynamic Routing",
+        "ablaufZeitraum": "Woche 2 - 8",
+        "ablaufBeschreibung": "Keine Lust alles selber zu schreiben und dann dabei auch noch Fehler zu machen?! Dann lass uns doch mal schauen, wie man dynamischen Content erstellt, darin navigiert und dafür nicht jeden Link hard coden muss.",
+        "ablaufBeschreibungPunkte": [
+          "Was sind dynamische Routen?",
+          "Welche Vorteile bringt das mit sich? "
+        ]
+      },
+      {
+        "ablaufTitel": "Reusable Components",
+        "ablaufZeitraum": "durchgehend",
+        "ablaufBeschreibung": "Wie schön wäre es, Code nur einmal zu schreiben und dann an vielen verschiedenen Stellen wiederzuverwenden? Wenn das schon immer dein Traum war, dann bist du hier genau richtig. Wie das geht lernst du hier.",
+        "ablaufBeschreibungPunkte": [
+          "Was ist eine Reusable Component? ",
+          "Wie baue ich eine und wie verwende ich sie dann?"
+        ]
+      },
+      {
+        "ablaufTitel": "Get my Data",
+        "ablaufZeitraum": "durchgehend",
+        "ablaufBeschreibung": "Programmieren ohne Data - laaaaangweilig! Hier kommen APIs zum Tragen. Was eine API ist, wie wir auf sie zugreifen  und was wir mit ihnen anstellen können – jetzt auch in React!",
+        "ablaufBeschreibungPunkte": [
+          "Was ist eine API?",
+          "Wie können wir auf eine API zugreifen?",
+          "Daten aus der API im DOM anzeigen lassen",
+          "Nach Daten filtern"
+        ]
+      },
+      {
+        "ablaufTitel": "Practice, Practice & Practice",
+        "ablaufZeitraum": "durchgehend",
+        "ablaufBeschreibung": "Um etwas zu lernen muss man es anwenden. Wir bieten dir ein Projektorientiertes MicroCamp an, damit du deine gelernten Tools sofort einsetzen und hinterher schon dein erstes Portfolio auf GitHub präsentieren kannst.",
+        "ablaufBeschreibungPunkte": [
+          "Lernen, anwenden, üben, repeat",
+          "Projekte, Projekte, Projekte"
         ]
       }
     ],

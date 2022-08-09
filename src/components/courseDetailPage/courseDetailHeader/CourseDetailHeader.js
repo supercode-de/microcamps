@@ -1,5 +1,5 @@
 const CourseDetailHeader = (props) => {
-    const { theme, subTheme, title, image, duration, modell, headerDescription } = props.data
+    const { subTheme, title, image, duration, modell, headerDescription } = props.data
     return (
         <section className="courseDetailHeader">
             <img
@@ -10,12 +10,7 @@ const CourseDetailHeader = (props) => {
             <div className="wrap">
                 <article className="courseDetailHeader__textBlock">
                     <h2>
-                        {/* {theme === "data"
-                            ? "Data-Science"
-                            : theme === "coding"
-                                ? "Front-End"
-                                : "UX/UI"} */}
-                                {subTheme}
+                        {subTheme}
                     </h2>
                     <h2>{title}</h2>
                     <p>

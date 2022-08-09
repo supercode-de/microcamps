@@ -5,12 +5,6 @@ import { useLocation } from 'react-router-dom';
 
 const Nav = () => {
     let location = useLocation()
-    console.log(location);
-    if (location.pathname.includes("/course/")) {
-        console.log("yes");
-    } else {
-        console.log("no")
-    }
     return (
         <section className="nav">
             <div className="wrap">

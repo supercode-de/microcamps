@@ -10,7 +10,6 @@ import NewsletterSection from "../components/newsletterSection/NewsletterSection
 import FaqSection from "../components/faqSection/FaqSection";
 import LastBlueSection from "../components/lastBlueSection/LastBlueSection";
 
-
 const MicroClasses = () => {
     return (
         <>
