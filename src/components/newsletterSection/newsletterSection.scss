@@ -63,3 +63,13 @@
         }
     }
 }
+
+@media only screen and (max-width: 576px) {
+    .newsletterSection {
+        .newsletterSection__textAndInputArea__text .circle{
+            background: none;
+            padding: 0;
+        }
+    }
+  }
+  

@@ -140,7 +140,7 @@
             &__card {
                 background-color: var(--clr-super-blue);
                 overflow: hidden;
-                border-radius: 40px;
+                border-radius: 25px;
                 transition: all 0.2s;
 
                 @include mq(md) {

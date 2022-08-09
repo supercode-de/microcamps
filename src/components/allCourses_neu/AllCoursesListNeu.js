@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import AllCoursesCardNeu from "./AllCoursesCardNeu";
+import FehlermeldungSection from "../fehlermeldungSection/FehlermeldungSection";
 
 import courseData from "../../data/courseData.json";
 
