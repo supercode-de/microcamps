@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const OurStorySection = () => {
     return (
         <section className="ourStorySection">
@@ -41,7 +43,10 @@ const OurStorySection = () => {
                             </p>
                         </div>
                         <div className="image">
+                            <Link to="/supercamp/our-story">
                             <p>unsere Geschichte</p>
+                            </Link>
+                           
                             <img
                                 src="img/sergio02.png"
                                 alt="Sergio, Founder of Supercamp"
