@@ -1,5 +1,16 @@
+import { useEffect, useRef } from "react";
+
 const CourseDetailHeader = (props) => {
+    const shouldLog = useRef(true)
     const { subTheme, title, image, duration, modell, headerDescription } = props.data
+
+    useEffect(() => {
+        if (shouldLog.current) {
+            shouldLog.current = false
+            document.title = `${subTheme} ${title} MicroCamp`
+        }
+    })
+
     return (
         <section className="courseDetailHeader">
             <img

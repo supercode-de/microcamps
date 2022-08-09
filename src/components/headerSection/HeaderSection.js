@@ -1,4 +1,14 @@
+import { useEffect, useRef } from "react";
+
 const HeaderSection = () => {
+    const shouldLog = useRef(true)
+    useEffect(() => {
+        if(shouldLog.current) {
+            shouldLog.current = false
+            document.title = "MicroCamps"
+        }
+        
+    })
     return (
         <section className="headerSection">
             <div className="wrap">

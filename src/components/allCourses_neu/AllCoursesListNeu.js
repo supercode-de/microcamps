@@ -1,9 +1,10 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import AllCoursesCardNeu from "./AllCoursesCardNeu";
 
 import courseData from "../../data/courseData.json";
 
 const AllCoursesListNeu = (props) => {
+    const shouldLog = useRef(true)
     const [filteredArr, setFilteredArr] = useState(courseData);
 
     const [filterWhat, setFilterWhat] = useState([]);
@@ -23,29 +24,33 @@ const AllCoursesListNeu = (props) => {
         }
     };
     useEffect(() => {
-        const filteredFor = courseData.filter((item) => {
-            if (filterFor.length <= 0) {
-                return item;
-            } else {
-                return (
-                    item.level === filterFor[0] || item.level === filterFor[1]
-                );
-            }
-        });
-        const filteredAll = filteredFor.filter((item) => {
-            if (filterWhat.length <= 0) {
-                return item;
-            } else {
-                return (
-                    item.theme === filterWhat[0] ||
-                    item.theme === filterWhat[1] ||
-                    item.theme === filterWhat[2]
-                );
-            }
-        });
+        if (shouldLog.current) {
+            shouldLog.current = false
+            const filteredFor = courseData.filter((item) => {
+                if (filterFor.length <= 0) {
+                    return item;
+                } else {
+                    return (
+                        item.level === filterFor[0] || item.level === filterFor[1]
+                    );
+                }
+            });
+            const filteredAll = filteredFor.filter((item) => {
+                if (filterWhat.length <= 0) {
+                    return item;
+                } else {
+                    return (
+                        item.theme === filterWhat[0] ||
+                        item.theme === filterWhat[1] ||
+                        item.theme === filterWhat[2]
+                    );
+                }
+            });
+            setFilteredArr(filteredAll);
+        }
 
-        setFilteredArr(filteredAll);
     }, [filterWhat, filterFor]);
+
     return (
         <article className="allCoursesArea__list">
             <div className="allCoursesArea__list__filter">
@@ -130,6 +135,13 @@ const AllCoursesListNeu = (props) => {
                         filteredTools={props.filteredTools}
                     />
                 ))}
+                {/* {filteredArr.map((course) => (
+                    <AllCoursesCardNeu
+                        key={course.id}
+                        data={course}
+                        filteredTools={props.filteredTools}
+                    />
+                ))} */}
             </div>
         </article>
     );

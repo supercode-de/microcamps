@@ -1,4 +1,4 @@
-import HubspotForm from 'react-hubspot-form';
+import HubspotNewsletterForm from '../HubspotForm/HubspotNewsletterForm';
 
 const NewsletterSection = () => {
     return (
@@ -29,23 +29,7 @@ const NewsletterSection = () => {
                         </h3>
                     </div>
                     <div className="newsletterSection__textAndInputArea__input">
-                        <HubspotForm 
-                            region="na1"
-                            portalId="5807040"
-                            formId="9384135a-d6de-4c51-9497-c2d167e58afd"
-                            onSubmit={() => console.log('Submit!')}
-                            onReady={(form) => console.log('Form ready!')}
-                            loading={<div>Es lädt...</div>}
-                        />
-                        {/* <label htmlFor="inputNewsletter">
-                            <img src="img/arrow-right.svg" alt="" />
-                        </label>
-                        <input
-                            type="email"
-                            name="inputNewsletter"
-                            id="inputNewsletter"
-                            placeholder="E-Mail"
-                        /> */}
+                        <HubspotNewsletterForm />
                     </div>
                 </div>
             </div>

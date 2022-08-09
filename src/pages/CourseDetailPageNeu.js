@@ -20,7 +20,6 @@ import kurseDaten from "../data/courseData.json"
 import AllCoursesAreaNeu from "../components/allCourses_neu/AllCoursesAreaNeu";
 import toolsDataExternal from "../data/toolsDataExternal"
 
-
 const CourseDetailPageNeu = () => {
     const { id } = useParams();
     const kurs = kurseDaten.filter(
