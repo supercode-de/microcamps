@@ -78,6 +78,16 @@ let toolsDataExternal = [
         "name": "Notion",
         "image": "tools/notion.svg",
         "description": "Notion ist eine Projektmanagement- und Notizsoftware. Notion ist eine Software, die entwickelt wurde, um Mitgliedern eines Unternehmens oder einer Organisation dabei zu helfen, Fristen, Ziele und Aufgaben im Interesse von Effizienz und Produktivität zu koordinieren."
+    },
+    {
+        "name": "Docker",
+        "image": "tools/docker.svg",
+        "description": "Docker ist eine Freie Software zur Isolierung von Anwendungen mit Hilfe von Containervirtualisierung. Docker vereinfacht die Bereitstellung von Anwendungen, weil sich Container, die alle nötigen Pakete enthalten, leicht als Dateien transportieren und installieren lassen."
+    },
+    {
+        "name": "TensorFlow",
+        "image": "tools/tensorflow.svg",
+        "description": "TensorFlow ist ein Framework zur datenstromorientierten Programmierung. Populäre Anwendung findet TensorFlow im Bereich des maschinellen Lernens. Der Name TensorFlow stammt von Rechenoperationen, welche von künstlichen neuronalen Netzen auf mehrdimensionalen Datenfeldern, sog. Tensoren, ausgeführt werden."
     }
 ]
 

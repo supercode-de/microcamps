@@ -99,7 +99,7 @@ const AllCoursesListNeu = (props) => {
                     type="checkbox"
                     name="filter-for"
                     id="expert-button"
-                    value="expert"
+                    value="Expert"
                 />
                 <label
                     className="button-label expert-label"
