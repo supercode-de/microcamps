@@ -21,7 +21,7 @@ header {
   }
 
   nav a:hover {
-    text-decoration: underline;
+    border-bottom: 6px solid var(--clr-super-white);
   }
 
   .nav-btn {
