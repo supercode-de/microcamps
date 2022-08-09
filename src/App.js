@@ -5,6 +5,7 @@ import ScrollToTop from "./components/scrollToTop/ScrollToTop"
 import InfoHeader from "./components/infoHeader/InfoHeader";
 import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
+import Navbar from "./components/nav_neu/Nav_neu";
 
 import MicroClasses from "./pages/MicroClasses";
 import CourseDetailPageNeu from "./pages/CourseDetailPageNeu";
@@ -14,7 +15,7 @@ function App() {
     return (
         <div className="App">
             <InfoHeader />
-            <Nav />
+            <Navbar />
             <ScrollToTop>
                 <Routes>
                 <Route path="/" element={<MicroClasses />} />
