@@ -34,6 +34,9 @@ const CourseDetailHeader = (props) => {
                         <p>+ more</p>
                     </div>
                     <p>{headerDescription}</p>
+                    <a className="btn" href="/">
+                        Jetzt teilnehmen
+                    </a>
                 </article>
             </div>
         </section>

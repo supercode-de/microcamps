@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/scrollToTop/ScrollToTop"
 
 import InfoHeader from "./components/infoHeader/InfoHeader";
-import Nav from "./components/nav/Nav";
+// import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/nav_neu/Nav_neu";
 

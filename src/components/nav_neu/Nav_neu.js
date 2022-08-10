@@ -30,9 +30,7 @@ const Navbar = () => {
         <NavHashLink to="#alumniSection">Alumni</NavHashLink>
         <NavHashLink to="#ourStory">Unsere Story</NavHashLink>
         <NavHashLink to="#newsletter">Newsletter</NavHashLink>
-        <NavHashLink className="last-link" to="#faq">
-          FAQ
-        </NavHashLink>
+        <NavHashLink className="last-link" to="#faq">FAQ</NavHashLink>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <CloseIcon />
         </button>

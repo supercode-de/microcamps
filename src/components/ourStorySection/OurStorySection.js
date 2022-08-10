@@ -43,10 +43,9 @@ const OurStorySection = () => {
                             </p>
                         </div>
                         <div className="image">
-                            <Link to="/supercamp/our-story">
+                            <Link to="/our-story">
                             <p>unsere Geschichte</p>
                             </Link>
-                           
                             <img
                                 src="img/sergio02.png"
                                 alt="Sergio, Founder of Supercamp"

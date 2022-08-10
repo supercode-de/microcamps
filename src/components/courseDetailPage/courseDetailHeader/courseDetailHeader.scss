@@ -24,7 +24,7 @@
             display: flex;
             align-items: center;
             gap: 5px;
-            margin: 1% 0 10% 0;
+            margin: 1% 0 5% 0;
             img {
                 background-color: var(--clr-super-white);
                 display: inline-block;
@@ -37,6 +37,12 @@
             p {
                 padding: 0 0 0 2%;
             }
+        }
+        a {
+            font-size: var(--fs-500);
+            background-color: var(--clr-super-green);
+            color: var(--clr-super-lila);
+            margin-top: 5%;
         }
     }
 }
