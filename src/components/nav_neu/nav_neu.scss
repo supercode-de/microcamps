@@ -2,8 +2,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
-  padding: 0 2.7rem;
+  padding:1.5rem 3.125rem ;
   background-color: hsl(252, 71%, 56%);
   color: var(--clr-super-white);
 
@@ -15,7 +14,7 @@ header {
   }
 
   nav a {
-    padding: 1rem 3rem;
+    margin: 1rem 3rem;
     color: white;
     text-transform: uppercase;
   }
@@ -38,7 +37,7 @@ header {
     display: none;
   }
   .last-link{
-      padding-right: 0;
+      margin-right: 0;
   }
 }
 
