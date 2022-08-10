@@ -18,9 +18,7 @@ const Navbar = () => {
     <header>
       <div className="logo-wrapper">
         <NavLink to="/">
-          <h2>
-            super<span className="headlines_stroke">code</span>
-          </h2>
+          <img src="../../img/supercode_logo.svg" alt="" />
         </NavLink>
       </div>
 

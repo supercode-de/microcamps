@@ -1,23 +1,22 @@
 import { useParams } from "react-router-dom";
 import CourseDetailHeader from "../components/courseDetailPage/courseDetailHeader/CourseDetailHeader";
-import BootcampSection from "../components/courseDetailPage/bootcampSection/BootcampSection";
-import OverviewSection from "../components/courseDetailPage/overviewSection/OverviewSection";
-import StickyNav from "../components/courseDetailPage/stickyNav/StickyNav";
 import DarkInfoTextTop from "../components/darkInfoTextTop/DarkInfoTextTop";
+import StickyNav from "../components/courseDetailPage/stickyNav/StickyNav";
+import OverviewSection from "../components/courseDetailPage/overviewSection/OverviewSection";
+import BootcampSection from "../components/courseDetailPage/bootcampSection/BootcampSection";
 import CurriculumSection from "../components/courseDetailPage/curriculumSection/CurriculumSection";
 import ScheduleSection from "../components/courseDetailPage/scheduleSection/ScheduleSection";
-// import PortfolioSection from "../components/courseDetailPage/portfolioSection/PortfolioSection";
 import TeamSection from "../components/courseDetailPage/teamSection/TeamSection";
 import ToolsSection from "../components/courseDetailPage/toolsSection/ToolsSection";
+import ClassSection from "../components/courseDetailPage/classSection/ClassSection";
+import AllCoursesAreaNeu from "../components/allCourses_neu/AllCoursesAreaNeu";
 import DarkInfoTextBottom from "../components/darkInfoTextBottom/DarkInfoTextBottom";
 import BigPictureSection from "../components/bigPictureSection/BigPictureSection";
 import NewsletterSection from "../components/newsletterSection/NewsletterSection";
 import FaqSection from "../components/faqSection/FaqSection";
 import LastBlueSection from "../components/lastBlueSection/LastBlueSection";
-import PricingSection from "../components/courseDetailPage/pricingSection/PricingSection";
-import ClassSection from "../components/courseDetailPage/classSection/ClassSection";
+
 import kurseDaten from "../data/courseData.json"
-import AllCoursesAreaNeu from "../components/allCourses_neu/AllCoursesAreaNeu";
 import toolsDataExternal from "../data/toolsDataExternal"
 
 const CourseDetailPageNeu = () => {
@@ -44,26 +43,15 @@ const CourseDetailPageNeu = () => {
             <DarkInfoTextTop />
             <div className="mainContent">
                 <StickyNav />
-                <OverviewSection
-                    data={kurs}
-                />
-
-                <BootcampSection
-                    curriculumOverview={kurs.curriculumOverview} />
-                <CurriculumSection
-                    data={kurs}
-                />
-                <ScheduleSection
-                    data={kurs}
-                />
-                {/* dür die portfolio Sektion gibt es bisher noch keine Inhalte */}
-                {/* <PortfolioSection /> */}
+                <OverviewSection data={kurs} />
+                <BootcampSection curriculumOverview={kurs.curriculumOverview} />
+                <CurriculumSection data={kurs} />
+                <ScheduleSection data={kurs} />
                 <TeamSection data={kurs} />
                 <ToolsSection
                     data={kurs}
                     filteredTools={filteredTools}
                 />
-                <PricingSection />
                 <ClassSection data={kurs} />
                 <AllCoursesAreaNeu filteredTools={filteredTools} />
                 <DarkInfoTextBottom />

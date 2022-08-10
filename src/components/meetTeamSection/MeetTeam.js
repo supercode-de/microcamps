@@ -19,6 +19,7 @@ const MeetTeam = () => {
       <article className="team-wrapper">
         {teamData.map((teamData, i) => (
           <TeamCard
+            key={i}
             id={teamData.id}
             img={teamData.img}
             name={teamData.name}

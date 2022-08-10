@@ -1,15 +1,13 @@
 import "./scss/main.scss";
 import { Routes, Route } from "react-router-dom";
-import ScrollToTop from "./components/scrollToTop/ScrollToTop"
 
 import InfoHeader from "./components/infoHeader/InfoHeader";
-// import Nav from "./components/nav/Nav";
-import Footer from "./components/footer/Footer";
 import Navbar from "./components/nav_neu/Nav_neu";
-
+import ScrollToTop from "./components/scrollToTop/ScrollToTop"
 import MicroClasses from "./pages/MicroClasses";
 import CourseDetailPageNeu from "./pages/CourseDetailPageNeu";
 import OurStory from "./pages/OurStory/OurStory";
+import Footer from "./components/footer/Footer";
 
 function App() {
     return (
