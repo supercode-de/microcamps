@@ -5,9 +5,9 @@ import ScheduleCTASection from "./ScheduleCTASection";
 import designReasons from "../../../data/reasonsDesignData";
 import webDevReasons from "../../../data/reasonsWebDevData";
 import dataReasons from "../../../data/reasonsDataScienceData";
+import AlumniZitate from "./AlumniZitate";
 
 const ScheduleSection = (props) => {
-    const { alumniCopy, alumniName, alumniImage } = props.data.alumniZitat[0]
     return (
         <section className="scheduleSection" id="scheduleSection">
             <div className="wrap">
@@ -44,18 +44,18 @@ const ScheduleSection = (props) => {
                                 title={reason.title}
                                 reason={reason.reason}
                             />
-                        )) : props.data.theme === "data" ? 
-                        dataReasons.map((reason, i) => (
-                            <ReasonsWhyOneReason
-                                key={i}
-                                id={reason.id}
-                                title={reason.title}
-                                reason={reason.reason}
-                            />
-                        )) : ""}
+                        )) : props.data.theme === "data" ?
+                            dataReasons.map((reason, i) => (
+                                <ReasonsWhyOneReason
+                                    key={i}
+                                    id={reason.id}
+                                    title={reason.title}
+                                    reason={reason.reason}
+                                />
+                            )) : ""}
                     </ul>
                 </article>
-                
+
                 <article className="scheduleSection__textWrap">
                     <div className="scheduleSection__textWrap__headline">
                         <h3>Vernetze dich mit anderen Teilnehmenden</h3>
@@ -66,16 +66,9 @@ const ScheduleSection = (props) => {
                     </div>
                 </article>
 
-                <Timetable timetableData={props.data.timetable}/>
-
-                <article className="scheduleSection__alumniZitat">
-                    <img src={`/img/${alumniImage}`} alt={`SuperCode Alumni ${alumniName}`} />
-                    <div className="scheduleSection__alumniZitat__textArea">
-                        <p>{alumniCopy}</p>
-                        <p>{alumniName}</p>
-                    </div>
-                </article>
-                <ScheduleCTASection data={props.data}/>
+                <Timetable timetableData={props.data.timetable} />
+                <AlumniZitate theme={props.data.theme}/>
+                <ScheduleCTASection data={props.data} />
             </div>
         </section>
     );

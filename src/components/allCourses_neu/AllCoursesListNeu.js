@@ -4,8 +4,10 @@ import FehlermeldungSection from "../fehlermeldungSection/FehlermeldungSection";
 
 import courseData from "../../data/courseData.json";
 
+// die variable brauchen wir, damit nicht alle data science kurse angezeigt werden, da es diese noch nicht offiziell gibt, sie aber im datensatz schon angelegt sind und damit der datensatz nicht aufwendig verändert werden muss, slice ich die kurse einfach weg. sobald die kurse existieren muss entsprechend überall "courseDataSlice" wieder mit "courseData" ausgetauscht werden
+const courseDataSlice = courseData.slice(0, 12)
 const AllCoursesListNeu = (props) => {
-    const [filteredArr, setFilteredArr] = useState(courseData);
+    const [filteredArr, setFilteredArr] = useState(courseDataSlice);
 
     const [filterWhat, setFilterWhat] = useState([]);
     const insertfilterWhatState = (status) => {
@@ -26,7 +28,7 @@ const AllCoursesListNeu = (props) => {
     };
 
     useEffect(() => {
-        const filteredFor = courseData.filter((item) => {
+        const filteredFor = courseDataSlice.filter((item) => {
             if (filterFor.length <= 0) {
                 return item;
             } else {
