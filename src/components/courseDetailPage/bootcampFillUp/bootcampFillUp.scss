@@ -1,0 +1,79 @@
+.bootcamp-fill-up-mainwrapper {
+  width: min(95%, 1920px);
+  padding: 10% 5%;
+  margin-inline: auto;
+  .header-info {
+    margin-bottom: 4.37rem 9.37rem;
+    h3 {
+      color: var(--clr-super-lila);
+      max-width: 38%;
+      margin-bottom: 15px;
+    }
+    p {
+      max-width: 60%;
+    }
+  }
+
+  .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 38rem);
+    grid-gap: 25px;
+    margin-top: 50px;
+    justify-content: center;
+    .single-card {
+      display: inline-flex;
+      align-items: center;
+      background-color: var(--clr-super-lila);
+      border-radius: 25px;
+      color: var(--clr-super-white);
+      padding: 3.125rem;
+      gap: 50px;
+
+      .left-wrapper {
+        .info-text {
+          margin: 0 0 0.625rem 0;
+        }
+        h4 {
+          margin: 0 0 0.625rem 0;
+          font-size: var(--fs-300);
+        }
+        p {
+          font-size: var(--fs-200);
+        }
+
+        a {
+          font-size: var(--fs-300);
+          background-color: var(--clr-super-green);
+          color: var(--clr-super-lila);
+          margin-top: 5%;
+        }
+        .places-wr {
+          margin: 10% 0;
+          font-size: var(--fs-300);
+        }
+        .circle {
+          background: url(../../../img/world_circle.svg) center center/contain
+            no-repeat;
+          padding: var(--fs-300);
+        }
+      }
+      .right-wrapper {
+        img {
+          height: 120px;
+          width: 120px;
+          object-fit: cover;
+          border-radius: 100%;
+          margin-bottom: 35px;
+        }
+        h5,
+        h6 {
+          font-size: var(--fs-300);
+        }
+        h6 {
+          font-weight: 400;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

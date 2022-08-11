@@ -19,6 +19,7 @@ import ClassSection from "../components/courseDetailPage/classSection/ClassSecti
 import kurseDaten from "../data/courseData.json"
 import AllCoursesAreaNeu from "../components/allCourses_neu/AllCoursesAreaNeu";
 import toolsDataExternal from "../data/toolsDataExternal"
+import BootcampFillUp from "../components/courseDetailPage/bootcampFillUp/BootcampFillUp";
 
 const CourseDetailPageNeu = () => {
     const { id } = useParams();
@@ -65,6 +66,7 @@ const CourseDetailPageNeu = () => {
                 />
                 <PricingSection />
                 <ClassSection data={kurs} />
+                <BootcampFillUp />
                 <AllCoursesAreaNeu filteredTools={filteredTools} />
                 <DarkInfoTextBottom />
                 <BigPictureSection />
