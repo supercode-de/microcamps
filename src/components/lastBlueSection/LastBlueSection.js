@@ -8,7 +8,7 @@ const LastBlueSection = () => {
                         GEHT'S LOS!
                         <span className="headlines_stroke">
                             {" "}
-                            SUPERCAMP
+                            SUPERCODE
                             <span className="lines"> SUPERYOU </span>
                         </span>
                     </h2>

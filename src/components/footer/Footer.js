@@ -21,11 +21,11 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className="links">
-                    <a href="https://www.super-code.de/leitbild">Leitbild</a>
+                    <a  target="_blank" rel="noreferrer" href="https://www.super-code.de/leitbild">Leitbild</a>
                     <hr />
-                    <a href="https://www.super-code.de/dsgvo">DSGVO</a>
+                    <a  target="_blank" rel="noreferrer" href="https://www.super-code.de/dsgvo">DSGVO</a>
                     <hr />
-                    <a href="https://www.super-code.de/impressum">Impressum</a>
+                    <a  target="_blank" rel="noreferrer" href="https://www.super-code.de/impressum">Impressum</a>
                 </div>
             </div>
         </footer>
