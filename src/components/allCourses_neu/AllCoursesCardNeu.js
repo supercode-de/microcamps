@@ -43,9 +43,7 @@ const AllCoursesCardNeu = (props) => {
           {modell} | {duration}
         </p>
         <p>Level: {level}</p>
-        <Link className="btn" to={`#`}>
-          Jetzt anmelden
-        </Link>
+
         <Link className="btn" to={`/course/${id}`}>
           Zum Kurs
         </Link>

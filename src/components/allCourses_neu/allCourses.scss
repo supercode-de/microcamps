@@ -47,7 +47,7 @@
       }
 
       #coding-button {
-        &:checked+.button-label {
+        &:checked + .button-label {
           background-color: var(--clr-super-green);
 
           &:hover {
@@ -69,7 +69,7 @@
       }
 
       #design-button {
-        &:checked+.button-label {
+        &:checked + .button-label {
           background-color: var(--clr-super-yellow);
 
           &:hover {
@@ -91,7 +91,7 @@
       }
 
       #data-button {
-        &:checked+.button-label {
+        &:checked + .button-label {
           background-color: var(--clr-super-black);
 
           &:hover {
@@ -117,7 +117,7 @@
 
       #expert-button,
       #beginner-button {
-        &:checked+.button-label {
+        &:checked + .button-label {
           background-color: var(--clr-super-white);
           color: var(--clr-super-black);
 
@@ -202,10 +202,6 @@
               width: 100%;
               line-height: 25px;
               text-shadow: 0px 1px 5px var(--clr-super-black);
-
-              &:last-of-type {
-                text-align: right;
-              }
             }
           }
 
@@ -259,7 +255,7 @@
           }
 
           .btn:nth-of-type(1) {
-            margin: 1.56rem 0 0.938rem 0;
+            margin: 1.56rem 0 0 0;
           }
         }
       }
@@ -269,7 +265,6 @@
   .fehlermeldung-courses {
     margin: 6% 0;
   }
-
 
   .btn__wrap {
     text-align: center;
