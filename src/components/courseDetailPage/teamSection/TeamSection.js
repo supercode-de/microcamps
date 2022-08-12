@@ -13,7 +13,7 @@ const TeamSection = ({ data }) => {
             })
             setFilteredTeam(filteredTeamData)
         }
-    })
+    }, [filteredTeam, data.theme])
     return (
         <section className="teamSection" id="teamSection">
             <div className="wrap">

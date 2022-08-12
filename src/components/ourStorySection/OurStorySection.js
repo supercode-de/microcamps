@@ -44,7 +44,7 @@ const OurStorySection = () => {
                         </div>
                         <div className="image">
                             <Link to="/our-story">
-                            <p>unsere Geschichte</p>
+                                unsere Geschichte
                             </Link>
                             <img
                                 src="img/sergio02.png"

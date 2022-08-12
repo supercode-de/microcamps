@@ -14,6 +14,7 @@ footer {
     div {
         display: flex;
         align-items: center;
+        gap: 1rem;
         @include mq(lg) {
             width: 100%;
             gap: 20px;
@@ -22,11 +23,8 @@ footer {
         }
     }
     .logoWrap {
-        p {
-            font-family: var(--ff-reg-logo);
-            font-size: var(--fs-550);
-            font-weight: 700;
-            margin: 0 20px 0 0;
+        img {
+            width: 50%;
         }
         span {
             font-family: var(--ff-reg-regular);

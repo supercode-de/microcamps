@@ -6,7 +6,7 @@ const Footer = () => {
         <footer>
             <div className="wrap">
                 <div className="logoWrap">
-                    <p>super(code)</p>
+                    <img src="../../img/supercode_logo.svg" alt="supercode Logo" />
                     <span>© 2019 - 2022</span>
                 </div>
                 <div className="icons">
@@ -21,11 +21,11 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className="links">
-                    <a  target="_blank" rel="noreferrer" href="https://www.super-code.de/leitbild">Leitbild</a>
+                    <a target="_blank" rel="noreferrer" href="https://www.super-code.de/leitbild">Leitbild</a>
                     <hr />
-                    <a  target="_blank" rel="noreferrer" href="https://www.super-code.de/dsgvo">DSGVO</a>
+                    <a target="_blank" rel="noreferrer" href="https://www.super-code.de/dsgvo">DSGVO</a>
                     <hr />
-                    <a  target="_blank" rel="noreferrer" href="https://www.super-code.de/impressum">Impressum</a>
+                    <a target="_blank" rel="noreferrer" href="https://www.super-code.de/impressum">Impressum</a>
                 </div>
             </div>
         </footer>

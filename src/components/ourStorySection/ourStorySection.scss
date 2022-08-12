@@ -81,7 +81,8 @@
                     top: -10%;
                     right: -8%;
                 }
-                p {
+                a {
+                    text-decoration: none;
                     position: absolute;
                     top: -10%;
                     font-size: var(--fs-600);
@@ -92,6 +93,9 @@
                     color: var(--clr-super-green);
                     background-color: var(--clr-super-black);
                     z-index: 1;
+                    &:hover {
+                        opacity: 0.8;
+                    }
                 }
                 img {
                     margin: 0 0 0 auto;

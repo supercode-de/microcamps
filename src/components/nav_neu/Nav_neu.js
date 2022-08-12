@@ -18,7 +18,7 @@ const Navbar = () => {
     <header>
       <div className="logo-wrapper">
         <NavLink to="/">
-          <img src="../../img/supercode_logo.svg" alt="" />
+          <img src="../../img/supercode_logo.svg" alt="supercode Logo" />
         </NavLink>
       </div>
 
