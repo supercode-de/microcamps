@@ -7,7 +7,7 @@ const TeamCard = (props) => {
     <div className="team-card-wrapper">
       <img src={img} alt="Team images"/>
       <h3>{name}</h3>
-      <h4>Trainer {jobtitel}</h4>
+      <h4>{jobtitel}</h4>
     </div>
   );
 };

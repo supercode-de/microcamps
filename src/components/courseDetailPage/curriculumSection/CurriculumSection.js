@@ -65,7 +65,7 @@ const CurriculumSection = (props) => {
         <article className="curriculumSection__introArticle">
           <div className="curriculumSection__introArticle__textWrap">
             <div className="curriculumSection__introArticle__headline">
-              <p>{category}Curriculum</p>
+              <p>Curriculum</p>
               <h3>Steig direkt ein</h3>
               <h3>
                 in die Praxis{" "}
