@@ -1,89 +1,34 @@
 import { NavHashLink } from "react-router-hash-link";
-import { useLocation } from "react-router-dom";
+import { Link } from "react-scroll";
+
 const StickyNav = () => {
-    let location = useLocation();
 
     return (
         <section className="stickyNav">
             <div className="wrap">
                 <ul>
                     <li>
-                        <NavHashLink
-                            to="#overviewSection"
-                            className={
-                                location.hash === "#overviewSection"
-                                    ? "active__navlink"
-                                    : ""
-                            }
-                        >
-                            Übersicht
-                        </NavHashLink>
+                        <Link activeClass="active" smooth spy to="overviewSection">Übersicht</Link>
+                        {/* <NavHashLink to="#overviewSection">Übersicht</NavHashLink> */}
                     </li>
                     <li>
-                        <NavHashLink
-                            to="#curriculumSection"
-                            className={
-                                location.hash === "#curriculumSection"
-                                    ? "active__navlink"
-                                    : ""
-                            }
-                        >
-                            Curriculum
-                        </NavHashLink>
+                        <Link activeClass="active" smooth spy to="curriculumSection">Curriculum</Link>
+                        {/* <NavHashLink to="#curriculumSection">Curriculum</NavHashLink> */}
                     </li>
                     <li>
-                        <NavHashLink
-                            to="#scheduleSection"
-                            className={
-                                location.hash === "#scheduleSection"
-                                    ? "active__navlink"
-                                    : ""
-                            }
-                        >
-                            Zeitplan
-                        </NavHashLink>
+                        <Link activeClass="active" smooth spy to="scheduleSection">Zeitplan</Link>
+                        {/* <NavHashLink to="#scheduleSection">Zeitplan</NavHashLink> */}
                     </li>
                     <li>
-                        <NavHashLink
-                            to="#teamSection"
-                            className={
-                                location.hash === "#teamSection"
-                                    ? "active__navlink"
-                                    : ""
-                            }
-                        >
-                            Team
-                        </NavHashLink>
+                        <Link activeClass="active" smooth spy to="teamSection">Team</Link>
                     </li>
                     <li>
-                        <NavHashLink
-                            to="#toolsSection"
-                            className={
-                                location.hash === "#toolsSection"
-                                    ? "active__navlink"
-                                    : ""
-                            }
-                        >
-                            Tools
-                        </NavHashLink>
-                    </li>
-                    <li>
-                        <NavHashLink
-                            to="#pricingSection"
-                            className={
-                                location.hash === "#pricingSection"
-                                    ? "active__navlink"
-                                    : ""
-                            }
-                        >
-                            Bezahlung
-                        </NavHashLink>
-                    </li>
+                        <Link activeClass="active" smooth spy to="toolsSection">Tools</Link>
 
-{/* die Sektion gibt es noch nicht */}
-                    {/* <li>
-                        <NavHashLink to="/">Next Bootcamp</NavHashLink>
-                    </li> */}
+                    </li>
+                    <li>
+                        <Link activeClass="active" smooth spy to="nextBootcamp">Termine</Link>
+                    </li>
 
                 </ul>
             </div>

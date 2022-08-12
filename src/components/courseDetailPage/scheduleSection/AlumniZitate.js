@@ -2,7 +2,6 @@ import alumniZitateData from "../../../data/alumniZitateData";
 
 const AlumniZitate = (props) => {
     const filteredZitat = alumniZitateData.filter(alumniZitat => alumniZitat.theme === props.theme)
-    console.log(filteredZitat[0])
     return (
         <>
 

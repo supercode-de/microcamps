@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const BootcampFillUp = () => {
   return (
-    <article className="bootcamp-fill-up-mainwrapper">
+    <article className="bootcamp-fill-up-mainwrapper" id="nextBootcamp">
       <div className="header-info">
         <p>Next UX/UI Bootcamp</p>
         <h3>Our Bootcamps are fillin up fast!</h3>
