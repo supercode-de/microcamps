@@ -9,11 +9,14 @@ const TeamSection = ({ data }) => {
             const filteredTeamData = filteredTeam.filter((team) => {
                 if (team.theme === data.theme) {
                     return team
+                } else {
+                    return false
                 }
             })
             setFilteredTeam(filteredTeamData)
         }
     }, [filteredTeam, data.theme])
+
     return (
         <section className="teamSection" id="teamSection">
             <div className="wrap">
