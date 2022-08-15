@@ -9,11 +9,9 @@ const MeetTeam = () => {
   return (
     <section className="meet-team-wrapper">
       <article className="content-wrapper">
-        <h2>Meet our good energy team!</h2>
+        <h2>Aus Liebe zur digitalen Bildung!</h2>
         <p>
-          Over the last coupla years we've grown a good energy team. As a remote
-          team we're spread from San Fran to Sydney and every year we catchup
-          for a team retreat.
+          Unser Team verbindet vor allem eins: die Liebe zur digitalen Bildung und nicht der Fakt vor Ort im Büro zu sein. Wir sind remote unterwegs und profitieren dadurch von einem weltweiten Freelancer-Experten-Netzwerk im Bereich Web-Entwicklung und Design auf das wir zugreifen können. Und davon profitiert natürlich jedes MicroCamp.
         </p>
       </article>
       <article className="team-wrapper">
@@ -24,7 +22,7 @@ const MeetTeam = () => {
             img={teamData.img}
             name={teamData.name}
             jobtitel={teamData.jobtitel}
-            
+
           />
         ))}
       </article>

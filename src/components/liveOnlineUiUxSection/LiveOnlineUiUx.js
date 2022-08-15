@@ -2,21 +2,18 @@ import "./LiveOnlineUiUx.scss";
 
 const LiveOnlineUiUx = () => {
   return (
-    <section  className="online-uiux-wrapper">
+    <section className="online-uiux-wrapper">
       <div className="content-wrapper">
-        <h2>Live online UX/UI Bootcamps with micro classes around the world</h2>
+        <h2>Live, online, Praxis- und Teilzeit-optimiert!</h2>
         <p>
-          Being presentation free, our online Bootcamps take a learn-by-doing
-          approach, with designers collaborating live in the latest real-time
-          design tools. It's been an amazing journey to date as a solo founder
-          and we've got a 100% completion rate with 5/5 reviews from all of our
-          alumni! Unlike others, Memorisely is 100% remote, 100% bootstrapped
-          and on a mission to help new and experienced designers transition into
-          working effectively as remote UX/UI Designers.
+          Unsere MicroClasses verfolgen einen Learning-by-Doing-Ansatz, bei dem ihr live mit den neuesten Echtzeit-Design und Coding-Tools zusammenarbeitet. Sie sind so konzipiert, dass ihr ganz bequem neben eurem Job daran teilnehmen könnt. Sie sind ein Produkt aus langjährigen Erfahrung im Bereich der Vollzeit Bootcamps und eine tolle Teamleistung!
+        </p>
+        <p>
+          Dies spiegelt sich auch in den 5/5 Bewertungen unserer Alumni wieder! Im Gegensatz zu vielen anderen Bildungsanbietern ist SuperCode zu 100 % remote, zu 100 % bootstrapped mit dem Ziel, neuen und erfahrenen Designer*innen oder Coder*innen dabei zu helfen, effektiv und neben dem Job neue Skills zu erlernen.
         </p>
       </div>
       <div className="btn-wrapper">
-          <a className="btn" href="#allCourses">zu den Kursen</a>
+        <a className="btn" href="#allCourses">zu den Kursen</a>
       </div>
     </section>
   );

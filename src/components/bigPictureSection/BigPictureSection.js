@@ -8,7 +8,7 @@ const BigPictureSection = () => {
             <h2>durchzustarten?</h2>
           </div>
 
-          <a className="btn" href="#allCourses">
+          <a className="btn" href="/#allCourses">
             Kursübersicht
           </a>
         </div>

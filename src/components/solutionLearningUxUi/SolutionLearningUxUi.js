@@ -4,21 +4,12 @@ const SolutionLearningUxUi = () => {
   return (
     <section className="solution-wrapper">
       <div className="content-wrapper">
-        <h2>Our solution is to make learning UX/UI accessible online</h2>
+        <h2>Wir machen Bildung wieder fair, transparent und sexy – Digitale Bildung für alle!</h2>
         <p>
-          We're trading classrooms in expensive cities for virtual classrooms,
-          allowing anyone in the world to learn together. We're limiting class
-          sizes to fifteen, ensuring every student gets a genuinely personal
-          learning experience. We're pricing our Bootcamps affordably, inline
-          with how education should be.
+          Vorbei ist das Zeitalter von Präsenzkursen und Klassenzimmern. Wir holen euch bewusst deutschlandweit an die PCs, damit wir und ihr die Möglichkeit habt, eine Community aufzubauen.
         </p>
-
         <p>
-          We're applying our years of experience in designing products remotely
-          to teaching, ensuring students are taught by active designers who are
-          passionate to educate. We're constantly updating our curriculum with
-          the latest remote workflows and tools, ensuring students pickup decent
-          habits and learn what's relevant in the industry today.
+          Unsere Kurse sind limitiert auf bis zu acht Personen, damit ihr in der Gruppe eine tolle Lernerfahrung habt und nicht nur einer unter vielen seid. Unsere Preise sind fair und transparent und ermöglichen es auch bei einem schmalen Portmonee dennoch qualitative Bildung zu erfahren. So sollte Bildung immer sein!
         </p>
       </div>
 
