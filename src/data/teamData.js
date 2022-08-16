@@ -2,7 +2,7 @@ let teamData = [
   {
     id: 0,
     name: "Steffen Klömpges",
-    img: "../img/team/steffen_klömpges.png",
+    img: "../img/team/steffen_kloempges.png",
     theme: "coding",
     jobtitel: "Frontend Trainer",
   },
