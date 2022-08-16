@@ -54,7 +54,7 @@ const CourseDetailPageNeu = () => {
                     filteredTools={filteredTools}
                 />
                 <ClassSection data={kurs} />
-                <BootcampFillUp />
+                <BootcampFillUp data={kurs}/>
                 <AllCoursesAreaNeu filteredTools={filteredTools} />
                 <DarkInfoTextBottom />
                 <BigPictureSection />

@@ -1,16 +1,13 @@
 import { Link } from "react-router-dom";
 
-const BootcampFillUp = () => {
+const BootcampFillUp = (props) => {
   return (
     <article className="bootcamp-fill-up-mainwrapper" id="nextBootcamp">
       <div className="header-info">
-        <p>Next UX/UI Bootcamp</p>
-        <h3>Our Bootcamps are fillin up fast!</h3>
+        <p>Termine</p>
+        <h3>Unsere MicroCamps sind schnell ausgebucht!</h3>
         <p>
-          Our Bootcamps tend to fill up pretty quickly which is why we open up
-          months in advance. And we purposefully limit class sizes to 20
-          designers to ensure each bootcamp offers a personal learning
-          experience.
+          Unsere Kurse sind limitiert auf bis zu acht Personen, damit ihr in der Gruppe eine tolle Lernerfahrung habt und nicht nur einer unter vielen seid. Daher sind die MicroCamps schnell ausgebucht – um mitzumachen solltest du den Internet Explorer ruhen lassen. ;)
         </p>
       </div>
 
@@ -26,7 +23,7 @@ const BootcampFillUp = () => {
             </div>
 
             <p className="places-wr">
-              <span className="circle">max. 10 Plätze</span>
+              <span className="circle">max. 8 Plätze</span>
             </p>
             <Link className="btn" to="/">
               Jetzt anmelden
@@ -49,7 +46,7 @@ const BootcampFillUp = () => {
             </div>
 
             <p className="places-wr">
-              <span className="circle">max. 10 Plätze</span>
+              <span className="circle">max. 8 Plätze</span>
             </p>
             <Link className="btn" to="/">
               Jetzt anmelden
@@ -72,7 +69,7 @@ const BootcampFillUp = () => {
             </div>
 
             <p className="places-wr">
-              <span className="circle">max. 10 Plätze</span>
+              <span className="circle">max. 8 Plätze</span>
             </p>
             <Link className="btn" to="/">
               Jetzt anmelden

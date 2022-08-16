@@ -5,7 +5,7 @@ const LastBlueSection = () => {
                 <div className="lastBlueSection__text">
                     <h2>BALD</h2>
                     <h2>
-                        GEHT'S LOS!
+                        GEHT’S LOS!
                         <span className="headlines_stroke">
                             {" "}
                             SUPERCODE

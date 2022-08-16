@@ -15,7 +15,7 @@ let alumniBewertungen = [
         id: 2,
         name: "Inna",
         jobtitel: "Full-Stack Entwicklerin",
-        bewertung: "Habe vor kurzem ein 5,5 Monatige Full Stack Bootcamp bei Supercode erfolgreich absolviert und mein Zertifikat bekommen.\n\nBin sehr froh darüber und sehr stolz bei Supercode gelandet zu sein. Hat mir viel Spaß gemacht!!! Vermisse euch allen  jetzt schon und werde euch weiter empfehlen. Viel Erfolg 😉"
+        bewertung: "Habe vor kurzem ein 5-monatiges Full Stack Bootcamp bei Supercode erfolgreich absolviert und mein Zertifikat bekommen.\n\nBin sehr froh darüber und sehr stolz bei Supercode gelandet zu sein. Hat mir viel Spaß gemacht!!! Vermisse euch allen  jetzt schon und werde euch weiterempfehlen. Viel Erfolg 😉"
     },
     {
         id: 0,
@@ -27,7 +27,7 @@ let alumniBewertungen = [
         id: 1,
         name: "Isabelle",
         jobtitel: "Full-Stack Entwicklerin",
-        bewertung: "Kann ich nur empfehlen, tolle Leistung von SuperCode!\n\nIch habe gerade den Fullstack Bootcamp absolviert und bin total zufrieden. Wir waren nur 14 Teilnehmer und 2 erfahrene Trainer waren immer dabei. Ich habe viel gelernt und es hat echt Spaß gemacht!"
+        bewertung: "Kann ich nur empfehlen, tolle Leistung von SuperCode!\n\nIch habe gerade den Full-Stack Bootcamp absolviert und bin total zufrieden. Wir waren nur 14 Teilnehmer und 2 erfahrene Trainer waren immer dabei. Ich habe viel gelernt und es hat echt Spaß gemacht!"
     },
     {
         id: 2,
@@ -39,7 +39,7 @@ let alumniBewertungen = [
         id: 0,
         name: "Natalie",
         jobtitel: "Qualitätsmanagerin",
-        bewertung: "Wir hatten viele Praxisprojekte, in denen das Wissen direkt angewendet wurde, das hat mir gut gefallen. Das Trainerteam war super freundlich und motiviert und stand für Fragen immer zur Verfügung!\n\nGut fand ich auch, dass die Gruppe der Teilnehmenden klein war und es sich sehr familiär angefühlt hat. Insgesamt kann ich die Kurse absolut weiter empfehlen!"
+        bewertung: "Wir hatten viele Praxisprojekte, in denen das Wissen direkt angewendet wurde, das hat mir gut gefallen. Das Trainerteam war super freundlich und motiviert und stand für Fragen immer zur Verfügung!\n\nGut fand ich auch, dass die Gruppe der Teilnehmenden klein war und es sich sehr familiär angefühlt hat. Insgesamt kann ich die Kurse absolut weiterempfehlen!"
     },
     {
         id: 1,
@@ -51,7 +51,7 @@ let alumniBewertungen = [
         id: 2,
         name: "Lucas",
         jobtitel: "Front-End Entwickler",
-        bewertung: "Durch SuperCode habe ich nicht nur ein neuen Weg und neue Perspektiven gewonnen und zu meinen gemacht, sondern auch eine neuen Berufung, die ich seit September 2021 mit voller Freude ausübe!\n\nVielen Dank für diese Erfahrung, die ich mit euch machen durfte. Ihr seid SUPER!"
+        bewertung: "Durch SuperCode habe ich nicht nur einen neuen Weg und neue Perspektiven gewonnen und zu meinen gemacht, sondern auch eine neue Berufung, die ich seit September 2021 mit voller Freude ausübe!\n\nVielen Dank für diese Erfahrung, die ich mit euch machen durfte. Ihr seid SUPER!"
     },
 ]
 

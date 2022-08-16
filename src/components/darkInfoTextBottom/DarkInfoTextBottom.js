@@ -10,7 +10,7 @@ const DarkInfoTextBottom = () => {
                     <span className="circle">
                         <span className="headlines_stroke">& praxisnah.</span>
                     </span>
-                    Stelle dir deinen Kurs einfach selbst zusammen!
+                     Stelle dir deinen Kurs einfach selbst zusammen!
                 </h2>
             </div>
         </section>

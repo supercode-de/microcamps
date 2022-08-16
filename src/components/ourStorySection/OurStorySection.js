@@ -16,7 +16,7 @@ const OurStorySection = () => {
                         Als erster deutschsprachiger Anbieter bieten wir dir ein revolutionäres Bildungskonzept, in dem ganz allein DU bestimmst, welche Inhalte du lernen willst.
                     </p>
                     <p>
-                        Und das ganze in spannenden online live Kursen mit echten Menschen und guten Trainer*innen.
+                        Und das Ganze in spannenden online live Kurse, mit echten Menschen und guten Trainer*innen.
                     </p>
                 </div>
                 <div className="ourStorySection__mainWrap">
@@ -33,10 +33,10 @@ const OurStorySection = () => {
                                 <p>Gründer von MicroCamps</p>
                             </div>
                             <p>
-                                "Seien wir mal ehrlich: Sich neben dem Beruf weiterzubilden ist häufig mit viel Aufwand und hohen Kosten verbunden. Oft sind die Bildungsangebote inhaltlich nicht passend, zu zeitaufwändig oder schlicht und einfach nicht fesselnd genug: Online-Tutorials werden angefangen, aber nicht zu Ende gemacht, Bootcamps sind vielleicht zu teuer und interne Fortbildungen beim Arbeitgeber gehen in eine ganz andere Richtung.
+                                "Seien wir mal ehrlich: Sich neben dem Beruf weiterzubilden, ist häufig mit viel Aufwand und hohen Kosten verbunden. Oft sind die Bildungsangebote inhaltlich nicht passend, zu zeitaufwändig oder schlicht und einfach nicht fesselnd genug: Online-Tutorials werden angefangen, aber nicht zu Ende gemacht, Bootcamps sind vielleicht zu teuer und interne Fortbildungen beim Arbeitgeber gehen in eine ganz andere Richtung.
                             </p>
                             <p>
-                                Und deshalb wurden die MicroCamps geboren. Hier bekommst du das, was du wirkllich lernen möchtest -flexibel, günstig und neben dem Beruf. Nette Menschen in kleinen Lerngruppen und kompetente Trainer*innen begleiten dich wochenweise. Und du stellst dir deinen Kurs einfach individuell zusammen.
+                                Und deshalb wurden die MicroCamps geboren. Hier bekommst du das, was du wirklich lernen möchtest – flexibel, günstig und neben dem Beruf. Nette Menschen in kleinen Lerngruppen und kompetente Trainer*innen begleiten dich wochenweise. Und du stellst dir deinen Kurs einfach individuell zusammen.
                             </p>
                             <p>
                                 Probier es aus, wir freuen uns auf dich!"

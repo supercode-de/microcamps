@@ -6,7 +6,7 @@ const ReasonsWhySec = () => {
         <section className="reasonsWhySec">
             <div className="wrap">
                 <article className="reasonsWhySec__textarea" id="wiesoWir">
-                    <p>07 gute Gründe warum</p>
+                    <p>07 gute Gründe</p>
                     <h3>Warum</h3>
                     <h3>
                         <span className="headlines_stroke">MicroCamps?</span>
