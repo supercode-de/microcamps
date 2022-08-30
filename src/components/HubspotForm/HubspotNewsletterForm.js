@@ -1,11 +1,10 @@
-// import React, { useEffect, useRef } from "react";
-import React, { useEffect} from "react";
+import React, { useEffect, useRef } from "react";
 
 const HubspotNewsletterForm = () => {
-    // const shouldLog = useRef(true)
+    const shouldLog = useRef(true)
     useEffect(() => {
-        // if (shouldLog.current) {
-        //     shouldLog.current = false
+        if (shouldLog.current) {
+            shouldLog.current = false
             const script = document.createElement('script');
             script.src = 'https://js.hsforms.net/forms/v2.js';
             document.body.appendChild(script);
@@ -21,7 +20,7 @@ const HubspotNewsletterForm = () => {
                     })
                 }
             });
-        // }
+        }
 
     }, []);
 
