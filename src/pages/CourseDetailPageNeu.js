@@ -9,6 +9,7 @@ import ScheduleSection from "../components/courseDetailPage/scheduleSection/Sche
 import TeamSection from "../components/courseDetailPage/teamSection/TeamSection";
 import ToolsSection from "../components/courseDetailPage/toolsSection/ToolsSection";
 import ClassSection from "../components/courseDetailPage/classSection/ClassSection";
+import BootcampFillUp from "../components/courseDetailPage/bootcampFillUp/BootcampFillUp";
 import AllCoursesAreaNeu from "../components/allCourses_neu/AllCoursesAreaNeu";
 import DarkInfoTextBottom from "../components/darkInfoTextBottom/DarkInfoTextBottom";
 import BigPictureSection from "../components/bigPictureSection/BigPictureSection";
@@ -18,7 +19,6 @@ import LastBlueSection from "../components/lastBlueSection/LastBlueSection";
 
 import kurseDaten from "../data/courseData.json"
 import toolsDataExternal from "../data/toolsDataExternal"
-import BootcampFillUp from "../components/courseDetailPage/bootcampFillUp/BootcampFillUp";
 
 const CourseDetailPageNeu = () => {
     const { id } = useParams();
